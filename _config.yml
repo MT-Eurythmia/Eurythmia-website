@@ -1,0 +1,5 @@
+#source: ./_source
+destination: ./_site
+layouts_dir: ./_layouts
+timezone: "Europe/Paris"
+encoding: "utf-8"

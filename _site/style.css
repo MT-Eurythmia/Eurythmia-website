@@ -1,0 +1,114 @@
+/*
+ * Header
+ */
+
+body {
+	margin-top: 0;
+	font-family: "Trebuchet MS", "Comic Sans MS", Verdana, sans-serif;
+}
+header {
+	background-color: black;
+	color: white;
+	border-radius: 0px 0px 30px 30px;
+	padding-top: 9px;
+	padding-bottom: 0px;
+	min-width: 946px;
+}
+header img {
+	height: 100px;
+	display: inline-block;
+}
+header #image_left {
+	margin-left: 10px;
+	float: left;
+	text-align: right;
+}
+header #image_right {
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+}
+header div {
+	clear: none;
+	text-align: center;
+	margin: auto;
+}
+header h1 {
+	font-size: 38px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 0;
+}
+header p {
+	margin-top: 0;
+	font-size: 29px;
+	margin-bottom: 0;
+	padding: 0;
+}
+header p em {
+	font-style: italic;
+}
+nav {
+	margin: 0;
+}
+nav ul {
+	margin-bottom: 0;
+}
+nav li {
+	display: inline;
+	list-style: none;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-radius: 10px 10px 0px 0px;
+	margin: 0;
+	padding: 3px 10px 3px;
+	font-size: 20px;
+}
+nav a, nav a:focus, nav a:visited {
+	text-decoration: none;
+	outline: none;
+	color: white;
+}
+nav li:hover, nav #active, .dropdown:hover .dropbtn, .dropdown-content a:hover, .dropdown-content {
+	background-color: red;
+}
+.dropbtn {
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	min-width: 160px;
+	background-color: black;
+}
+.dropdown-content a {
+	padding: 7px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/*
+ * Content
+ */
+
+section {
+
+}
+
+img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mynetest minetest server</title>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<header>
+			<img src="images/minetest.png" alt="minetest_logo" id="image_left" />
+			<img src="images/minetest.png" alt="minetest_logo" id="image_right" />
+			<div>
+				<h1>M<span style="color: red">Y</span>NETEST</h1>
+				<p>Survive, create and have fun in a not too hard gameplay !</p>
+			</div>
+			<nav>
+				<ul>
+					<li id="active">Home</li>
+					<li><a href="http://map.langg.net/">Real-time map</a></li>
+					<li><a href="http://mynetest.langg.net/hos/">Hall Of Shame</a></li>
+					<li><a href="https://forum.minetest.net/viewtopic.php?f=20&t=14326">Forum topic</a></li>
+					<li><a href="http://mynetest.langg.net/screenshots.html">Screenshots</a></li>
+					<li class="dropdown">
+						<div class="dropbtn">Others</div>
+						<div class="dropdown-content">
+							<a href="http://mynetest.langg.net/mods.html">List of mods</a>
+							<a href="https://github.com/mynetest/mynetest-server">GitHub</a>
+							<a href="http://irclogs.langg.net">Chat logs</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<h1 id="les-faq-de-mynetest">Les FAQ de Mynetest</h1>
+
+<p>Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l’inventaire. Celui-ci s’ouvre avec la touche I. En voici une capture d’écran (les numéros sous les icônes serviront dans les explications.)</p>
+
+<p><img src="images/inventaire_numeros.png" alt="Icônes inventaire" title="Icônes inventaire" /></p>
+
+<p>Plus d’explications sur ces icônes sur la page <a href="premiers_pas.html" title="Premiers pas">premiers pas</a>.</p>
+
+<p>Voyez également <a href="lexique.html" title="Lexique">le lexique</a> pour avoir l’explication des mots anglais et du jargon du jeu en ligne.</p>
+
+<!--Certains liens internes ne marchent pas : que faire des lettre accentuées, des apostrophes et des traits d'unions ?-->
+
+<h2 id="sommaire">Sommaire</h2>
+
+<ul>
+  <li><a href="#comment-parler-aux-autres-joueurs-">Comment parler aux autres joueurs ?</a></li>
+  <li><a href="#comment-téléporter-un-joueur-">Comment téléporter un joueur ?</a></li>
+  <li><a href="#comment-protéger-ses-créations-">Comment protéger ses créations ?</a></li>
+  <li><a href="#comment-ajouter-quelqu-un-à-une-area-">Comment ajouter quelqu’un à une area ?</a></li>
+  <li><a href="#comment-pêcher-">Comment pêcher ?</a></li>
+  <li><a href="#comment-apprivoiser-les-animaux-">Comment apprivoiser les animaux ?</a></li>
+  <li><a href="#comment-protéger-les-animaux-">Comment protéger les animaux ?</a></li>
+  <li><a href="#comment-réparer-les-outils-">Comment réparer les outils ?</a></li>
+  <li><a href="#comment-on-fait-pousser-des-plantes-">Comment on fait pousser des plantes ?</a></li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><a href="#a-quelle-profondeur-trouve-t-on-du-mithril-">À quelle profondeur trouve-t-on du mithril ?</a></li>
+  <li><a href="#a-quelle-profondeur-trouve-t-on-du-nyan-">À quelle profondeur trouve-t-on du nyan ?</a></li>
+  <li><a href="#pourquoi-mon-travelnet-ne-marche-pas-">Pourquoi mon travelnet ne marche pas ?</a></li>
+  <li><a href="#t-as-pas-">T’as pas… ?</a></li>
+  <li><a href="#qui-veut-etre-mon-ami-?">Qui veut être mon ami ?</a></li>
+  <li><a href="#t-as-quel-age ?">T’as quel âge ?</a></li>
+  <li><a href="#je-peux-avoir-le-fly-">Je peux avoir le “fly” ?</a></li>
+  <li><a href="#je-peux-etre-modo-">Je peux être modo ?</a></li>
+  <li><a href="#c-est-quoi-une-commande-">C’est quoi une commande ?</a></li>
+  <li><a href="#client-serveur-on-n-est-pas-au-bistrot-">Client ? Serveur ? On n’est pas au bistrot !</a></li>
+</ul>
+
+<hr />
+
+<h2 id="comment-parler-aux-autres-joueurs-">Comment parler aux autres joueurs ?</h2>
+
+<p>Pour “dire” quelques-chose qui sera lu par tous les joueurs connectés au serveur, tapez la Touche T (comme “Talk”, le mot anglais pour parler”, puis tapez votre message. Faites un effort pour écrire clairement, et évitez les messages tout en majuscules : c’est interprété comme un comportement agressif. Tout le monde n’est pas une “bête” en orthographe et certains joueurs sont très jeunes, ou d’origine étrangère ce n’est donc pas très gentil de se moquer de leurs fautes.</p>
+
+<p>Si vous voulez envoyez un message secret à une personne qui est connectée, il va falloir utiliser une comande (une commande c’est un message spécial, destiné au serveur, ce qu’on signale en le faisant débuter par le caractère “/”, le “slash”). Pour dire “bonjour à Toto, Tapez T puis <code>/msg Toto Bonjour</code> (la commande /msg, demande au serveur de transmettre votre message à un joueur et un seul).</p>
+
+<p>Si vous voulez envoyer un message à un joueur qui n’est pas connecté, utilisez la commande /mail qui marche exactement comme /msg : <code>/mail Toto Bonjour !</code></p>
+
+<p>Voici deux petites astuces pour gagner du temps avec ces commandes :
+* si vous tapez directement sur / pour commencer un message, le chat s’ouvrira avec le / déjà en place pour une commande ;
+* si vous tapez les trois ou quatre premières lettres du nom d’un joueur <em>connecté</em> puis la touche TAB, le nom du joueur se complètera automatiquement (c’est ce qu’on appelle l’autocomplétion).</p>
+
+<h2 id="comment-tlporter-un-joueur-">Comment téléporter un joueur ?</h2>
+
+<p>Vous avez la possibilité d’inviter un autre joueur à vous rejoindre en le téléportant vers vous. Pour cela, cliquez sur l’icône n°3 de l’inventaire : une nouvelle fenêtre s’ouvre.</p>
+
+<p><img src="images/tp_screen.png" alt="tp_screen" title="tp_screen" /></p>
+
+<p>choisissez le nom du joueur dans le menu déroulant de la dernière ligne et cliquez sur <em>Send To</em> pour envoyer l’invitation. Si votre invité vient juste de se connecter, il n’apparaît peut-être pas dans la liste. Pour remettre cette liste à jour, cliquez sur <em>Refresh</em>.</p>
+
+<p>Quand vous êtes invité par un autre joueur, vous êtes prévenu par un bruit de sonnette. Dans ce cas, retournez à la même fenêtre (troisième icône de l’inventaire) et acceptez l’invitation en cliquant sur <em>To Player</em>. Vous êtes bien sûr libre de refuser l’invitation, mais dans ce cas, prenez au moins le temps d’expliquer gentiment pourquoi (“Désolé, je n’ai pas le temps”…)</p>
+
+<h2 id="comment-protger-ses-crations-">Comment protéger ses créations ?</h2>
+
+<p>Pour protéger sa maison ou une autre construction, il faut la placer dans une <em>Area</em>, c’est-à-dire une zone qui vous appartient et où personne d’autre ne peut ajouter ou supprimer des blocs.</p>
+
+<p>Pour créer une area, il faut commencer par crafter (fabriquer) des <em>Markers</em> :</p>
+
+<p><img src="images/markers.png" alt="Markers" title="markers" /></p>
+
+<p>Ensuite, vous devez placer deux markers au extrémités d’une des diagonales de la zone à protéger :</p>
+
+<p><img src="images/diagonale.png" alt="Diagonale" title="Diagonale" /></p>
+
+<p>Faites un clic droit sur un des deux markers, donnez un nom à votre area (Name) et validez. Et voilà ! Votre area est créée. Si vous vous baladez dedans, vous verrez son nom et son ID (son numéro) s’afficher en bas à gauche de votre écran. Vous pouvez récupérer vos markers pour les utiliser plus tard.</p>
+
+<p><strong>Si vous obtenez un message d’erreur qui vous dit que l’area ne peux pas être créée, c’est sans doute qu’elle est trop grande, ou qu’elle chevauche une area d’un autre joueur. Dans ce cas, rapprochez un peu vos deux markers pour réduire la surface de votre area et essayez à nouveau.</strong></p>
+
+<h2 id="comment-ajouter-quelquun--une-area-">Comment ajouter quelqu’un à une area ?</h2>
+
+<p>Il faut commencer par crafter unn <em>Boundary Marker</em> :</p>
+
+<p><img src="images/boundary.png" alt="Boundary marker" title="Boundary marker" /></p>
+
+<p>Placez le n’importe où <em>à l’intérieur de votre area</em> et faites un clic droit dessus. Dans la case “Add”, ajoutez le nom du joueur que vous voulez ajouter et validez. L’autre joueur peut maintenant agir dans l’area exactement de la même manière que vous.</p>
+
+<p><strong>Si votre area est importante, ajoutez-y seulement des personnes de confiance, autrement c’est une source de chamailleires. Vous pouvez “tester” un joueur en travaillant avec lui sur une area moins “sensible”.</strong></p>
+
+<h2 id="comment-pcher-">Comment pêcher ?</h2>
+
+<p>Pour pêcher, il vous faudra deux choses : une canne à pêche (<em>Fishing Pole</em>) et des appâts :</p>
+
+<p><img src="images/fishing_pole.png" alt="Canne à pêche" title="Canne à pêche" /></p>
+
+<p><img src="images/bait_corn.png" alt="Appâts" title="Appâts" /></p>
+
+<p>Comme appâts, vous pourrez aussi utiliser les vers de terre que vous trouverez en labourant vos champs.</p>
+
+<p>Quand vous serez équipé, trouvez un point d’eau suffisamment profond (au moins quatre ou cinq blocs).</p>
+
+<p>Pour que la pêche fonctionne, il faut placer les appâts juste à droite de la canne à pêche dans la première ligne de votre inventaire :</p>
+
+<p><img src="images/peche.png" alt="Pêche" title="Pêche" /></p>
+
+<p>Prenez la canne à pêche en main comme n’importe quel autre outil et faites un clic gauche pour lancer votre ligne. Vous pouvez lancer une deuxième ligne en faisant un autre clic gauche.</p>
+
+<p>À partir de maintenant, vous devez bien surveiller vos deux bouchons. Quand vous avez une touche, vous en verrez un s’enfoncer et vous entendrez un bruit d’éclaboussement : faites vite un clic droit sur le bouchon pour remonter votre prise. Si vous êtes trop lent, le poisson s’échappe ; si vous êtes assez rapide, un message vous indiquera ce que vous avez pris.</p>
+
+<h2 id="comment-apprivoiser-les-animaux-">Comment apprivoiser les animaux ?</h2>
+
+<p>Vous croiserez différents animaux dans le monde de Minetest. Il est possible de les apprivoiser pour en tirer des œufs, du lait de la laine et beaucoup d’autres choses.</p>
+
+<p>Pour apprivoiser les animaux, le principe est toujours le même : il faut d’abord des nourrir avec leut aliment favori, jusqu’à ce qu’un message s’affiche, par exemple “Rabbit tamed” si vous avez apprivoisé un lapin.</p>
+
+<p>Ensuite il faut attraper l’animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus <em>en ayant les mains vides</em>. Plusirus clics seront nécessaires, mais attention ! <em>Si vous faites un clic de trop après avoir capturé l’animal, vous relâcherez celui-ci !</em></p>
+
+<p>Pour les gros animaux, il va vous falloir un outil, le <em>Magic Lasso</em> que vous utiliserez aussi avec un clic droit :</p>
+
+<p><img src="images/magic_lasso.png" alt="Lasso" title="Lasso" /></p>
+
+<p>Voici un tableau qui vous explique comment capturer les différents animaux :</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Animal</th>
+      <th>Nourriture</th>
+      <th style="text-align: center">Lasso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chat</td>
+      <td>Rat</td>
+      <td style="text-align: center">Non</td>
+    </tr>
+    <tr>
+      <td>Cheval</td>
+      <td>Blé (wheat)</td>
+      <td style="text-align: center">Oui</td>
+    </tr>
+    <tr>
+      <td>Lapin</td>
+      <td>Carotte (carrot)</td>
+      <td style="text-align: center">Non</td>
+    </tr>
+    <tr>
+      <td>Manchot</td>
+      <td>Poisson cru</td>
+      <td style="text-align: center">Non</td>
+    </tr>
+    <tr>
+      <td>Mouton</td>
+      <td>Blé (wheat)</td>
+      <td style="text-align: center">Oui</td>
+    </tr>
+    <tr>
+      <td>Personnages</td>
+      <td>Diamant (diamond)</td>
+      <td style="text-align: center">Oui</td>
+    </tr>
+    <tr>
+      <td>Poule</td>
+      <td>Grain de blé (wheat seed)</td>
+      <td style="text-align: center">Non</td>
+    </tr>
+    <tr>
+      <td>Rat</td>
+      <td>Rien</td>
+      <td style="text-align: center">Non</td>
+    </tr>
+    <tr>
+      <td>Sanglier</td>
+      <td>Pommes (apple)</td>
+      <td style="text-align: center">Oui</td>
+    </tr>
+    <tr>
+      <td>Vache</td>
+      <td>Blé (wheat)</td>
+      <td style="text-align: center">Oui</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="comment-protger-les-animaux-">Comment protéger les animaux ?</h2>
+
+<h2 id="comment-rparer-les-outils-">Comment réparer les outils ?</h2>
+
+<h2 id="comment-on-fait-pousser-des-plantes-">Comment on fait pousser des plantes ?</h2>
+
+<hr />
+
+<h2 id="quelle-profondeur-trouve-t-on-du-mithril-">À quelle profondeur trouve-t-on du mithril ?</h2>
+
+<h2 id="quelle-profondeur-trouve-t-on-du-nyan-">À quelle profondeur trouve-t-on du nyan ?</h2>
+
+<h2 id="pourquoi-mon-travelnet-ne-pas-">Pourquoi mon travelnet ne pas ?</h2>
+
+<h2 id="tas-pas-">T’as pas… ?</h2>
+
+<h2 id="qui-veut-tre-mon-ami-">Qui veut être mon ami ?</h2>
+
+<h2 id="tas-quel-ge-">T’as quel âge ?</h2>
+
+<h2 id="je-peux-avoir-le-fly-">Je peux avoir le “fly” ?</h2>
+
+<h2 id="je-peux-tre-modo-">Je peux être modo ?</h2>
+
+<h2 id="cest-quoi-une-commande-">C’est quoi une commande ?</h2>
+
+<h2 id="client--serveur--on-nest-pas-au-bistrot-">Client ? Serveur ? On n’est pas au bistrot !</h2>
+
+
+		<footer>
+			<hr />
+			Written by the Mynetest server player Grossam
+		</footer>
+	</body>
+</html>
