@@ -3,7 +3,7 @@ layout: default
 title: Les FAQ de Mynetest
 ---
 
-# Les FAQ de Mynetest
+#Les FAQ de Mynetest
 
 Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
 
@@ -13,18 +13,27 @@ Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html
 
 Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication des mots anglais et du jargon du jeu en ligne.
 
-<!--TODO : certains liens internes ne marchent pas : que faire des lettre accentuées, des apostrophes et des traits d'unions ?-->
+<!--
+TODO : certains liens internes ne marchent pas : que faire des lettre accentuées, des apostrophes et des traits d'unions ?
+
+Règles aappliquées par Jekyll pour créer l'id d'un titre :
+* tout passer en minuscules;
+* ne garder que les signes alphanumériques;
+* supprimer les mettre accentuées;
+* remplacer toutes les espaces par un tiret;
+* supprimer les espaces initiale.
+-->
 
 ## Sommaire
 
 * [Comment parler aux autres joueurs ?](#comment-parler-aux-autres-joueurs-)
-* [Comment téléporter un joueur ?](#comment-téléporter-un-joueur-)
-* [Comment protéger ses créations ?](#comment-protéger-ses-créations-)
-* [Comment ajouter quelqu'un à une area ?](#comment-ajouter-quelqu-un-à-une-area-)
-* [Comment pêcher ?](#comment-pêcher-)
+* [Comment téléporter un joueur ?](#comment-tlporter-un-joueur-)
+* [Comment protéger ses créations ?](#comment-protger-ses-crations-)
+* [Comment ajouter quelqu'un à une area ?](#comment-ajouter-quelqu-un--une-area-)
+* [Comment pêcher ?](#comment-pcher-)
 * [Comment apprivoiser les animaux ?](#comment-apprivoiser-les-animaux-)
-* [Comment protéger les animaux ?](#comment-protéger-les-animaux-)
-* [Comment réparer les outils ?](#comment-réparer-les-outils-)
+* [Comment protéger les animaux ?](#comment-protger-les-animaux-)
+* [Comment réparer les outils ?](#comment-rparer-les-outils-)
 * [Comment on fait pousser des plantes ?](#comment-on-fait-pousser-des-plantes-)
 * [Comment enchanter un objet ?](#comment-enchanter-un-objet-)
 * [Comment vendre des objets ?](#comment-vendre-des-objets-)
@@ -32,15 +41,16 @@ Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication d
 
 ![sep](images/sep.png "sep")
 
-* [À quelle profondeur trouve-t-on du mithril ?](#a-quelle-profondeur-trouve-t-on-du-mithril-)
-* [À quelle profondeur trouve-t-on du nyan ?](#a-quelle-profondeur-trouve-t-on-du-nyan-)
-* [T'as pas… ?](#t-as-pas-)
-* [Qui veut être mon ami ?](#qui-veut-etre-mon-ami-?)
-* [T'as quel âge ?](#t-as-quel-age ?)
+* [J'ai un problème : à qui je m'adresse ?](#jai-un-problme---qui-je madresse-)
+* [À quelle profondeur trouve-t-on du mithril ?](#quelle-profondeur-trouve-t-on-du-mithril-)
+* [À quelle profondeur trouve-t-on du nyan ?](#quelle-profondeur-trouve-t-on-du-nyan-)
+* [T'as pas… ?](#tas-pas-)
+* [Qui veut être mon ami ?](#qui-veut-etre-mon-ami-)
+* [T'as quel âge ?](#tas-quel-ge-)
 * [Je peux avoir le "fly" ?](#je-peux-avoir-le-fly-)
-* [Je peux être modo ?](#je-peux-etre-modo-)
-* [C'est quoi une commande ?](#c-est-quoi-une-commande-)
-* [Client ? Serveur ? On n'est pas au bistrot !](#client-serveur-on-n-est-pas-au-bistrot-)
+* [Je peux être modo ?](#je-peux-tre-modo-)
+* [C'est quoi une commande ?](#cest-quoi-une-commande-)
+* [Client ? Serveur ? On n'est pas au bistrot !](#client--serveur--on-nest-pas-au-bistrot-)
 
 ![sep](images/sep.png "sep")
 
@@ -179,7 +189,7 @@ Une barre d'usure va apparaître sous le marteau et diminuer progressivement pen
 
 ## Comment on fait pousser des plantes ?
 
-C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html "Premiers pas". En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases).
+C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases).
 
 ![hoe](images/hoe.png "hoe")
 
@@ -243,22 +253,67 @@ Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en 
 
 **Quand vous ajoutez une cabine à un réseau, celle-ci n'est pas automatiquement détectée par les autres cabines de ce réseau.** La nouvelle cabine n'apparaîtra donc pas dans la liste des destinations porposées par les autre cabines. Il faut donc mettre à jour ces autres cabines : pour cela, frappez-les en faisant un clic gauche. Comme avec les machines à café, il faut taper sur les travelnets pour les faire marcher :-)
 
+
+
+
 ![sep](images/sep.png "sep")
+
+## J'ai un problème : à qui je m'adresse ?
+
+* S'il il s'agit d'un problème dans le jeu, parlez-en aux autres joueurs qui sauront peut-être vous expliquer ce que vous n'avez pas compris.
+* Pour signaler un bug, adressez-vous à l'administrateur du serveur, Upsilon.
+* Si vous avez un désaccord avec un autre joueur, vous aurez besoin d'un modérateur qui vous aidera à trouver une solution ; la liste des modérateurs est affichée sur un panneau près du spawn.
+
+Si la personne dont vous avez besoin n'est pas en ligne, voyez [ce sujet](#comment-parler-aux-autres-joueurs-).
 
 ## À quelle profondeur trouve-t-on du mithril ?
 
+Au fur et à mesure que l'on s'enfonce sous terre, on trouve de nouveaux minerais. Vous trouverez de l'or à partir de -64, du diamant à partir de -128 et du mithtil à partir du niveau - 512. À partir de -1024 vous commencerez à trouver du mese par blocs entiers (l'équivalent de neuf cristaux). Il n'est pas vraiment utile d'aller plus bas : la composition du sous sol ne change plus. On raconte toutefois que deux imbéciles ont creusé un "trou de kikoo" jusqu'à la profondeur maximale : -30912 blocs !
+
 ## À quelle profondeur trouve-t-on du nyan ?
 
-## T'as pas… ?
+Le *Nyan Cat* est bloc humoristique inspiré d'[une vidéo qui a déjà rendu fous des millions d'internautes](https://www.youtube.com/watch?v=wZZ7oFKsKzY "Nyan !"). On peu le trouver à n'importe quelle profondeur, et même en altitude. Seulement, i est extrèmement rare, et on peut jouer à Minetest pendant des mois sans jamais en trouver.
+
+## "T'as pas…" ?
+
+"Si ! J'ai, mais je ne t'en donnerai pas !"
+
+Beaucoup de joueurs débutants essayent de progresser plus vite en demandant des matériaux et des outils aux plus anciens. Ces derniers refusent assez souvent, car de telles demandes répétées sont un peu agaçantes. Et puis si tout vous tombait à point dans le bec, où serait le plaisir du jeu ?
+
+En revanche, les plus vieux joueurs sont toujours ravis de donner un coup de main, ce qui veut dire que c'est vous qui faites et eux qui vous guident, et ils sont toujours généreux en bons conseils. Aide-toi, Minetest t'aidera !
 
 ## Qui veut être mon ami ?
 
-## T'as quel âge ?
+Tout le monde ! Le serveur Mynetest essaye d'entretenir une bonne ambiance où chacun pourra trouver sa place, peu importe qui il est dans la vraie vie. Demandez des conseils plutôt que des objets, n'oubliez pas les mots magiques ("s'il- te plaît" et "merci"), restez simples et poli, sachez être patient et n'oubliez pas de garder le sourire.
+
+Souvent, au début, vous vous sentirez peut-être un peu seul, mais si vous faites de bonnes contructions, vous serez vite invité par vos voisins de serveur pour participer à des projets plus vastes.
+
+## "T'as quel âge" ?
+
+C'est une question qui fait sourire, mais les joueurs se la posent régulièrememnt entre eux et les réponses sont assez surprenantes. Sur le serveur de Mynetest, il y a des joueurs de 8 à 50 ans et de tous les pays. L'un habite même en Nouvelle Zélande, le pays où a été tourné le *Seigneur des anneaux* et qui est situé aux antipodes de la France. 20000 km ! On ne peut pas trouver plus éloigné sans quitter la planète !
+
+Il faut donc savoir respecter les uns et les autres, éviter les "sujets qui fâchent" et rester patient. Certains joueurs enseignent à l'unversité et d'autres sont en CE2 ; ce ne serait pas très sympa de se moquer de leur orthographe ou de leurs difficultés de compréhension. Tendez plutôt la main aux nouveaux qui sont parfois un peu timides.
 
 ## Je peux avoir le "fly" ?
 
+Sur le serveur, il existe différents prvilèges qui permettent de construire plus facilement des choses plus compliquées et plus impressionnantes. Théoriquement, on peut tout construire sans privilèges, mais c'est quand même plus simple avec. Le "fly" qui permet de voler en fait parti.
+
+Les modérateurs donnent assez facilement ces privilèges aux joueurs qui animent le serveur et qui se lancent dans des projets de construction un peu fous. Vous pouvez bien sûr leur faire remarquer que tel ou tel privilège vous serait utile pour votre projet du moment, mais ne les harcelez pas pour l'obtenir : c'est agaçant, ça ne donne pas envie de dire "oui" et cela peut même vous valoir une sanction !
+
 ## Je peux être modo ?
+
+Le statut de modo, comme les privilège, c'est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l'arbitre sur un terrain de football : permettre aux gens de s'amuser en s'assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour "calmer le jeu" et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d'un petit coup de main ou d'un petit conseil. Bref : à force d'arbitrer, vous aurez beaucoup moins de temps pour jouer.
+
+Le modérateur a généralement presque tous les privilèges, et s'il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l'air, en rendant le Nyan aussi courant que la cobble…). Mais il ne le fait pas, car comme le disent les linuxiens : "un grand pouvoir implique de grandes responsabilités". Avant de pouvoir modérer les autres, il faut d'abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?
 
 ## C'est quoi une commande ?
 
+Une commande, c'est tout simplement un message que l'on envoie à l'ordinateur en tapant du texte au lieu de cliquer sur des boutons avec la souris. Quand on écrit dans le chat, on peu signaler à l'ordinateur que c'est à lui que s'adresse le message en le faisant commencer pas le signe */*. Par exemple, je peux me téléporter chez moi en passant par le menu de mon inventaire, mais je peux aussi taper la commande */home*. C'est un message qui demande à l'ordinateur de me téléporter chez moi.
+
+Minetest est un programme écrit par des volontaires et sur lequel il reste encore du travail à faire. On a parfois besoin des commandes pour faire des choses qui ne sont pas faisables avec la souris, et les "pros" trouvent cette façon de faire plus rapide à utiliser.
+
 ## Client ? Serveur ? On n'est pas au bistrot !
+
+La carte de Mynetest, la liste des joueurs et toutes les autres informations sont stockées sur un ordinateur qui fonctionne 24 heures sur 24 (c'est grâce à ça que les plus acharnés peuvent miner toute la nuit…). Cet ordinateur fait "tourner" un programme *serveur* qui envoie toutes ces informations vers votre ordinateur ou votre téléphone, pour lui "dire" où est votre personnage,ce qu'il faut afficher autour de lui, qui est en ligne à ce moment-là et tout un tas d'autres choses.
+
+Pour jouer à Minetest sur votre ordinateur, ou sur votre téléphone, vous faites fonctionner un programme *client* qui va échanger des informations avec le programme *serveur*. Les deux programmes envoient et reçoivent des informations, alors pourquoi "client" et pourquoi "serveur" ? Parce-que pour un seul serveur, il y a beaucoup de clients. Un peu comme dans un bar, en fait !
