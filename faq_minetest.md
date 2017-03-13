@@ -13,7 +13,7 @@ Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html
 
 Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication des mots anglais et du jargon du jeu en ligne.
 
-<!--Certains liens internes ne marchent pas : que faire des lettre accentuées, des apostrophes et des traits d'unions ?-->
+<!--TODO : certains liens internes ne marchent pas : que faire des lettre accentuées, des apostrophes et des traits d'unions ?-->
 
 ## Sommaire
 
@@ -26,12 +26,14 @@ Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication d
 * [Comment protéger les animaux ?](#comment-protéger-les-animaux-)
 * [Comment réparer les outils ?](#comment-réparer-les-outils-)
 * [Comment on fait pousser des plantes ?](#comment-on-fait-pousser-des-plantes-)
+* [Comment enchanter un objet ?](#comment-enchanter-un-objet-)
+* [Comment vendre des objets ?](#comment-vendre-des-objets-)
+* [Comment utiliser le Travelnet ?](#comment-utiliser-le-travelnet-)
 
---------------------------------------------
+![sep](images/sep.png "sep")
 
 * [À quelle profondeur trouve-t-on du mithril ?](#a-quelle-profondeur-trouve-t-on-du-mithril-)
 * [À quelle profondeur trouve-t-on du nyan ?](#a-quelle-profondeur-trouve-t-on-du-nyan-)
-* [Pourquoi mon travelnet ne marche pas ?](#pourquoi-mon-travelnet-ne-marche-pas-)
 * [T'as pas… ?](#t-as-pas-)
 * [Qui veut être mon ami ?](#qui-veut-etre-mon-ami-?)
 * [T'as quel âge ?](#t-as-quel-age ?)
@@ -40,7 +42,7 @@ Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication d
 * [C'est quoi une commande ?](#c-est-quoi-une-commande-)
 * [Client ? Serveur ? On n'est pas au bistrot !](#client-serveur-on-n-est-pas-au-bistrot-)
 
-----------------------------------------------
+![sep](images/sep.png "sep")
 
 ## Comment parler aux autres joueurs ?
 
@@ -76,7 +78,9 @@ Ensuite, vous devez placer deux markers au extrémités d'une des diagonales de 
 
 ![Diagonale](images/diagonale.png "Diagonale")
 
-Faites un clic droit sur un des deux markers, donnez un nom à votre area (Name) et validez. Et voilà ! Votre area est créée. Si vous vous baladez dedans, vous verrez son nom et son ID (son numéro) s'afficher en bas à gauche de votre écran. Vous pouvez récupérer vos markers pour les utiliser plus tard.
+Faites un clic droit sur un des deux markers, dans la dernière ligne donnez un nom à votre area et validez en cliquant sur *Protect area*. Et voilà ! Votre area est créée. Si vous vous baladez dedans, vous verrez son nom et son ID (son numéro) s'afficher en bas à gauche de votre écran. Vous pouvez récupérer vos markers pour les utiliser plus tard.
+
+![menu_markers](images/menu_markers.png "menu_markers")
 
 **Si vous obtenez un message d'erreur qui vous dit que l'area ne peux pas être créée, c'est sans doute qu'elle est trop grande, ou qu'elle chevauche une area d'un autre joueur. Dans ce cas, rapprochez un peu vos deux markers pour réduire la surface de votre area et essayez à nouveau.**
 
@@ -86,7 +90,9 @@ Il faut commencer par crafter unn *Boundary Marker* :
 
 ![Boundary marker](images/boundary.png "Boundary marker")
 
-Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit dessus. Dans la case "Add", ajoutez le nom du joueur que vous voulez ajouter et validez. L'autre joueur peut maintenant agir dans l'area exactement de la même manière que vous.
+Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit dessus. Cliquez su le bouton *Add*, et entrez le nom du joueur dans la petite fenêtre qui s'ouvre ; validez. L'autre joueur peut maintenant agir dans l'area exactement de la même manière que vous.
+
+![menu_boundary](images/menu_boundary.png "menu_boundary")
 
 **Si votre area est importante, ajoutez-y seulement des personnes de confiance, autrement c'est une source de chamailleires. Vous pouvez "tester" un joueur en travaillant avec lui sur une area moins "sensible".**
 
@@ -139,17 +145,109 @@ Voici un tableau qui vous explique comment capturer les différents animaux :
 
 ## Comment protéger les animaux ?
 
+Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d'abord les garder sur l'une de vos area en les enferment sans un enclos ou dans un bâtiment. *Attention !* les animaux peuvent se faufiler entre deux blocs disposés en diagonale et certains sont capables de sauteer très haut.
+
+Ensuite, vous aurez besoin d'une rune de protection :
+
+![mp_rune](images/mp_rune.png "mp_rune")
+
+Prenez-là en main, et faites un clic droit sur l'animal que vous voulez protéger. La rune disparaît de votre inventaire et un message vous indique que l'opération a réussi : l'animal est protégé *tant qu'il reste sur votre area* ; s'il en sort, les autres joueurs (ou les autres mob) peuvent le tuer.
+
+Vous pouvez aussi donner un nom à vos animaux à l'aide d'un *nametag* :
+
+![nametag](images/nametag.png "nametag")
+
+Prenez-le en main et faite un clic droit sur l'animal. Dans la petite fenêtre qui s'ouvre tapez le nom qui s'affichera au-dessus de lui par la suite. Si l'animal est en bonne santé, le nom sera écrit en vert. Dans le cas contraire il sera en orange ou en rouge. Vous pouvez régénérer les points de vie d'un animal en lui donnant sa nourriture favorite.
+
 ## Comment réparer les outils ?
+
+Quand vous utilisez un outil, il s'use petit à petit. Sous son icône, une barre raccourcit et change de couleur pour vous indiquer son état. Quand la barre est rouge et très courte, il est temps de réparer votre outil sous peine de le perdre définitivement.
+
+Pour cela il va vous falloir un établi (*Workbench*) et un marteau (*Hammer*) :
+
+![workbench](images/workbench.png "workbench")
+
+![hammer](images/hammer.png "hammmer")
+
+Placez l'établi comme un bloc normal, faites un clic droit et placer l'outil et le marteau comme sur cette image :
+
+![repair](images/repair.png "repair")
+
+Une barre d'usure va apparaître sous le marteau et diminuer progressivement pendant que celle de l'outil se rallonge. C'est un peu long, mais vous aurez bientôt un outil tout neuf. *Note* : cela ne marche que si vous restez à proximité de l'établi, mais vous pouvez fermer la fenêtre et faire autre chose en attendant.
+
+*La case Cut est prévue pour recevoir des blocs que vous pourrez découper en pièces plus fines : planchettes, marches d'escalier…*
 
 ## Comment on fait pousser des plantes ?
 
-----------------------------------------
+C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html "Premiers pas". En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases).
+
+![hoe](images/hoe.png "hoe")
+
+## Comment enchanter un objet ?
+
+Vous pouvez enchaner certains objets pour les rendre plus efficaces. Les armes et les pioche pourront devenir plus efficaces ou plus durables, les pièces d'armure debviendront plus solides et les bottes enchantées vous permettront de vous déplacer plus vite.
+
+Pour enchanter un objet, il vous faudra des cristaux de mese et une table d'enchantement :
+
+![enchantment_table](images/enchantment_table.png "enchantment_table")
+
+Faites un clic droit sur votre table d'enchantement, placez le mese et l'objet à enchanter comme sur la capture, et choisissez à droite l'enchantement que vous voulez appliquer.
+
+![enchantment](images/enchantment.png "enchantment")
+
+*Vous ne pouvez pas enchanter certains objets, notamment ceux en nyan et en mithril.*
+
+## Comment vendre des objets ?
+
+Depuis peu, le serveur intégre un mod qui permet de créer une sorte de distributeur automatique à l'aide des *Vending Machines*. Pour commencer, il vous faudra un coffre verrouillé (*Locked_Chest*) et une machine (*Vending Machine*) :
+
+![locked_chest](images/locked_chest.png "locked_chest")
+
+![vending_machine](images/vending_machine.png "vending_machine")
+
+Posez le coffre au sol et posez la machine par-dessus (pour poser un objet sur un coffre, sans ouvrir le coffre, maintenez la touche Maj et faites un clic droit) :
+
+![vending](images/vending.png "vending")
+
+En faisant un clic droit sur la machine, vous accédez à sa fenêtre de configuration :
+
+![menu_vending](images/menu_vending.png "menu_vending")
+
+Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous pouvez vendre pas lot en modifiant le chiffre dans la case d'à côté. Le prix est toujours payé en lingots d'or ; la case permet d'entrer le nombre de lingots que coûtera un lot d'objets (dans notre exemple, un "lot" d'un cristal de mese coûte un lingot d'or).
+
+Vous remarquerez enfin un petit point rouge en haut à droite : il indique que votre machine n'est pas prête à fonctionner : elle utilise le coffre placé en dessous d'elle comme un réservoir dans lequel elle va "pomper" les objets à vendre. Mettez des cristaux de mese dans ce coffre et revenez au menu de configuration de la machine : le rond doit maintenant être vert.
+
+**Pour acheter dans une machine qui appartient à quelqu'un d'autre, cliquez sur le bouton Buy.**
+
+## Comment utiliser le Travelnet ?
+
+Vous pouvez poser des cabines *Travelnet* où vous le souhaitez pour avoir ensuite la possibilité de vous téléporter de l'une à l'autre. Pour commencer, fabriquez un petit réseau de test avec deux cabines cabines :
+
+![travelnet](images/travelnet.png "travelnet")
+
+Une fois vos cabines en place, il faudra les configurer toutes les deux (clic droit) :
+
+![menu_travelnet](menu_travelnet.png "menu_travelnet")
+
+Dans la première ligne, tapez le nom de la cabine (un nom qui rappelle l'endroit ou elle se trouve : "Maison", "Mine", "Magasin"…).
+
+Dans la deuxième ligne, entrez le nom du réseau auquel appartient la cabien. Chaque joueur peut se créer plusieurs réseaux, et une cabine permet de voyager uniquement sur le réseau auquel elle appartient.
+
+**Faites bien attention à l'orthographe en remplissant cette case : la moindre faute crée un nouveau réseau et vos cabines, sur des réseaux, différents ne pourront pas communiquer.**
+
+La troisième ligne sert simplement à taper votre nom.
+
+Pout utiliser votre réseau, faites un clic droit sur une cabine configurée et choisissez votre destination parmi celles qui vous sont proposées. Si vous ne voyez pas votre deuxième cabine sur ce réseau, vous avez peut-être fait une faute de frappe en la configurant : vérifiez !
+
+Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en place. *On ne paut pas détruire une cabine qui n'a pas encore été configurée*
+
+**Quand vous ajoutez une cabine à un réseau, celle-ci n'est pas automatiquement détectée par les autres cabines de ce réseau.** La nouvelle cabine n'apparaîtra donc pas dans la liste des destinations porposées par les autre cabines. Il faut donc mettre à jour ces autres cabines : pour cela, frappez-les en faisant un clic gauche. Comme avec les machines à café, il faut taper sur les travelnets pour les faire marcher :-)
+
+![sep](images/sep.png "sep")
 
 ## À quelle profondeur trouve-t-on du mithril ?
 
 ## À quelle profondeur trouve-t-on du nyan ?
-
-## Pourquoi mon travelnet ne pas ?
 
 ## T'as pas… ?
 
