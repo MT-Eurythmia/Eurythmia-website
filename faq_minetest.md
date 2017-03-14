@@ -9,7 +9,7 @@ Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes
 
 ![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
 
-Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html "Premiers pas").
+Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html/#les-mystres_de_linventaire "Premiers pas").
 
 Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication des mots anglais et du jargon du jeu en ligne.
 
@@ -225,9 +225,11 @@ En faisant un clic droit sur la machine, vous accédez à sa fenêtre de configu
 
 Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous pouvez vendre pas lot en modifiant le chiffre dans la case d'à côté. Le prix est toujours payé en lingots d'or ; la case permet d'entrer le nombre de lingots que coûtera un lot d'objets (dans notre exemple, un "lot" d'un cristal de mese coûte un lingot d'or).
 
-Vous remarquerez enfin un petit point rouge en haut à droite : il indique que votre machine n'est pas prête à fonctionner : elle utilise le coffre placé en dessous d'elle comme un réservoir dans lequel elle va "pomper" les objets à vendre. Mettez des cristaux de mese dans ce coffre et revenez au menu de configuration de la machine : le rond doit maintenant être vert.
+Vous remarquerez enfin un petit point rouge en haut à droite : il indique que votre machine n'est pas prête à fonctionner : elle utilise le coffre placé en dessous d'elle comme un réservoir dans lequel elle va "pomper" les objets à vendre. Mettez des cristaux de mese dans ce coffre et revenez au menu de configuration de la machine : le rond doit maintenant être vert. Quand il n'y a plus de cristaux dans le coffre, la machine s'arrête.
 
-**Pour acheter dans une machine qui appartient à quelqu'un d'autre, cliquez sur le bouton Buy.**
+Pour acheter dans une machine qui appartient à quelqu'un d'autre, cliquez sur le bouton Buy.
+
+**Les Depositing Machines sont des "machines à acheter". Elles se configurent exactement comme les vending machines, mais votre coffre devra contenir des lingots d'or qui permettront le paiement. Quand elle n'aura plus de lingots, ou quand le coffre sera rempli pas les objets recherchés, la machine ne pourra plus acheter. Pour vendre, cliquez sur Sell**
 
 ## Comment utiliser le Travelnet ?
 
