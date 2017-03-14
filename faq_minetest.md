@@ -5,7 +5,7 @@ title: Les FAQ de Mynetest
 
 #Les FAQ de Mynetest
 
-Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
+Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre, par defaut avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
 
 ![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
 
@@ -84,7 +84,7 @@ Pour créer une area, il faut commencer par crafter (fabriquer) des *Markers* :
 
 ![Markers](images/markers.png "markers")
 
-Ensuite, vous devez placer deux markers au extrémités d'une des diagonales de la zone à protéger :
+Ensuite, vous devez placer deux markers (peu importe la hauteur des markers ) au extrémités d'une des diagonales de la zone à protéger :
 
 ![Diagonale](images/diagonale.png "Diagonale")
 
@@ -100,7 +100,7 @@ Il faut commencer par crafter unn *Boundary Marker* :
 
 ![Boundary marker](images/boundary.png "Boundary marker")
 
-Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit dessus. Cliquez su le bouton *Add*, et entrez le nom du joueur dans la petite fenêtre qui s'ouvre ; validez. L'autre joueur peut maintenant agir dans l'area exactement de la même manière que vous.
+Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit dessus. Cliquez su le bouton *Add*, et entrez le nom du joueur dans la petite fenêtre qui s'ouvre ; validez. L'autre joueur peut maintenant agir dans l'area exactement de la même manière que vous, vous pouvait également partage une partis seulement de votre area en créent une seconde area à l'intérieur de la première puis ajouter le joueur a cette deuxième area.
 
 ![menu_boundary](images/menu_boundary.png "menu_boundary")
 
@@ -130,9 +130,9 @@ Prenez la canne à pêche en main comme n'importe quel autre outil et faites un 
 
 Vous croiserez différents animaux dans le monde de Minetest. Il est possible de les apprivoiser pour en tirer des œufs, du lait de la laine et beaucoup d'autres choses.
 
-Pour apprivoiser les animaux, le principe est toujours le même : il faut d'abord des nourrir avec leut aliment favori, jusqu'à ce qu'un message s'affiche, par exemple "Rabbit tamed" si vous avez apprivoisé un lapin.
+Pour apprivoiser les animaux, le principe est toujours le même : il faut d'abord les nourrir avec leur aliment favori, jusqu'à ce qu'un message s'affiche, par exemple "Rabbit tamed" si vous avez apprivoisé un lapin.
 
-Ensuite il faut attraper l'animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus *en ayant les mains vides*. Plusirus clics seront nécessaires, mais attention ! *Si vous faites un clic de trop après avoir capturé l'animal, vous relâcherez celui-ci !*
+Ensuite il faut attraper l'animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus *en ayant les mains vides*. Plusieurs clics seront nécessaires, mais attention ! *Si vous faites un clic de trop après avoir capturé l'animal, vous relâcherez celui-ci !*
 
 Pour les gros animaux, il va vous falloir un outil, le *Magic Lasso* que vous utiliserez aussi avec un clic droit :
 
@@ -155,7 +155,7 @@ Voici un tableau qui vous explique comment capturer les différents animaux :
 
 ## Comment protéger les animaux ?
 
-Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d'abord les garder sur l'une de vos area en les enferment sans un enclos ou dans un bâtiment. *Attention !* les animaux peuvent se faufiler entre deux blocs disposés en diagonale et certains sont capables de sauteer très haut.
+Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d'abord les garder sur l'une de vos area en les enferment dans un enclos ou dans un bâtiment. *Attention !* les animaux peuvent se faufiler entre deux blocs disposés en diagonale et certains sont capables de sauteer très haut.
 
 Ensuite, vous aurez besoin d'une rune de protection :
 
@@ -189,13 +189,13 @@ Une barre d'usure va apparaître sous le marteau et diminuer progressivement pen
 
 ## Comment on fait pousser des plantes ?
 
-C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases).
+C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases, l'eau peut être sous la terre labourer ).
 
 ![hoe](images/hoe.png "hoe")
 
 ## Comment enchanter un objet ?
 
-Vous pouvez enchaner certains objets pour les rendre plus efficaces. Les armes et les pioche pourront devenir plus efficaces ou plus durables, les pièces d'armure debviendront plus solides et les bottes enchantées vous permettront de vous déplacer plus vite.
+Vous pouvez enchanter certains objets pour les rendre plus efficaces. Les armes et les pioche pourront devenir plus efficaces ou plus durables, les pièces d'armure deviendront plus solides et les bottes enchantées vous permettront de vous déplacer plus vite.
 
 Pour enchanter un objet, il vous faudra des cristaux de mese et une table d'enchantement :
 
@@ -223,7 +223,7 @@ En faisant un clic droit sur la machine, vous accédez à sa fenêtre de configu
 
 ![menu_vending](images/menu_vending.png "menu_vending")
 
-Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous pouvez vendre pas lot en modifiant le chiffre dans la case d'à côté. Le prix est toujours payé en lingots d'or ; la case permet d'entrer le nombre de lingots que coûtera un lot d'objets (dans notre exemple, un "lot" d'un cristal de mese coûte un lingot d'or).
+Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous pouvez vendre par lot en modifiant le chiffre dans la case d'à côté. Le prix est toujours payé en lingots d'or ; la case permet d'entrer le nombre de lingots que coûtera un lot d'objets (dans notre exemple, un "lot" d'un cristal de mese coûte un lingot d'or).
 
 Vous remarquerez enfin un petit point rouge en haut à droite : il indique que votre machine n'est pas prête à fonctionner : elle utilise le coffre placé en dessous d'elle comme un réservoir dans lequel elle va "pomper" les objets à vendre. Mettez des cristaux de mese dans ce coffre et revenez au menu de configuration de la machine : le rond doit maintenant être vert. Quand il n'y a plus de cristaux dans le coffre, la machine s'arrête.
 
@@ -233,7 +233,7 @@ Pour acheter dans une machine qui appartient à quelqu'un d'autre, cliquez sur l
 
 ## Comment utiliser le Travelnet ?
 
-Vous pouvez poser des cabines *Travelnet* où vous le souhaitez pour avoir ensuite la possibilité de vous téléporter de l'une à l'autre. Pour commencer, fabriquez un petit réseau de test avec deux cabines cabines :
+Vous pouvez poser des cabines *Travelnet* où vous le souhaitez pour avoir ensuite la possibilité de vous téléporter de l'une à l'autre. Pour commencer, fabriquez un petit réseau de test avec deux cabines :
 
 ![travelnet](images/travelnet.png "travelnet")
 
@@ -243,7 +243,7 @@ Une fois vos cabines en place, il faudra les configurer toutes les deux (clic dr
 
 Dans la première ligne, tapez le nom de la cabine (un nom qui rappelle l'endroit ou elle se trouve : "Maison", "Mine", "Magasin"…).
 
-Dans la deuxième ligne, entrez le nom du réseau auquel appartient la cabien. Chaque joueur peut se créer plusieurs réseaux, et une cabine permet de voyager uniquement sur le réseau auquel elle appartient.
+Dans la deuxième ligne, entrez le nom du réseau auquel appartient la cabine. Chaque joueur peut se créer plusieurs réseaux, et une cabine permet de voyager uniquement sur le réseau auquel elle appartient.
 
 **Faites bien attention à l'orthographe en remplissant cette case : la moindre faute crée un nouveau réseau et vos cabines, sur des réseaux, différents ne pourront pas communiquer.**
 
@@ -251,7 +251,7 @@ La troisième ligne sert simplement à taper votre nom.
 
 Pout utiliser votre réseau, faites un clic droit sur une cabine configurée et choisissez votre destination parmi celles qui vous sont proposées. Si vous ne voyez pas votre deuxième cabine sur ce réseau, vous avez peut-être fait une faute de frappe en la configurant : vérifiez !
 
-Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en place. *On ne paut pas détruire une cabine qui n'a pas encore été configurée*
+Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en place. *On ne peut pas détruire une cabine qui n'a pas encore été configurée*
 
 **Quand vous ajoutez une cabine à un réseau, celle-ci n'est pas automatiquement détectée par les autres cabines de ce réseau.** La nouvelle cabine n'apparaîtra donc pas dans la liste des destinations porposées par les autre cabines. Il faut donc mettre à jour ces autres cabines : pour cela, frappez-les en faisant un clic gauche. Comme avec les machines à café, il faut taper sur les travelnets pour les faire marcher :-)
 
@@ -304,9 +304,9 @@ Les modérateurs donnent assez facilement ces privilèges aux joueurs qui animen
 
 ## Je peux être modo ?
 
-Le statut de modo, comme les privilège, c'est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l'arbitre sur un terrain de football : permettre aux gens de s'amuser en s'assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour "calmer le jeu" et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d'un petit coup de main ou d'un petit conseil. Bref : à force d'arbitrer, vous aurez beaucoup moins de temps pour jouer.
+Le statut de modo, comme les privilège, c'est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l'arbitre sur un terrain de football : permettre aux gens de s'amuser en s'assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour "calmer le jeu" et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d'un petit coup de main ou d'un petit conseil. Bref : à force d'arbitrer, vous aurez beaucoup moins de temps pour jouer (voir plus du tout).
 
-Le modérateur a généralement presque tous les privilèges, et s'il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l'air, en rendant le Nyan aussi courant que la cobble…). Mais il ne le fait pas, car comme le disent les linuxiens : "un grand pouvoir implique de grandes responsabilités". Avant de pouvoir modérer les autres, il faut d'abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?
+Le modérateur a généralement presque tous les privilèges, et s'il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l'air, en rendant le Nyan aussi courant que la cobble, il parait meme que certain peuvent faire tomber la foudre sur les joueurs...). Mais il ne le fait pas, car comme le disent les linuxiens : "un grand pouvoir implique de grandes responsabilités". Avant de pouvoir modérer les autres, il faut d'abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?
 
 ## C'est quoi une commande ?
 
