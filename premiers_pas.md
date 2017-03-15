@@ -7,7 +7,7 @@ title: Premiers pas
 
 ## Prenez les commandes
 
-Le serveur Mynetest est accessible depuis plusieurs plateformes (PC, téléphone…) et avec différents programmes clients (Minetest, Worldcraft, FreeCraft). Les commandes peuvent être un peu différentes dans chaque cas. Commencez donc par lire la rubrique d'aide de votre programme pour apprendre à diriger votre personnage, à casser et à poser un bloc, à sauter, à ouvrir votre inventaire…
+Le serveur Mynetest est accessible depuis plusieurs plateformes (PC, téléphone…) et avec différents programmes clients (Minetest, Worldcraft, Multicraft). Les commandes peuvent être un peu différentes dans chaque cas. Commencez donc par lire la rubrique d'aide de votre programme pour apprendre à diriger votre personnage, à casser et à poser un bloc, à sauter, à ouvrir votre inventaire…
 
 Le client Minetest disponible sur les dépôts Linux est configuré pour un clavier anglais (QWERTY) et donc difficile à utiliser sur un clavier français (AZERTY). Heureusement, on peut changer le rôle des touches : à partir du menu d'accueil, cliquez sur l'onglet *Settings*, puis sur le bouton *Change Keys*. Voici un exemple de configuration qui marche bien sur un clavier français :
 

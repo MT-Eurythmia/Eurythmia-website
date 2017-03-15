@@ -34,7 +34,7 @@
 
 		<h1 id="les-faq-de-mynetest">Les FAQ de Mynetest</h1>
 
-<p>Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l’inventaire. Celui-ci s’ouvre avec la touche I. En voici une capture d’écran (les numéros sous les icônes serviront dans les explications.)</p>
+<p>Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l’inventaire. Celui-ci s’ouvre, par défaut, avec la touche I. En voici une capture d’écran (les numéros sous les icônes serviront dans les explications.)</p>
 
 <p><img src="images/inventaire_numeros.png" alt="Icônes inventaire" title="Icônes inventaire" /></p>
 
@@ -101,6 +101,11 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <h2 id="comment-tlporter-un-joueur-">Comment téléporter un joueur ?</h2>
 
+<!-- 
+TODO ajouter l'explication pour Multicraft qui nécessite un commande.
+Possiblilité d'une présentation particulière pour les info Multicraft ?
+ -->
+
 <p>Vous avez la possibilité d’inviter un autre joueur à vous rejoindre en le téléportant vers vous. Pour cela, cliquez sur l’icône n°3 de l’inventaire : une nouvelle fenêtre s’ouvre.</p>
 
 <p><img src="images/tp_screen.png" alt="tp_screen" title="tp_screen" /></p>
@@ -117,7 +122,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <p><img src="images/markers.png" alt="Markers" title="markers" /></p>
 
-<p>Ensuite, vous devez placer deux markers au extrémités d’une des diagonales de la zone à protéger :</p>
+<p>Ensuite, vous devez placer deux markers au extrémités d’une des diagonales de la zone à protéger (ne vous occupez pas de la hauteur) :</p>
 
 <p><img src="images/diagonale.png" alt="Diagonale" title="Diagonale" /></p>
 
@@ -133,7 +138,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <p><img src="images/boundary.png" alt="Boundary marker" title="Boundary marker" /></p>
 
-<p>Placez le n’importe où <em>à l’intérieur de votre area</em> et faites un clic droit dessus. Cliquez su le bouton <em>Add</em>, et entrez le nom du joueur dans la petite fenêtre qui s’ouvre ; validez. L’autre joueur peut maintenant agir dans l’area exactement de la même manière que vous.</p>
+<p>Placez le n’importe où <em>à l’intérieur de votre area</em> et faites un clic droit dessus. Cliquez su le bouton <em>Add</em>, et entrez le nom du joueur dans la petite fenêtre qui s’ouvre ; validez. L’autre joueur peut maintenant agir dans l’area exactement de la même manière que vous (vous pouvez également partager une partie seulement de votre area en créant une nouvelle area à l’intérieur de la première et en ajoutant le joueur a cette deuxième area).</p>
 
 <p><img src="images/menu_boundary.png" alt="menu_boundary" title="menu_boundary" /></p>
 
@@ -163,9 +168,9 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <p>Vous croiserez différents animaux dans le monde de Minetest. Il est possible de les apprivoiser pour en tirer des œufs, du lait de la laine et beaucoup d’autres choses.</p>
 
-<p>Pour apprivoiser les animaux, le principe est toujours le même : il faut d’abord des nourrir avec leut aliment favori, jusqu’à ce qu’un message s’affiche, par exemple “Rabbit tamed” si vous avez apprivoisé un lapin.</p>
+<p>Pour apprivoiser les animaux, le principe est toujours le même : il faut d’abord les nourrir avec leur aliment favori, jusqu’à ce qu’un message s’affiche, par exemple “Rabbit tamed” si vous avez apprivoisé un lapin.</p>
 
-<p>Ensuite il faut attraper l’animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus <em>en ayant les mains vides</em>. Plusirus clics seront nécessaires, mais attention ! <em>Si vous faites un clic de trop après avoir capturé l’animal, vous relâcherez celui-ci !</em></p>
+<p>Ensuite il faut attraper l’animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus <em>en ayant les mains vides</em>. Plusieurs clics seront nécessaires, mais attention ! <em>Si vous faites un clic de trop après avoir capturé l’animal, vous relâcherez celui-ci !</em></p>
 
 <p>Pour les gros animaux, il va vous falloir un outil, le <em>Magic Lasso</em> que vous utiliserez aussi avec un clic droit :</p>
 
@@ -237,7 +242,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <h2 id="comment-protger-les-animaux-">Comment protéger les animaux ?</h2>
 
-<p>Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d’abord les garder sur l’une de vos area en les enferment sans un enclos ou dans un bâtiment. <em>Attention !</em> les animaux peuvent se faufiler entre deux blocs disposés en diagonale et certains sont capables de sauteer très haut.</p>
+<p>Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d’abord les garder sur l’une de vos area en les enferment dans un enclos ou dans un bâtiment. <em>Attention !</em> les animaux peuvent se faufiler entre deux blocs disposés en diagonale et certains sont capables de sauteer très haut.</p>
 
 <p>Ensuite, vous aurez besoin d’une rune de protection :</p>
 
@@ -271,13 +276,15 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <h2 id="comment-on-fait-pousser-des-plantes-">Comment on fait pousser des plantes ?</h2>
 
-<p>C’est un peu compliqué et je vous conseille de lire ce qui concerne l’agriculture sur la page <a href="premiers_pas.html/#premiers-pas-de-cultivateur" title="Premiers pas">premiers pas</a>. En règle générale vous devez labourer la terre à l’aide d’une houe (<em>hoe</em>) et vous assurer que vous êtes assez près de l’eau (trois cases).</p>
+<p>C’est un peu compliqué et je vous conseille de lire ce qui concerne l’agriculture sur la page <a href="premiers_pas.html/#premiers-pas-de-cultivateur" title="Premiers pas">premiers pas</a>. En règle générale vous devez labourer la terre à l’aide d’une houe (<em>hoe</em>) et vous assurer que vous êtes au maximum à trois case d’un point d’eau.</p>
+
+<p>Une astuce consiste à créer une étendue d’eau et à installer votre champ dessus, comme un couvercle. Vous pourrez obtenir des étendues illimitées de terre humide.</p>
 
 <p><img src="images/hoe.png" alt="hoe" title="hoe" /></p>
 
 <h2 id="comment-enchanter-un-objet-">Comment enchanter un objet ?</h2>
 
-<p>Vous pouvez enchaner certains objets pour les rendre plus efficaces. Les armes et les pioche pourront devenir plus efficaces ou plus durables, les pièces d’armure debviendront plus solides et les bottes enchantées vous permettront de vous déplacer plus vite.</p>
+<p>Vous pouvez enchanter certains objets pour les rendre plus efficaces. Les armes et les pioche pourront devenir plus efficaces ou plus durables, les pièces d’armure deviendront plus solides et les bottes enchantées vous permettront de vous déplacer plus vite.</p>
 
 <p>Pour enchanter un objet, il vous faudra des cristaux de mese et une table d’enchantement :</p>
 
@@ -305,17 +312,17 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <p><img src="images/menu_vending.png" alt="menu_vending" title="menu_vending" /></p>
 
-<p>Dans la case <em>Offered Item</em>, faites glisser l’objet que vous voules vendre. Vous pouvez vendre pas lot en modifiant le chiffre dans la case d’à côté. Le prix est toujours payé en lingots d’or ; la case permet d’entrer le nombre de lingots que coûtera un lot d’objets (dans notre exemple, un “lot” d’un cristal de mese coûte un lingot d’or).</p>
+<p>Dans la case <em>Offered Item</em>, faites glisser l’objet que vous voules vendre. Vous pouvez vendre par lot en modifiant le chiffre dans la case d’à côté. Le prix est toujours payé en lingots d’or ; la case permet d’entrer le nombre de lingots que coûtera un lot d’objets (dans notre exemple, un “lot” d’un cristal de mese coûte un lingot d’or).</p>
 
 <p>Vous remarquerez enfin un petit point rouge en haut à droite : il indique que votre machine n’est pas prête à fonctionner : elle utilise le coffre placé en dessous d’elle comme un réservoir dans lequel elle va “pomper” les objets à vendre. Mettez des cristaux de mese dans ce coffre et revenez au menu de configuration de la machine : le rond doit maintenant être vert. Quand il n’y a plus de cristaux dans le coffre, la machine s’arrête.</p>
 
-<p>Pour acheter dans une machine qui appartient à quelqu’un d’autre, cliquez sur le bouton Buy.</p>
+<p>Pour acheter dans une machine qui appartient à quelqu’un d’autre, cliquez sur le bouton <em>Buy</em>.</p>
 
 <p><strong>Les Depositing Machines sont des “machines à acheter”. Elles se configurent exactement comme les vending machines, mais votre coffre devra contenir des lingots d’or qui permettront le paiement. Quand elle n’aura plus de lingots, ou quand le coffre sera rempli pas les objets recherchés, la machine ne pourra plus acheter. Pour vendre, cliquez sur Sell</strong></p>
 
 <h2 id="comment-utiliser-le-travelnet-">Comment utiliser le Travelnet ?</h2>
 
-<p>Vous pouvez poser des cabines <em>Travelnet</em> où vous le souhaitez pour avoir ensuite la possibilité de vous téléporter de l’une à l’autre. Pour commencer, fabriquez un petit réseau de test avec deux cabines cabines :</p>
+<p>Vous pouvez poser des cabines <em>Travelnet</em> où vous le souhaitez pour avoir ensuite la possibilité de vous téléporter de l’une à l’autre. Pour commencer, fabriquez un petit réseau de test avec deux cabines :</p>
 
 <p><img src="images/travelnet.png" alt="travelnet" title="travelnet" /></p>
 
@@ -325,7 +332,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <p>Dans la première ligne, tapez le nom de la cabine (un nom qui rappelle l’endroit ou elle se trouve : “Maison”, “Mine”, “Magasin”…).</p>
 
-<p>Dans la deuxième ligne, entrez le nom du réseau auquel appartient la cabien. Chaque joueur peut se créer plusieurs réseaux, et une cabine permet de voyager uniquement sur le réseau auquel elle appartient.</p>
+<p>Dans la deuxième ligne, entrez le nom du réseau auquel appartient la cabine. Chaque joueur peut se créer plusieurs réseaux, et une cabine permet de voyager uniquement sur le réseau auquel elle appartient.</p>
 
 <p><strong>Faites bien attention à l’orthographe en remplissant cette case : la moindre faute crée un nouveau réseau et vos cabines, sur des réseaux, différents ne pourront pas communiquer.</strong></p>
 
@@ -333,9 +340,11 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <p>Pout utiliser votre réseau, faites un clic droit sur une cabine configurée et choisissez votre destination parmi celles qui vous sont proposées. Si vous ne voyez pas votre deuxième cabine sur ce réseau, vous avez peut-être fait une faute de frappe en la configurant : vérifiez !</p>
 
-<p>Pour reconfigurer une cabine, il faut d’abord la détruire, puis la remettre en place. <em>On ne paut pas détruire une cabine qui n’a pas encore été configurée</em></p>
+<p>Pour reconfigurer une cabine, il faut d’abord la détruire, puis la remettre en place. <em>On ne peut pas détruire une cabine qui n’a pas encore été configurée</em></p>
 
 <p><strong>Quand vous ajoutez une cabine à un réseau, celle-ci n’est pas automatiquement détectée par les autres cabines de ce réseau.</strong> La nouvelle cabine n’apparaîtra donc pas dans la liste des destinations porposées par les autre cabines. Il faut donc mettre à jour ces autres cabines : pour cela, frappez-les en faisant un clic gauche. Comme avec les machines à café, il faut taper sur les travelnets pour les faire marcher :-)</p>
+
+<!--- ************************************* -->
 
 <p><img src="images/sep.png" alt="sep" title="sep" /></p>
 
@@ -385,9 +394,9 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 <h2 id="je-peux-tre-modo-">Je peux être modo ?</h2>
 
-<p>Le statut de modo, comme les privilège, c’est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l’arbitre sur un terrain de football : permettre aux gens de s’amuser en s’assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour “calmer le jeu” et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d’un petit coup de main ou d’un petit conseil. Bref : à force d’arbitrer, vous aurez beaucoup moins de temps pour jouer.</p>
+<p>Le statut de modo, comme les privilèges, c’est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l’arbitre sur un terrain de sport : permettre aux gens de s’amuser en s’assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour “calmer le jeu” et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d’un petit coup de main ou d’un petit conseil. Bref : à force d’arbitrer, vous aurez beaucoup moins de temps pour jouer (voir plus du tout).</p>
 
-<p>Le modérateur a généralement presque tous les privilèges, et s’il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l’air, en rendant le Nyan aussi courant que la cobble…). Mais il ne le fait pas, car comme le disent les linuxiens : “un grand pouvoir implique de grandes responsabilités”. Avant de pouvoir modérer les autres, il faut d’abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?</p>
+<p>Le modérateur a généralement presque tous les privilèges, et s’il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l’air, en rendant le Nyan aussi courant que la cobble… Il parait meme que certain peuvent faire tomber la foudre sur les joueurs !). Mais il ne le fait pas, car comme le disent les linuxiens : “un grand pouvoir implique de grandes responsabilités”. Avant de pouvoir modérer les autres, il faut d’abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?</p>
 
 <h2 id="cest-quoi-une-commande-">C’est quoi une commande ?</h2>
 

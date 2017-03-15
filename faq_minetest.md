@@ -5,7 +5,7 @@ title: Les FAQ de Mynetest
 
 #Les FAQ de Mynetest
 
-Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre, par defaut avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
+Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre, par défaut, avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
 
 ![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
 
@@ -68,6 +68,11 @@ Voici deux petites astuces pour gagner du temps avec ces commandes :
 
 ## Comment téléporter un joueur ?
 
+<!-- 
+TODO ajouter l'explication pour Multicraft qui nécessite un commande.
+Possiblilité d'une présentation particulière pour les info Multicraft ?
+ --> 
+
 Vous avez la possibilité d'inviter un autre joueur à vous rejoindre en le téléportant vers vous. Pour cela, cliquez sur l'icône n°3 de l'inventaire : une nouvelle fenêtre s'ouvre.
 
 ![tp_screen](images/tp_screen.png "tp_screen")
@@ -84,7 +89,7 @@ Pour créer une area, il faut commencer par crafter (fabriquer) des *Markers* :
 
 ![Markers](images/markers.png "markers")
 
-Ensuite, vous devez placer deux markers (peu importe la hauteur des markers ) au extrémités d'une des diagonales de la zone à protéger :
+Ensuite, vous devez placer deux markers au extrémités d'une des diagonales de la zone à protéger (ne vous occupez pas de la hauteur) :
 
 ![Diagonale](images/diagonale.png "Diagonale")
 
@@ -100,7 +105,7 @@ Il faut commencer par crafter unn *Boundary Marker* :
 
 ![Boundary marker](images/boundary.png "Boundary marker")
 
-Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit dessus. Cliquez su le bouton *Add*, et entrez le nom du joueur dans la petite fenêtre qui s'ouvre ; validez. L'autre joueur peut maintenant agir dans l'area exactement de la même manière que vous, vous pouvait également partage une partis seulement de votre area en créent une seconde area à l'intérieur de la première puis ajouter le joueur a cette deuxième area.
+Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit dessus. Cliquez su le bouton *Add*, et entrez le nom du joueur dans la petite fenêtre qui s'ouvre ; validez. L'autre joueur peut maintenant agir dans l'area exactement de la même manière que vous (vous pouvez également partager une partie seulement de votre area en créant une nouvelle area à l'intérieur de la première et en ajoutant le joueur a cette deuxième area).
 
 ![menu_boundary](images/menu_boundary.png "menu_boundary")
 
@@ -189,7 +194,9 @@ Une barre d'usure va apparaître sous le marteau et diminuer progressivement pen
 
 ## Comment on fait pousser des plantes ?
 
-C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases, l'eau peut être sous la terre labourer ).
+C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes au maximum à trois case d'un point d'eau.
+
+Une astuce consiste à créer une étendue d'eau et à installer votre champ dessus, comme un couvercle. Vous pourrez obtenir des étendues illimitées de terre humide.
 
 ![hoe](images/hoe.png "hoe")
 
@@ -227,7 +234,7 @@ Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous
 
 Vous remarquerez enfin un petit point rouge en haut à droite : il indique que votre machine n'est pas prête à fonctionner : elle utilise le coffre placé en dessous d'elle comme un réservoir dans lequel elle va "pomper" les objets à vendre. Mettez des cristaux de mese dans ce coffre et revenez au menu de configuration de la machine : le rond doit maintenant être vert. Quand il n'y a plus de cristaux dans le coffre, la machine s'arrête.
 
-Pour acheter dans une machine qui appartient à quelqu'un d'autre, cliquez sur le bouton Buy.
+Pour acheter dans une machine qui appartient à quelqu'un d'autre, cliquez sur le bouton *Buy*.
 
 **Les Depositing Machines sont des "machines à acheter". Elles se configurent exactement comme les vending machines, mais votre coffre devra contenir des lingots d'or qui permettront le paiement. Quand elle n'aura plus de lingots, ou quand le coffre sera rempli pas les objets recherchés, la machine ne pourra plus acheter. Pour vendre, cliquez sur Sell**
 
@@ -256,7 +263,7 @@ Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en 
 **Quand vous ajoutez une cabine à un réseau, celle-ci n'est pas automatiquement détectée par les autres cabines de ce réseau.** La nouvelle cabine n'apparaîtra donc pas dans la liste des destinations porposées par les autre cabines. Il faut donc mettre à jour ces autres cabines : pour cela, frappez-les en faisant un clic gauche. Comme avec les machines à café, il faut taper sur les travelnets pour les faire marcher :-)
 
 
-
+<!--- ************************************* -->
 
 ![sep](images/sep.png "sep")
 
@@ -304,9 +311,9 @@ Les modérateurs donnent assez facilement ces privilèges aux joueurs qui animen
 
 ## Je peux être modo ?
 
-Le statut de modo, comme les privilège, c'est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l'arbitre sur un terrain de football : permettre aux gens de s'amuser en s'assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour "calmer le jeu" et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d'un petit coup de main ou d'un petit conseil. Bref : à force d'arbitrer, vous aurez beaucoup moins de temps pour jouer (voir plus du tout).
+Le statut de modo, comme les privilèges, c'est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l'arbitre sur un terrain de sport : permettre aux gens de s'amuser en s'assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour "calmer le jeu" et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d'un petit coup de main ou d'un petit conseil. Bref : à force d'arbitrer, vous aurez beaucoup moins de temps pour jouer (voir plus du tout).
 
-Le modérateur a généralement presque tous les privilèges, et s'il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l'air, en rendant le Nyan aussi courant que la cobble, il parait meme que certain peuvent faire tomber la foudre sur les joueurs...). Mais il ne le fait pas, car comme le disent les linuxiens : "un grand pouvoir implique de grandes responsabilités". Avant de pouvoir modérer les autres, il faut d'abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?
+Le modérateur a généralement presque tous les privilèges, et s'il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l'air, en rendant le Nyan aussi courant que la cobble… Il parait meme que certain peuvent faire tomber la foudre sur les joueurs !). Mais il ne le fait pas, car comme le disent les linuxiens : "un grand pouvoir implique de grandes responsabilités". Avant de pouvoir modérer les autres, il faut d'abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?
 
 ## C'est quoi une commande ?
 
