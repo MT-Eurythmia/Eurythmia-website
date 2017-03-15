@@ -281,7 +281,7 @@ Au fur et à mesure que l'on s'enfonce sous terre, on trouve de nouveaux minerai
 
 ## À quelle profondeur trouve-t-on du nyan ?
 
-Le *Nyan Cat* est bloc humoristique inspiré d'[une vidéo qui a déjà rendu fous des millions d'internautes](https://www.youtube.com/watch?v=wZZ7oFKsKzY "Nyan !"). On peu le trouver à n'importe quelle profondeur, et même en altitude. Seulement, i est extrèmement rare, et on peut jouer à Minetest pendant des mois sans jamais en trouver.
+Le *Nyan Cat* est bloc humoristique inspiré d'[une vidéo qui a déjà rendu fous des millions d'internautes](https://www.youtube.com/watch?v=wZZ7oFKsKzY "Nyan !"). On peut en trouver dès -32, mais il est extrêmement rare, et on peut jouer à Minetest pendant des mois sans en trouver.
 
 ## "T'as pas…" ?
 
