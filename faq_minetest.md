@@ -3,7 +3,7 @@ layout: default
 title: Les FAQ de Mynetest
 ---
 
-#Les FAQ de Mynetest
+# Les FAQ de Mynetest
 
 Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre, par défaut, avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
 
