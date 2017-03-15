@@ -46,15 +46,21 @@ title: Lexique
 
 *Cabinet* : placard.
 
+*Chair* : chaise.
+
 *Cheat (to)* : tricher. Bien sûr, c'est interdit, et c'est puni par les modos.
 
 *Chest* : coffre ; locked chest : coffre verrouillé ; shared chest : coffre partagé.
 
 *Chestplate* : plastron (la partie de l'armure qui protège le torse).
 
+*Clay* : argile
+
 *Clippers* : cisailles. Pour tondre les mouton.
 
 *Coal* : charbon.
+
+*Cobble* : galet.
 
 *Copper* : cuivre.
 
@@ -64,6 +70,8 @@ title: Lexique
 
 *Déco* : déconnecter. "Il faut que je déco : il est tard".
 
+*Dirt* : terre
+
 *Dough* : pâte (à pain).
 
 ## E
@@ -72,15 +80,23 @@ title: Lexique
 
 *Flint* : silex ; permet de fabriquer un briquet.
 
+*Flower* : fleur.
+
 *Furnace* : fourneau.
 
 ## G
+
+*Gravel* : gravier.
+
+*Grief* : action de détruire une construction publique ou appartenant à un autre joueur, située sur une area ou non. Saccager le paysage est aussi du grief. Le grief est interdit et puni d'un ban.
 
 *Glass* : verre.
 
 *Gold* : or.
 
 *Grapes* : raisin.
+
+*Grass* : herbe.
 
 ## H
 
@@ -108,11 +124,17 @@ title: Lexique
 
 ## L
 
+*Lamp* : lamp
+
 *Leggings* : jambières (pièces d'armure qui protègent les jambes).
+
+*Light* : lumière.
 
 *Lump* : pépite (gold lump : pépite d'ore).
 
 ## M
+
+*Mese* : le mese est un minerai magique qui n'existe pas dans la réalité. Il est utile pour faire des "mese systems" qui son des sortes de circuits électriques.
 
 *Mob* : de l'anglais "foule" ; désigne tous les monstres, animaus et personnages non joueurs qui peupelnt le serveur.
 
@@ -132,6 +154,8 @@ title: Lexique
 
 *Pickaxe* : pioche ; l'outil le plus utile de Minetest !
 
+*Pie* : tarte.
+
 *Pit* : puits (de mine).
 
 *Pumpkin* : citrouille.
@@ -150,6 +174,10 @@ title: Lexique
 
 ## S
 
+*Sand* : sable
+
+*Sandstone* : gré (une roche faite de sable aggloméré).
+
 *Screwdriver* : tournevis ; sert à faire pivoter des blocs.
 
 *Seed* : graine.
@@ -164,13 +192,19 @@ title: Lexique
 
 *Silver* : argent.
 
+*Slab* : dalle.
+
 *Sneak (to)* : se faufiler ; dans Minetest on "sneak" en maintenant la touche Maj enfoncée. Ça permet de ne pas tomber dans les trous et de sauter un peu plus haut.
 
 *Spam* : désigne un message répété de manière trop insistante. L'expression trouve son origine dans [un sketch des célèbres humoristes anglais, les Monty Python](https://www.youtube.com/watch?v=anwy2MPT5RE "Spam ! Spam ! Spam !").
 
 *Spawn* : l'endroit où un joueur apparaît à sa première connexion, ou après sa mort.
 
-*Stick* : bâton
+*Stair* : escalier.
+
+*Stick* : bâton.
+
+*Stone* : pierre.
 
 *Stuff* : argot anglais signifiant "camelotte", "matos". Désigne l'équipement d'un joueur. "Je suis mort et je ne retrouve plus mon stuff."
 
