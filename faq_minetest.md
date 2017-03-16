@@ -5,7 +5,7 @@ title: Les FAQ de Mynetest
 
 # Les FAQ de Mynetest
 
-Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre, par défaut, avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
+Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre, par défaut, avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications).
 
 ![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
 
@@ -56,22 +56,22 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 ## Comment parler aux autres joueurs ?
 
-Pour "dire" quelques-chose qui sera lu par tous les joueurs connectés au serveur, tapez la Touche T (comme "Talk", le mot anglais pour parler", puis tapez votre message. Faites un effort pour écrire clairement, et évitez les messages tout en majuscules : c'est interprété comme un comportement agressif. Tout le monde n'est pas une "bête" en orthographe et certains joueurs sont très jeunes, ou d'origine étrangère ce n'est donc pas très gentil de se moquer de leurs fautes.
+Pour "dire" quelques-chose qui sera lu par tous les joueurs connectés au serveur, tapez la touche T (comme "Talk", le mot anglais pour "parler", puis tapez votre message. Faites un effort pour écrire clairement, et évitez les messages tout en majuscules : c'est interprété comme un comportement agressif. Tout le monde n'est pas une "bête" en orthographe et certains joueurs sont très jeunes, ou d'origine étrangère ce n'est donc pas très gentil de se moquer de leurs fautes.
 
-Si vous voulez envoyez un message secret à une personne qui est connectée, il va falloir utiliser une comande (une commande c'est un message spécial, destiné au serveur, ce qu'on signale en le faisant débuter par le caractère "/", le "slash"). Pour dire "bonjour à Toto, Tapez T puis `/msg Toto Bonjour` (la commande /msg, demande au serveur de transmettre votre message à un joueur et un seul).
+Si vous voulez envoyez un message privé à une personne qui est connectée (sans que celui-ci ne soit vu par tout le monde), il va falloir utiliser une comande (une commande c'est un message spécial, destiné au serveur, ce qu'on signale en le faisant débuter par le caractère "/", le "slash"). Pour dire "bonjour" à Toto, tapez T puis `/msg Toto Bonjour` (la commande /msg, demande au serveur de transmettre votre message à un joueur et un seul).
 
-Si vous voulez envoyer un message à un joueur qui n'est pas connecté, utilisez la commande /mail qui marche exactement comme /msg : `/mail Toto Bonjour !`
+Si vous voulez envoyer un message à un joueur qui n'est pas connecté, utilisez la commande /mail qui s'utilise exactement comme /msg : `/mail Toto Bonjour !`
 
 Voici deux petites astuces pour gagner du temps avec ces commandes :
-* si vous tapez directement sur / pour commencer un message, le chat s'ouvrira avec le / déjà en place pour une commande ;
+* si vous tapez directement sur / pour commencer un message, le chat s'ouvrira avec le / déjà en place pour une commande, sans que vous n'ayez eu besoin de taper T ;
 * si vous tapez les trois ou quatre premières lettres du nom d'un joueur *connecté* puis la touche TAB, le nom du joueur se complètera automatiquement (c'est ce qu'on appelle l'autocomplétion).
 
 ## Comment téléporter un joueur ?
 
-<!-- 
+<!--
 TODO ajouter l'explication pour Multicraft qui nécessite un commande.
 Possiblilité d'une présentation particulière pour les info Multicraft ?
- --> 
+ -->
 
 Vous avez la possibilité d'inviter un autre joueur à vous rejoindre en le téléportant vers vous. Pour cela, cliquez sur l'icône n°3 de l'inventaire : une nouvelle fenêtre s'ouvre.
 
@@ -83,7 +83,7 @@ Quand vous êtes invité par un autre joueur, vous êtes prévenu par un bruit d
 
 ## Comment protéger ses créations ?
 
-Pour protéger sa maison ou une autre construction, il faut la placer dans une *Area*, c'est-à-dire une zone qui vous appartient et où personne d'autre ne peut ajouter ou supprimer des blocs.
+Pour protéger votre maison ou une autre construction, il vous faut créer une *area* qui englobe celle-ci, c'est-à-dire une zone qui vous appartient et où personne d'autre ne peut ajouter ou supprimer des blocs.
 
 Pour créer une area, il faut commencer par crafter (fabriquer) des *Markers* :
 
@@ -97,7 +97,7 @@ Faites un clic droit sur un des deux markers, dans la dernière ligne donnez un 
 
 ![menu_markers](images/menu_markers.png "menu_markers")
 
-**Si vous obtenez un message d'erreur qui vous dit que l'area ne peux pas être créée, c'est sans doute qu'elle est trop grande, ou qu'elle chevauche une area d'un autre joueur. Dans ce cas, rapprochez un peu vos deux markers pour réduire la surface de votre area et essayez à nouveau.**
+**Si vous obtenez un message d'erreur qui vous dit que l'area ne peux pas être créée, c'est sans doute qu'elle est trop grande, ou qu'elle chevauche une area d'un autre joueur. Dans ce cas, rapprochez un peu vos deux markers pour réduire la surface de votre area et essayez à nouveau. N'hésitez pas à poser la question à un modérateur en ligne en lui indiquant le message d'erreur, il saura certainement vous indiquer ce que vous avez mal fait.**
 
 ## Comment ajouter quelqu'un à une area ?
 
@@ -139,24 +139,26 @@ Pour apprivoiser les animaux, le principe est toujours le même : il faut d'abor
 
 Ensuite il faut attraper l'animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus *en ayant les mains vides*. Plusieurs clics seront nécessaires, mais attention ! *Si vous faites un clic de trop après avoir capturé l'animal, vous relâcherez celui-ci !*
 
-Pour les gros animaux, il va vous falloir un outil, le *Magic Lasso* que vous utiliserez aussi avec un clic droit :
+Pour les gros animaux, il va vous falloir un outil, le *Net* ou le *Magic Lasso* que vous utiliserez aussi avec un clic droit :
 
 ![Lasso](images/magic_lasso.png "Lasso")
 
+La différence entre le *Net* et le *Magic Lasso* est importante: le *Magic Lasso* coûte plus cher, mais la probabilité que l'animal s'en échappe est bien moindre !
+
 Voici un tableau qui vous explique comment capturer les différents animaux :
 
-| Animal       | Nourriture                | Lasso |
-|--------------|---------------------------|:-----:|
-| Chat         | Rat                       | Non   |
-| Cheval       | Blé (wheat)               | Oui   |
-| Lapin        | Carotte (carrot)          | Non   |
-| Manchot      | Poisson cru               | Non   |
-| Mouton       | Blé (wheat)               | Oui   |
-| Personnages  | Diamant (diamond)         | Oui   |
-| Poule        | Grain de blé (wheat seed) | Non   |
-| Rat          | Rien                      | Non   |
-| Sanglier     | Pommes (apple)            | Oui   |
-| Vache        | Blé (wheat)               | Oui   |
+| Animal       | Nourriture                | Probabilité: Main (%) | Probabilité: Net (%) | Probabilité: Magic Lasso (%) |
+|--------------|---------------------------|-----------------------|----------------------|------------------------------|
+| Chat         | Rat                       | 50                    | 50                   | 90                           |
+| Cheval       | Blé (wheat)               | Non utilisable        | Non utilisable       | 80                           |
+| Lapin        | Carotte (carrot)          | 30                    | 50                   | 80                           |
+| Manchot      | Poisson cru               | 5                     | 50                   | 80                           |
+| Mouton       | Blé (wheat)               | Non utilisable        | 5                    | 60                           |
+| Personnages  | Diamant (diamond)         | Non utilisable        | 5                    | 80                           |
+| Poule        | Grain de blé (wheat seed) | 30                    | 50                   | 80                           |
+| Rat          | Rien                      | 50                    | 90                   | Non utilisable               |
+| Sanglier     | Pommes (apple)            | Non utilisable        | 5                    | 50                           |
+| Vache        | Blé (wheat)               | Non utilisable        | 5                    | 60                           |
 
 ## Comment protéger les animaux ?
 
