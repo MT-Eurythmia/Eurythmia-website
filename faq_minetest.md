@@ -9,7 +9,7 @@ Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes
 
 ![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
 
-Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html/#les-mystres_de_linventaire "Premiers pas").
+Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html#les-mystres_de_linventaire "Premiers pas").
 
 Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication des mots anglais et du jargon du jeu en ligne.
 
@@ -198,7 +198,7 @@ Une barre d'usure va apparaître sous le marteau et diminuer progressivement pen
 
 ## Comment on fait pousser des plantes ?
 
-C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes au maximum à trois case d'un point d'eau.
+C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes au maximum à trois case d'un point d'eau.
 
 Une astuce consiste à créer une étendue d'eau et à installer votre champ dessus, comme un couvercle. Vous pourrez obtenir des étendues illimitées de terre humide.
 
