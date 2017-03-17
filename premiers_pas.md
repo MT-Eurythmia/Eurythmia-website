@@ -53,7 +53,7 @@ Les boutons *Set Pit* et *To Pit* marchent exactement de la même façon. Ils vo
 
 *To Spawn* vous ramène au point où vous êtes apparu à votre première connexion. C'est un endroit que tous les joueurs connaissent, c'est donc un bon point de rendez-vous pour se retrouver et faire des échanges.
 
-Les deux dernières lignes servent à [téléporter les joueurs entre eux](faq_minetest.html/#comment-tlporter-un-joueur-).
+Les deux dernières lignes servent à [téléporter les joueurs entre eux](faq_minetest.html#comment-téléporter-un-joueur-).
 
 ### 4/ Raccourci vers Home
 
@@ -159,7 +159,7 @@ Il ne reste plus qu'a toto a accepter l'invitation.
 Accepter une invitation de téléportation: */to_player*
 Cette commande vous teleportera a la derniére persone qui vous a invité.
 
-Quel heur est-il ?  */time*
+Quelle heure est-il ?  */time*
 
 *Parler une autre langue:*
 pour parler a un englais par exemple il vous suffit de taper: */bb EN votre_message*
@@ -198,7 +198,7 @@ pour regoindre ou quitter un tournois
 
 */last-login pseudo* Vous donne l'heure et la date de la derniére conection d'un joueur
 
-*/me votre_message* sert a indiquer votre humeur ou autre 
+*/me votre_message* sert a indiquer votre humeur ou autre
 exemple: /me est trop occuper en se moment affichera: toto est trop occuper.
 
 */privs* vous affichera les privilege que vous aver sur le serveur ( par defaut vous avez interact,shoot,home,zoom).

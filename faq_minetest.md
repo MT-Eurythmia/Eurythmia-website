@@ -9,7 +9,7 @@ Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes
 
 ![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
 
-Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html#les-mystres_de_linventaire "Premiers pas").
+Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html#les-mystères-de-linventaire "Premiers pas").
 
 Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication des mots anglais et du jargon du jeu en ligne.
 
@@ -19,7 +19,6 @@ TODO : certains liens internes ne marchent pas : que faire des lettre accentuée
 Règles aappliquées par Jekyll pour créer l'id d'un titre :
 * tout passer en minuscules;
 * ne garder que les signes alphanumériques;
-* supprimer les mettre accentuées;
 * remplacer toutes les espaces par un tiret;
 * supprimer les espaces initiale.
 -->
@@ -27,13 +26,13 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 ## Sommaire
 
 * [Comment parler aux autres joueurs ?](#comment-parler-aux-autres-joueurs-)
-* [Comment téléporter un joueur ?](#comment-tlporter-un-joueur-)
-* [Comment protéger ses créations ?](#comment-protger-ses-crations-)
-* [Comment ajouter quelqu'un à une area ?](#comment-ajouter-quelqu-un--une-area-)
-* [Comment pêcher ?](#comment-pcher-)
+* [Comment téléporter un joueur ?](#comment-téléporter-un-joueur-)
+* [Comment protéger ses créations ?](#comment-protéger-ses-créations-)
+* [Comment ajouter quelqu'un à une area ?](#comment-ajouter-quelquun-à-une-area-)
+* [Comment pêcher ?](#comment-pêcher-)
 * [Comment apprivoiser les animaux ?](#comment-apprivoiser-les-animaux-)
-* [Comment protéger les animaux ?](#comment-protger-les-animaux-)
-* [Comment réparer les outils ?](#comment-rparer-les-outils-)
+* [Comment protéger les animaux ?](#comment-protéger-les-animaux-)
+* [Comment réparer les outils ?](#comment-réparer-les-outils-)
 * [Comment on fait pousser des plantes ?](#comment-on-fait-pousser-des-plantes-)
 * [Comment enchanter un objet ?](#comment-enchanter-un-objet-)
 * [Comment vendre des objets ?](#comment-vendre-des-objets-)
@@ -41,14 +40,14 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 ![sep](images/sep.png "sep")
 
-* [J'ai un problème : à qui je m'adresse ?](#jai-un-problme---qui-je madresse-)
-* [À quelle profondeur trouve-t-on du mithril ?](#quelle-profondeur-trouve-t-on-du-mithril-)
-* [À quelle profondeur trouve-t-on du nyan ?](#quelle-profondeur-trouve-t-on-du-nyan-)
+* [J'ai un problème : à qui je m'adresse ?](#jai-un-problème--à-qui-je-madresse-)
+* [À quelle profondeur trouve-t-on du mithril ?](#à-quelle-profondeur-trouve-t-on-du-mithril-)
+* [À quelle profondeur trouve-t-on du nyan ?](#à-quelle-profondeur-trouve-t-on-du-nyan-)
 * [T'as pas… ?](#tas-pas-)
-* [Qui veut être mon ami ?](#qui-veut-etre-mon-ami-)
-* [T'as quel âge ?](#tas-quel-ge-)
+* [Qui veut être mon ami ?](#qui-veut-être-mon-ami-)
+* [T'as quel âge ?](#tas-quel-âge-)
 * [Je peux avoir le "fly" ?](#je-peux-avoir-le-fly-)
-* [Je peux être modo ?](#je-peux-tre-modo-)
+* [Je peux être modo ?](#je-peux-être-modo-)
 * [C'est quoi une commande ?](#cest-quoi-une-commande-)
 * [Client ? Serveur ? On n'est pas au bistrot !](#client--serveur--on-nest-pas-au-bistrot-)
 
@@ -198,7 +197,7 @@ Une barre d'usure va apparaître sous le marteau et diminuer progressivement pen
 
 ## Comment on fait pousser des plantes ?
 
-C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes au maximum à trois case d'un point d'eau.
+C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html#premiers-pas-à-la-ferme "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes au maximum à trois case d'un point d'eau.
 
 Une astuce consiste à créer une étendue d'eau et à installer votre champ dessus, comme un couvercle. Vous pourrez obtenir des étendues illimitées de terre humide.
 
