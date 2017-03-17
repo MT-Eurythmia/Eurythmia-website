@@ -143,6 +143,8 @@ Pour les gros animaux, il va vous falloir un outil, le *Net* ou le *Magic Lasso*
 
 ![Lasso](images/magic_lasso.png "Lasso")
 
+![net](images/net.png "net")
+
 La différence entre le *Net* et le *Magic Lasso* est importante: le *Magic Lasso* coûte plus cher, mais la probabilité que l'animal s'en échappe est bien moindre !
 
 Voici un tableau qui vous explique comment capturer les différents animaux :
@@ -310,6 +312,10 @@ Il faut donc savoir respecter les uns et les autres, éviter les "sujets qui fâ
 Sur le serveur, il existe différents prvilèges qui permettent de construire plus facilement des choses plus compliquées et plus impressionnantes. Théoriquement, on peut tout construire sans privilèges, mais c'est quand même plus simple avec. Le "fly" qui permet de voler en fait parti.
 
 Les modérateurs donnent assez facilement ces privilèges aux joueurs qui animent le serveur et qui se lancent dans des projets de construction un peu fous. Vous pouvez bien sûr leur faire remarquer que tel ou tel privilège vous serait utile pour votre projet du moment, mais ne les harcelez pas pour l'obtenir : c'est agaçant, ça ne donne pas envie de dire "oui" et cela peut même vous valoir une sanction !
+
+**Si vous n'avez pas le privilège *fly* vous pouvez tout de même voler grâce au *Broomstick* : tapez K pour l'activer, puis utiliser Espace pour monter et Maj pour descendre. Attention : l'effet ne dure que trente secondes ! Si vous montez trio haut, plus dure sera la chute !**
+
+![broomstick](broomstick.png "broomstick")
 
 ## Je peux être modo ?
 

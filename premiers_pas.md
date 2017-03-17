@@ -117,16 +117,30 @@ Nous l'avons déjà vu : ce groupe de boutons permet de naviguer dans la liste d
 
 ## "Dis bonjour à la dame !"
 
+![travaux](images/travaux.png "travaux")
+
 ![sep](images/sep.png "sep")
 
 ## Premiers pas sur terre
+
+![travaux](images/travaux.png "travaux")
 
 ![sep](images/sep.png "sep")
 
 ## Premiers pas à la ferme
 
+![travaux](images/travaux.png "travaux")
+
 ![sep](images/sep.png "sep")
 
 ## Premiers pas à la mine
+
+![travaux](images/travaux.png "travaux")
+
+![sep](images/sep.png "sep")
+
+## Quelques commandes utiles
+
+![travaux](images/travaux.png "travaux")
 
 ![sep](images/sep.png "sep")

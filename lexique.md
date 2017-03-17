@@ -20,6 +20,8 @@ title: Lexique
 
 *Apple* : pomme.
 
+*Aspen tree* : tremble.
+
 *Axe* : hache ; plus rapide pour couper le bois.
 
 ## B
@@ -70,13 +72,17 @@ title: Lexique
 
 *Déco* : déconnecter. "Il faut que je déco : il est tard".
 
-*Dirt* : terre
+*Dirt* : terre.
+
+*Door* : porte.
 
 *Dough* : pâte (à pain).
 
 ## E
 
 ## F
+
+*Fence* : barrière, clôture.
 
 *Flint* : silex ; permet de fabriquer un briquet.
 
@@ -128,9 +134,11 @@ title: Lexique
 
 *Leggings* : jambières (pièces d'armure qui protègent les jambes).
 
+*Lever* : levier (démarre ou arrête un système mesecon.
+
 *Light* : lumière.
 
-*Lump* : pépite (gold lump : pépite d'ore).
+*Lump* : pépite (gold lump : pépite d'or).
 
 ## M
 
@@ -149,6 +157,8 @@ title: Lexique
 *NPC* : Non Player Character (personnage non joueur). Les NPC sont des mobs humain qui sont contrôlés par le serveur.
 
 ## O
+
+*Ore* : minerai.
 
 ## P
 
@@ -208,7 +218,11 @@ title: Lexique
 
 *Stuff* : argot anglais signifiant "camelotte", "matos". Désigne l'équipement d'un joueur. "Je suis mort et je ne retrouve plus mon stuff."
 
+*Switch* : interrupteur (envoie une impulsion à un système mesecon.
+
 *Sword* : épée.
+
+*Système mesecon* : sorte de circuit électrique à base de mese qui permet de réaliser des éclairages et des machines. Les mesecon sont difficiles à utiliser au début, mais vous trouverez de nombreux tutoriels sur Youtube.
 
 ## T
 
@@ -217,6 +231,8 @@ title: Lexique
 *Tin* : étain.
 
 *Trader* : les traders sont des NPC qui peuvent vous vendre différents objets en échange de lingots d'or (de l'anglais pour "commerçant").
+
+*Tree* : arbre.
 
 ## U
 
@@ -228,13 +244,17 @@ title: Lexique
 
 *Water* : eau.
 
+*Wet dirt* : terre humide.
+
 *Wheat* : blé.
+
+*Wire fence* : grillage.
 
 *Wood* : bois.
 
 *Wool* : laine.
 
-*Workbench* : établi ; seryt à réparer les outils et à découper les blocs.
+*Workbench* : établi ; sert à réparer les outils et à découper les blocs.
 
 ## X
 
