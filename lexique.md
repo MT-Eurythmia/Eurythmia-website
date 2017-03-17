@@ -36,9 +36,15 @@ title: Lexique
 
 *Blueberry* : myrtilles.
 
+*Bones* : os
+
+*Book* : livre.
+
 *Boots* : bottes.
 
 *Bread* : pain.
+
+*Broomstick* : balai magique.
 
 *Bug* : erreur de programmation qui produit un comportement inattendu dans un logiciel.
 
@@ -47,6 +53,8 @@ title: Lexique
 ## C
 
 *Cabinet* : placard.
+
+*Cauldron* : chaudron
 
 *Chair* : chaise.
 
@@ -81,6 +89,8 @@ title: Lexique
 ## E
 
 ## F
+
+*farm* : ferme
 
 *Fence* : barrière, clôture.
 
@@ -130,7 +140,11 @@ title: Lexique
 
 ## L
 
+*Ladder* : échelle
+
 *Lamp* : lamp
+
+*Leaves* : feuilles
 
 *Leggings* : jambières (pièces d'armure qui protègent les jambes).
 
@@ -141,6 +155,8 @@ title: Lexique
 *Lump* : pépite (gold lump : pépite d'or).
 
 ## M
+
+*Mailbox* : boîte aux lettres
 
 *Mese* : le mese est un minerai magique qui n'existe pas dans la réalité. Il est utile pour faire des "mese systems" qui son des sortes de circuits électriques.
 
@@ -187,6 +203,8 @@ title: Lexique
 *Sand* : sable
 
 *Sandstone* : gré (une roche faite de sable aggloméré).
+
+*Sapling* : pousse d'arbre.
 
 *Screwdriver* : tournevis ; sert à faire pivoter des blocs.
 
