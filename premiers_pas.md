@@ -143,4 +143,72 @@ Nous l'avons déjà vu : ce groupe de boutons permet de naviguer dans la liste d
 
 ![travaux](images/travaux.png "travaux")
 
+Retrouver dans cette section la plus-part des action decrite plus haut en version plus courte et plus encore, ce qui veux dire:  *Des commandes!*  vous aller gagner du temps !
+
+toute ces commandes sont a écrire dans le chat et commenceront toujours par un slash  */*
+
+*home et pit*
+Pour enregistré la position de votre home il suffit de taper dans le chat: */sethome*
+Pour le pit c'est la meme chose taper: */setpit*
+Faite */home* ou */pit* pour vous y rendre.
+
+Pour teleporter un joueur a vous: */invite_player pseudo*
+exemple: pour teleporté toto a vous il faut taper: /invite_player toto
+Il ne reste plus qu'a toto a accepter l'invitation.
+
+Accepter une invitation de téléportation: */to_player*
+Cette commande vous teleportera a la derniére persone qui vous a invité.
+
+Quel heur est-il ?  */time*
+
+*Parler une autre langue:*
+pour parler a un englais par exemple il vous suffit de taper: */bb EN votre_message*
+Le /bb indique que l'on souhaite une traduction, *EN* c'est l'indicatife qui indique que l'on veux une traduction en englais (english).
+exemple: /bb EN salut mon amis toto!    affichera dans le chat: [babel]: hi my friends toto!
+Il existe different indicatife de traduction
+
+plus fort:
+Si le cousin englais de toto, brian ecrit un message en englais dans le chat: "i need your help" vous pouvait le faire traduire:
+
+il faut indiquer ou mod (a refaire a chaque reboot du serveur) que nous voulont une traduction en francais a l'aide de cette commade:
+*/bblang FR*
+puis taper */babel pseudo* dans notre cas */babel brian* vous affichera "j'ai besoin de ton aide"
+
+pour connaitre les langues disponible: */bbcodes*
+
+
+*/pulverize* Cette commande suprime se que vous avais dans les mains.
+
+*Les tournois*
+Le mod PVPplus permet de faire des tournois PVP, en voici les principals commandes:
+pour lancer un tournois
+/tournament                   lance un tournois simple
+/tournament teleport          lance un tournois en teleportant les joueur qui s'engage a votre possition
+/tournament teleport (time)   remplacer time par les delait que vous souhaiter avant le debut du tournoit exemple 120, par defaut c'est 60 secondes.
+
+pour regoindre ou quitter un tournois
+/engage
+/leave_tournament
+
+*/status* vous affichera les message du serveur avec la liste des joueurs conecté
+
+*/irc_names* vous affichera la liste des persone conecter au canal IRC (Mynetest et ChanServ ne sont pas des persone réel)
+
+*/mapfix*  Permet de corriger les bug de lumiere ou de courant d'eau!
+
+*/last-login pseudo* Vous donne l'heure et la date de la derniére conection d'un joueur
+
+*/me votre_message* sert a indiquer votre humeur ou autre 
+exemple: /me est trop occuper en se moment affichera: toto est trop occuper.
+
+*/privs* vous affichera les privilege que vous aver sur le serveur ( par defaut vous avez interact,shoot,home,zoom).
+
+*/mods* Affiche la liste des mods instaler sur le serveur
+*/help* Affiche les commandes utile
+*/help all* Affiche toute les commandes disponible
+
+
+
+
+
 ![sep](images/sep.png "sep")
