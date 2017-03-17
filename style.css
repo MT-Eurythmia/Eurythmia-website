@@ -14,16 +14,16 @@ header {
 	padding-bottom: 0px;
 	min-width: 946px;
 }
-header img {
-	height: 100px;
-	display: inline-block;
-}
 header #image_left {
+	display: inline-block;
+	height: 100px;
 	margin-left: 10px;
 	float: left;
 	text-align: right;
 }
 header #image_right {
+	display: inline-block;
+	height: 100px;
 	margin-right: 10px;
 	float: right;
 	text-align: right;
