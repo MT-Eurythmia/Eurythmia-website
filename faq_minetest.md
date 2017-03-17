@@ -249,7 +249,7 @@ Vous pouvez poser des cabines *Travelnet* où vous le souhaitez pour avoir ensui
 
 Une fois vos cabines en place, il faudra les configurer toutes les deux (clic droit) :
 
-![menu_travelnet](menu_travelnet.png "menu_travelnet")
+![menu_travelnet](images/menu_travelnet.png "menu_travelnet")
 
 Dans la première ligne, tapez le nom de la cabine (un nom qui rappelle l'endroit ou elle se trouve : "Maison", "Mine", "Magasin"…).
 
@@ -312,9 +312,9 @@ Sur le serveur, il existe différents prvilèges qui permettent de construire pl
 
 Les modérateurs donnent assez facilement ces privilèges aux joueurs qui animent le serveur et qui se lancent dans des projets de construction un peu fous. Vous pouvez bien sûr leur faire remarquer que tel ou tel privilège vous serait utile pour votre projet du moment, mais ne les harcelez pas pour l'obtenir : c'est agaçant, ça ne donne pas envie de dire "oui" et cela peut même vous valoir une sanction !
 
-**Si vous n'avez pas le privilège *fly* vous pouvez tout de même voler grâce au *Broomstick* : tapez K pour l'activer, puis utiliser Espace pour monter et Maj pour descendre. Attention : l'effet ne dure que trente secondes ! Si vous montez trio haut, plus dure sera la chute !**
+**Si vous n'avez pas le privilège *fly* vous pouvez tout de même voler grâce au *Broomstick* : tapez K pour l'activer, puis utiliser Espace pour monter et Maj pour descendre. Attention : l'effet ne dure que trente secondes ! Si vous montez trop haut, plus dure sera la chute !**
 
-![broomstick](broomstick.png "broomstick")
+![broomstick](images/broomstick.png "broomstick")
 
 ## Je peux être modo ?
 
