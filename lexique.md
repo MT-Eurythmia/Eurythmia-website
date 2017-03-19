@@ -32,6 +32,8 @@ title: Lexique
 
 *Barley* : orge.
 
+*Barrel* : baril, tonneau.
+
 *Beans* : haricots.
 
 *Blueberry* : myrtilles.
@@ -40,7 +42,9 @@ title: Lexique
 
 *Book* : livre.
 
-*Boots* : bottes.
+*Boot (au singulier)* : démarrage d'un ordinateur ; reboot : redémarrage. Exemple : "Ma machine est plantée !" — "Tu as essayé un reboot ?"
+
+*Boots (au pluriel)* : bottes.
 
 *Bread* : pain.
 
@@ -54,7 +58,7 @@ title: Lexique
 
 *Cabinet* : placard.
 
-*Cauldron* : chaudron
+*Cauldron* : chaudron.
 
 *Chair* : chaise.
 
@@ -75,6 +79,10 @@ title: Lexique
 *Copper* : cuivre.
 
 *Crafter* : fabriquer un objet.
+
+*Crash* : arrêt brutal d'un programme, "plantage". Exemple : "Le nouveau mod fait crasher le serveur".
+
+*Cup* : tasse
 
 ## D
 
@@ -102,9 +110,7 @@ title: Lexique
 
 ## G
 
-*Gravel* : gravier.
-
-*Grief* : action de détruire une construction publique ou appartenant à un autre joueur, située sur une area ou non. Saccager le paysage est aussi du grief. Le grief est interdit et puni d'un ban.
+*GG* : good game, bien joué (message de félicitation pour un joueur).
 
 *Glass* : verre.
 
@@ -113,6 +119,10 @@ title: Lexique
 *Grapes* : raisin.
 
 *Grass* : herbe.
+
+*Gravel* : gravier.
+
+*Grief* : action de détruire une construction publique ou appartenant à un autre joueur, située sur une area ou non. Saccager le paysage est aussi du grief. Le grief est interdit et puni d'un ban.
 
 ## H
 
@@ -123,6 +133,8 @@ title: Lexique
 *Hoe* : houe, bêche. Sert à labourer la terre.
 
 *Home* : maison, foyer ; l'endroit où vous vous reposez en sortant de la mine.
+
+*Hot* : chaud, hot coffe : café chaud.
 
 ## I
 
@@ -136,19 +148,19 @@ title: Lexique
 
 *Kick (to)* : botter les fesses. Action de déconnecter de force un joueur qui se comporte mal sur un serveur. C'est un des privilèges des modérateurs.
 
-*Kikoo* (ou Kikoolol) : un joueur un peu jeuneet un peu bêbête.
+*Kikoo* (ou Kikoolol) : un joueur un peu jeune et un peu bêbête.
 
 ## L
 
-*Ladder* : échelle
+*Ladder* : échelle.
 
-*Lamp* : lamp
+*Lamp* : lamp.
 
-*Leaves* : feuilles
+*Leaves* : feuilles.
 
 *Leggings* : jambières (pièces d'armure qui protègent les jambes).
 
-*Lever* : levier (démarre ou arrête un système mesecon.
+*Lever* : levier (démarre ou arrête un système mesecon).
 
 *Light* : lumière.
 
@@ -162,13 +174,19 @@ title: Lexique
 
 *Mob* : de l'anglais "foule" ; désigne tous les monstres, animaus et personnages non joueurs qui peupelnt le serveur.
 
+*Mod* : un "mod" est un greffon, une extension du jeu Minetest qui peremt d'ajouter de nouvelles fonctions à un serveur : des teleporteurs avec Travelnet, de nouveaux arbres avec More Trees, et même des routes et des autos !
+
 *Modo* : abbréviation de "modérateur". Sur un serveur, les modérateurs sont des arbitres. Ils font respecter les règles et calment les conflits entre les joueurs, pour que tout le monde puisse s'amuser tranquilement.
+
+*MRC* : merci !
 
 ## N
 
 *Network* : réseau.
 
 *Noob* (ou newby) : un joueur débutant.
+
+*NP* : no problem ; pas de problème.
 
 *NPC* : Non Player Character (personnage non joueur). Les NPC sont des mobs humain qui sont contrôlés par le serveur.
 
@@ -177,6 +195,10 @@ title: Lexique
 *Ore* : minerai.
 
 ## P
+
+*Pane* : panneau (de bois, de verre…)
+
+*PG" : pas grave (pour répondre à un joueur qui vous a fait des excuses).
 
 *Pickaxe* : pioche ; l'outil le plus utile de Minetest !
 
@@ -228,15 +250,19 @@ title: Lexique
 
 *Spawn* : l'endroit où un joueur apparaît à sa première connexion, ou après sa mort.
 
+*Stack* : de l'anglais "pile", "tas" ; certains objets peuvent s'accumuler en plusieurs exemplaires (jusqu'à 99) sur une seule case de votre inventaire. Une case pleine, qui contient 99 objets, s'appelle donc un "stack" : "J'ai besoin d'un stack de fer".
+
 *Stair* : escalier.
 
 *Stick* : bâton.
 
 *Stone* : pierre.
 
+*STP* : abbréviation de "s'il te plaît".
+
 *Stuff* : argot anglais signifiant "camelotte", "matos". Désigne l'équipement d'un joueur. "Je suis mort et je ne retrouve plus mon stuff."
 
-*Switch* : interrupteur (envoie une impulsion à un système mesecon.
+*Switch* : interrupteur (envoie une impulsion à un système mesecon).
 
 *Sword* : épée.
 

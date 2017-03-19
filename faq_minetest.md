@@ -296,7 +296,7 @@ En revanche, les plus vieux joueurs sont toujours ravis de donner un coup de mai
 
 ## Qui veut être mon ami ?
 
-Tout le monde ! Le serveur Mynetest essaye d'entretenir une bonne ambiance où chacun pourra trouver sa place, peu importe qui il est dans la vraie vie. Demandez des conseils plutôt que des objets, n'oubliez pas les mots magiques ("s'il- te plaît" et "merci"), restez simples et poli, sachez être patient et n'oubliez pas de garder le sourire.
+Tout le monde ! Le serveur Mynetest essaye d'entretenir une bonne ambiance où chacun pourra trouver sa place, peu importe qui il est dans la vraie vie. Demandez des conseils plutôt que des objets, n'oubliez pas les mots magiques ("s'il te plaît" et "merci"), restez simples et poli, sachez être patient et n'oubliez pas de garder le sourire.
 
 Souvent, au début, vous vous sentirez peut-être un peu seul, mais si vous faites de bonnes contructions, vous serez vite invité par vos voisins de serveur pour participer à des projets plus vastes.
 

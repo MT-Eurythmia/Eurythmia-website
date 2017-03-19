@@ -3,11 +3,23 @@ layout: default
 title: Premiers pas
 ---
 
+
+<!-- TODO : des captures d'écran ! -->
+
 # Premiers pas sur le serveur Mynetest
+
+* [Prenez les commandes](#prenez-les-commandes)
+* ["Dis bonjour à la dame !"](#dis-bonjour-à-la-dame-)
+* [Premiers pas sur terre](#premier-pas-sur-terre)
+* [Premiers pas à la ferme](#premiers-pas-à-la-ferme)
+* [Premiers pas à la mine](#premier-pas-à-la-mine)
+* [Premiers pas avec les commandes](#premiers-pas-avec-les commandes)
 
 ## Prenez les commandes
 
 Le serveur Mynetest est accessible depuis plusieurs plateformes (PC, téléphone…) et avec différents programmes clients (Minetest, Worldcraft, Multicraft). Les commandes peuvent être un peu différentes dans chaque cas. Commencez donc par lire la rubrique d'aide de votre programme pour apprendre à diriger votre personnage, à casser et à poser un bloc, à sauter, à ouvrir votre inventaire…
+
+**L'utilisation de Multicraft est fortement déconseillée : ce client a tendance à faire "planter" les serveurs et votre je sera souvent interrompu par les publicités. Le client Minetest, qui est open source, est un meilleur choix.**
 
 Le client Minetest disponible sur les dépôts Linux est configuré pour un clavier anglais (QWERTY) et donc difficile à utiliser sur un clavier français (AZERTY). Heureusement, on peut changer le rôle des touches : à partir du menu d'accueil, cliquez sur l'onglet *Settings*, puis sur le bouton *Change Keys*. Voici un exemple de configuration qui marche bien sur un clavier français :
 
@@ -115,15 +127,38 @@ Nous l'avons déjà vu : ce groupe de boutons permet de naviguer dans la liste d
 
 ![sep](images/sep.png "sep")
 
+
+
+<!-- ******************* -->
+
 ## "Dis bonjour à la dame !"
 
-![travaux](images/travaux.png "travaux")
+Quand vous aurez choisi un pseudonyme et un mot de passe, vous serez automatiquement téléporté au "spawn". C'est un grand dôme en verre avec des panneaux placés le long des murs. Sur ces panneaux, en français et en anglais, vous trouverez des conseils, mais aussi les règles du serveur. Prenez le temps de les lire et essayez de bien les comprendre. L'un de ces panneaux donne le code qui permet de quitter le spawn.
+
+À ce stade, vous ne pouvez pas encore interragir avec votre environnement mais vous pouvez déjà communiquer avec les autres joueurs (en utilisant la touche T, pour "talk"), alors profitez-en pour dire un petit "bonjour". Le premier passage au "spawn" pose souvent des problèmes aux nouveaux joueurs, n'hésitez dons pas à demander de l'aide. Faites-le poliment et sans oublier les mots magiques ("s'il te plaît" et "merci").
+
+Quand vous demandez de l'aide, faites un effort pour être précis : des messages comme "Help !" ou "Ça marche pas" ne sont pas assez parlants. Essayez de faire simple et précis : "Je suis coincé dans un dôme en verre" , "Je ne trouve pas la sortie du spawn", "Je ne sais pas où taper le code"… Et évitez les messages en majuscules : votre problème n'est pas urgent (Minetest est un jeu, pas un logiciel de contrôle aérien) et vous risquez de vous attirer à tout jamais une réputation de "kikoolol".
+
+**Pour quitter le spawn et accéder au monde du jeu, il faut taper dans le chat un code de trois chiffres et une lettre MAJUSCULE. Ce code est affiché sur un des panneaux qui rappellent les règles du serveur (au bout du couloir en verre).**
 
 ![sep](images/sep.png "sep")
 
+
+<!-- ******************* -->
+
 ## Premiers pas sur terre
 
-![travaux](images/travaux.png "travaux")
+Maintenant que vous avez votre client bien en main, et que vous avez quitté le spawn, il est temps de partir à l'aventure : la première chose à faire va être de trouver le petit coin de nature idéal pour vous installer, construire votre maison, labourer votre premier champ et ouvrir l'entrée de votre première mine.
+
+Pour cela il vaut mieux s'éloigner du "spawn" (l'endroit ou vous commencez votre partie) car vous aurez du mal à trouver un endroit libre assez grand dans ses parages. Partez donc en exploration jusqu'à ce que vous ayez trouvé le bon endroit : dégagé, pas trop accidenté, avec de l'eau et des arbres à proximité.
+
+Attention ! Ce premier voyage n'est pas sans danger : vous pouvez vous tuer en tombant dans un trou profond ou rencontrer un monstre qui vous fera passer de vie à trépas. Évitez donc de voyager de nuit afin de mieux détecter les pièges du terrain et de pouvoir éviter les monstres avant qu'ils ne vous voient. Si vraiment vous devez voyager de nuit, faites-le en maintenant la touche Maj enfoncée (Sneak) : votre avatar s'arrêtera au bord des trous sans tomber dedans. Ce sera au moins un danger d'évité.
+
+Quand vous mourrez, vous perdez votre matériel, qui reste sur place, et vous êtes renvoyé au "spawn". Si vous avez fait un long trajet, il sera presque impossible de retrouver l'endroit où sont tombés vos précieuses possessions. Il y a une astuce pour rendre les choses plus simples en faisant une sorte de sauvegarde : puisque vous n'avez pas encore trouvé l'emplacement définitif de votre "home", utilisez-le pour mémoriser régulièrement la position où vous vous trouvez (si votre "home" est déjà choisi, utilisez votre "pit" !). Du "spawn" vous pourrez vous téléporter directement vers votre dernier "home" provisoire, ce qui vous rapprochera beaucoup de votre équipement.
+
+Petit à petit, votre barre de "satiation" va diminuer : vous commencez à avoir faim ! Quand la barre sera à zéro, vous commencerez à perdre des points de vie. Pensez donc à manger régulièrement et à cueillir les diverses plantes comestibles que vous trouverez durant votre progression. Une bonne idée est également de couper quelques arbres au passage à l'aide de votre hache : le bois vous fournira des matériaux de construction et des manches (Sticks) pour fabriquer des outils. Si l'arbre est un pommier il vous fournira en plus de la nourriture.
+
+**Si vous avez perdu tout votre équipement, rappelez-vous qu'on peut abattre les arbres à la main. À partir du bois, vous pourrez refabriquer tous les outils dont vous avez besoin, mais aussi une épée et une armure. Bien sûr, tout cela ne sera as très efficace, mais vous aurez ainsi une chance de pouvoir prendre un nouveau départ.**
 
 ![sep](images/sep.png "sep")
 
@@ -139,76 +174,45 @@ Nous l'avons déjà vu : ce groupe de boutons permet de naviguer dans la liste d
 
 ![sep](images/sep.png "sep")
 
-## Quelques commandes utiles
+## Premiers pas avec les commandes
 
-![travaux](images/travaux.png "travaux")
+Vous retrouverez dans cette section la plupart des actions decrites plus haut. Mais avec les *commandes* vous aller gagner du temps ! Une commande est un message adressé au serveur. Il se tape dans le chat et commence toujours pas le caractère */* (pour montrer que c'est un message "spécial"). 
 
-Retrouver dans cette section la plus-part des action decrite plus haut en version plus courte et plus encore, ce qui veux dire:  *Des commandes!*  vous aller gagner du temps !
+Le première avantagfe des commandes est la rapidité : il est, par exemple plus rapide de taper */sethome* que de parcourir plusieurs menus pour mémoriser votre "home". L'autre avantage est qu'elle sont universelle : elles fonctionne quel que soit le [client](#client--serveur--on-nest-pas-au-bistrot-) que vous utilisez.
 
-toute ces commandes sont a écrire dans le chat et commenceront toujours par un slash  */*
-
-*home et pit*
-Pour enregistré la position de votre home il suffit de taper dans le chat: */sethome*
-Pour le pit c'est la meme chose taper: */setpit*
-Faite */home* ou */pit* pour vous y rendre.
-
-Pour teleporter un joueur a vous: */invite_player pseudo*
-exemple: pour teleporté toto a vous il faut taper: /invite_player toto
-Il ne reste plus qu'a toto a accepter l'invitation.
-
-Accepter une invitation de téléportation: */to_player*
-Cette commande vous teleportera a la derniére persone qui vous a invité.
-
-Quelle heure est-il ?  */time*
-
-*Parler une autre langue:*
-pour parler a un englais par exemple il vous suffit de taper: */bb EN votre_message*
-Le /bb indique que l'on souhaite une traduction, *EN* c'est l'indicatife qui indique que l'on veux une traduction en englais (english).
-exemple: /bb EN salut mon amis toto!    affichera dans le chat: [babel]: hi my friends toto!
-Il existe different indicatife de traduction
-
-plus fort:
-Si le cousin englais de toto, brian ecrit un message en englais dans le chat: "i need your help" vous pouvait le faire traduire:
-
-il faut indiquer ou mod (a refaire a chaque reboot du serveur) que nous voulont une traduction en francais a l'aide de cette commade:
-*/bblang FR*
-puis taper */babel pseudo* dans notre cas */babel brian* vous affichera "j'ai besoin de ton aide"
-
-pour connaitre les langues disponible: */bbcodes*
+Voici donc quelques commandes parmi les plus utilisées (les mots entre guillemets "…" sont des *paramètres* : ils doivent être remplacés par ceux qui correspondent à votre désir).
 
 
-*/pulverize* Cette commande suprime se que vous avais dans les mains.
+### Commandes utilitaires ###
 
-*Les tournois*
-Le mod PVPplus permet de faire des tournois PVP, en voici les principals commandes:
-pour lancer un tournois
-/tournament                   lance un tournois simple
-/tournament teleport          lance un tournois en teleportant les joueur qui s'engage a votre possition
-/tournament teleport (time)   remplacer time par les delait que vous souhaiter avant le debut du tournoit exemple 120, par defaut c'est 60 secondes.
+Ces commandes permettent d'échanger des information avec le serveur :
 
-pour regoindre ou quitter un tournois
-/engage
-/leave_tournament
+* **/help "nom_de_la_commande"** : si vous avez oublié comment on utilise une commande, utilisez */help* avec le nom de la commande en paramètre ; un court message vous rappellera à quoi elle sert et les paramètres qu'elle utilise. */help all* affiche la liste de toutes les commandes disponibles.
+* **/home et /pit** : pour enregistrer la position de votre home il suffit de taper dans le chat: */sethome*. Pour le pit c'est assez semblable : taper: */setpit*. Il suffit ensuite de taper */home* ou */pit* pour vous vous rendre à l'endroit que vous souhaitez.
+* **/pulverize** fait disparaître l'objet que vous tenez à la main ; c'est plus rapide que la poubelle pour se débarrasser d'un stack de "cobble".
+* **/time** : vous retourne l'heure qu'il est dans le jeu. Un bon moyen de savoir si le soleil va bientôt se lever.
+* **/mapfix** : parfois l'affichage pésente de petits bugs de lumière ou de courant de l'eau. Cette commande permet de les corriger.
+* **/status** : affiche le message d'accueil du serveur et la liste des joueurs connectés.
+* **/irc_names** : affiche la liste des personnes connectées par le canal IRC (un protocole de messagerie instantanée). Mynetest et ChanServ ne sont pas des personnes réelles.
+* **/mods** : affiche la liste des mods instalés sur le serveur.
+* **/last-login "pseudo_du_joueur"** : vous indique l'heure et la date de la derniére connexion d'un joueur (attention ! dans cette commande les mots sont séparés par le tiret du 6 au lieu de l'"underscore", tiret du 8).
+* **/privs "pseudo_du_joueur"** : donne la liste des provilèges accordés à un joueur. Si vous ne précisez pas de pseudo, votre propres privilèges seront affichés. Tous les joueurs commencent avec interact,shoot,home et zoom.
 
-*/status* vous affichera les message du serveur avec la liste des joueurs conecté
+### Communiquer ###
+* **/msg "pseudo_du_joueur"** : permet d'envoyer un message privé à un joueur qui est en ligne ; il sera le seul à pouvoir le lire.
+* **/mail "pseudo_du_joueur"** : permet d'envoyer un message privé à un joueur qui n'est pas en ligne. Quand vous vouv connectez, vous pouvez faire */inbox* pour lire les message arrivés pendant votre absence.
+* **/me "votre_message"** : sert à afficher un message qui décrit vote humeur ou votre activité du moment. Exemple /me Je mine !
+* **/invite_player "pseudo_du_joueur"** : invite un joueur à se téléporter sur vous : pour teleporter toto, tapez */invite_player toto*. Il ne reste plus à toto qu'à accepter l'invitation à l'aide de la commande */to_player* (cette commande téléporte un joueur à la dernière personne qui l'a invité.
+* **/bb "code_de_la_langue"** : cette commande vous permet de traduire vos messages vers une autre langue. Pour trasuire un message en anglais, par exemple, faites */bb EN Salut Toto !*. Dans le chat, Toto pourra lire "Hello Toto !". Pour connaître la liste des langues disponible, tapez */bbcodes*.
+* **/bblang "code_de_la_langue"** : cette fois il s'agit de traduire les message des autres joueurs. Si par exemple Toto vous répond "I need help", tapez */bblang FR* puis */babel toto* : la traduction du dernier message de Toto, apparaîtra ("J'ai besoin d'aide."). Il n'est pas nécessaire de taper à chaque fois la commande */bblang* : elle définit une fois pour toutes votre préférence en matière de langue (mais cette préférence est éffacée en cas de redémarrage du serveur).
 
-*/irc_names* vous affichera la liste des persone conecter au canal IRC (Mynetest et ChanServ ne sont pas des persone réel)
+### Les tournois ###
+Le mod PVPplus permet de faire des tournois PVP, c'est-à-dire des combats entre joueurs. Il s'utilise uniquement avec des commandes.Voici les principales :
 
-*/mapfix*  Permet de corriger les bug de lumiere ou de courant d'eau!
-
-*/last-login pseudo* Vous donne l'heure et la date de la derniére conection d'un joueur
-
-*/me votre_message* sert a indiquer votre humeur ou autre
-exemple: /me est trop occuper en se moment affichera: toto est trop occuper.
-
-*/privs* vous affichera les privilege que vous aver sur le serveur ( par defaut vous avez interact,shoot,home,zoom).
-
-*/mods* Affiche la liste des mods instaler sur le serveur
-*/help* Affiche les commandes utile
-*/help all* Affiche toute les commandes disponible
-
-
-
-
+* **/tournament** : lance un tournois simple.
+* **/tournament teleport** : lance un tournois. Les joueurs qui s'engagent seront automatiquement téléportés à votre position.
+* **/tournament teleport "nombre_de_secondes"** : la,ce un tournois en retardant son début du nombre de secondes indiqué (par defaut c'est 60 secondes).
+* **/engage** : rejoindre un tournois
+* **/leave_tournament** : quitter un tournois.
 
 ![sep](images/sep.png "sep")
