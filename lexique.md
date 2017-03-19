@@ -38,6 +38,8 @@ title: Lexique
 
 *Blueberry* : myrtilles.
 
+*Boîte à chaussure* : Nom donner par Le_Docteur, désignant une maison carré pas très belle.
+
 *Bones* : os
 
 *Book* : livre.
