@@ -10,8 +10,9 @@ title: Premiers pas
 
 * [Prenez les commandes](#prenez-les-commandes)
 * ["Dis bonjour à la dame !"](#dis-bonjour-à-la-dame-)
-* [Premiers pas sur terre](#premier-pas-sur-terre)
+* [Premiers pas sur terre](#premiers-pas-sur-terre)
 * [Premiers pas à la ferme](#premiers-pas-à-la-ferme)
+* [Premiers pas au pied du mur](#premiers-pas-au-pied-du-mur)
 * [Premiers pas à la mine](#premier-pas-à-la-mine)
 * [Premiers pas avec les commandes](#premiers-pas-avec-les commandes)
 
@@ -144,6 +145,7 @@ Quand vous demandez de l'aide, faites un effort pour être précis : des message
 ![sep](images/sep.png "sep")
 
 
+
 <!-- ******************* -->
 
 ## Premiers pas sur terre
@@ -156,17 +158,83 @@ Attention ! Ce premier voyage n'est pas sans danger : vous pouvez vous tuer en t
 
 Quand vous mourrez, vous perdez votre matériel, qui reste sur place, et vous êtes renvoyé au "spawn". Si vous avez fait un long trajet, il sera presque impossible de retrouver l'endroit où sont tombés vos précieuses possessions. Il y a une astuce pour rendre les choses plus simples en faisant une sorte de sauvegarde : puisque vous n'avez pas encore trouvé l'emplacement définitif de votre "home", utilisez-le pour mémoriser régulièrement la position où vous vous trouvez (si votre "home" est déjà choisi, utilisez votre "pit" !). Du "spawn" vous pourrez vous téléporter directement vers votre dernier "home" provisoire, ce qui vous rapprochera beaucoup de votre équipement.
 
-Petit à petit, votre barre de "satiation" va diminuer : vous commencez à avoir faim ! Quand la barre sera à zéro, vous commencerez à perdre des points de vie. Pensez donc à manger régulièrement et à cueillir les diverses plantes comestibles que vous trouverez durant votre progression. Une bonne idée est également de couper quelques arbres au passage à l'aide de votre hache : le bois vous fournira des matériaux de construction et des manches (Sticks) pour fabriquer des outils. Si l'arbre est un pommier il vous fournira en plus de la nourriture.
+Petit à petit, votre barre de "satiation" va diminuer : vous commencez à avoir faim ! Quand la barre sera à zéro, vous commencerez à perdre des points de vie. Pensez donc à manger régulièrement et à cueillir les diverses plantes comestibles que vous trouverez durant votre progression. Vous pouvez aussi tuer des animaux pour obtenir de la viande. Une bonne idée est également de couper quelques arbres au passage, à l'aide de votre hache : le bois vous fournira des matériaux de construction et des manches (Sticks) pour fabriquer des outils. Si l'arbre est un pommier il vous fournira en plus de la nourriture.
 
 **Si vous avez perdu tout votre équipement, rappelez-vous qu'on peut abattre les arbres à la main. À partir du bois, vous pourrez refabriquer tous les outils dont vous avez besoin, mais aussi une épée et une armure. Bien sûr, tout cela ne sera as très efficace, mais vous aurez ainsi une chance de pouvoir prendre un nouveau départ.**
 
 ![sep](images/sep.png "sep")
 
+
+
+<!-- ******************* -->
+
 ## Premiers pas à la ferme
 
-![travaux](images/travaux.png "travaux")
+Pour se nourrir, cultiver vos propres plantes est plus efficace que de parcourir la carte dans tous les sens pour ramasser des aliments au hasard. Même un petit champ d'une quarantaine de blocs vous mettra largement à l'abri de la famine.
+
+La premier chose à faire pour se lancer dans l'agriclture est de se procurer des semences, c'est à dire des graines que vous pourrez replanter pour en obtenir d'avantage de plantes. La plupart des végétaux que vous pouvez trouver dans la nature peuvent se replanter tels quels (carottes, tomates, patates…). Pour le blé et le coton (pas comestible, mais très utile) il vous faudra des graines. Vous trouverez des graines de blé en coupant de l'herbe (*Grass*) et des graines de coton en coupant de l'herbe de la jungle (*Jungle Grass*).
+
+**Tout près du *Spawn*, il y a un petit champ public où vous pouvez récolter quelques plantes pour vous procurer de la semence. Pensez aux joueurs qui passeront après vous et n'oubliez pas de resemer sur les parcelles que vous venez de récolter. Si vous ne le faites pas, vous risquez d'être banni.**
+
+Ensuite il faudra préparer un terrain adéquat. La plupart des plantes poussent sur de la terre humide et labourée, mais d'autres poussent sur de la terre sèche (non labourée), et les cactus poussent sur le sable sec. Vos plantes pousseront mieux si votre terrain est ensoleillé.
+
+Pour labourer un sol, vous devez utiliser une houe (*Hoe*) qui se craft comme ceci :
+
+![Hoe](images/hoe.png "hoe")
+
+Pour que la terre labourée devienne humide, il faut que le bloc de terre soit situé à trois case au maximum d'un bloc d'eau. Pour ça, vous pouvez creuser des canaux d'irrigation et les remplir d'eau, ou créer votre champ par-dessus une étendu d'eau en construisant une sorte de plateforme en terre. Pour transporter de l'eau, il va vous falloir un ou plusieurs seaux :
+
+![bucket](images/bucket.png "bucket")
+
+Ensuite, il faut semer : prenez vos graines en main et faites un clic droit. Les haricots (*Beans*) et le raisin (*Grape*) sont un peu particuliers, car ils ont besoin d'un support pour pousser. Respectivement des *Bean Poles* et des *Trellis* :
+
+![bean_pole](images/bean_pole.png "bean_pole")
+
+![trellis](images/trellis.png "trellis")
+
+"Semez" d'abord le support, puis semez votre plante sur le support. Le cacao utilise un support spécial : le tronc d'un *Jungle Tree*.
+
+**Quand vous abattez un arbre, en plus du bois et des fruits, vous obtenez des *Saplings*. Ce sont des plants à partir desquels vous ferez pousser de nouveaux arbres en les repiquants dans de la terre non labourée. Il est très utile d'avoir du bois près de chez soi : replantez donc les arbres que vous coupez.**
+
+Assez rapidement, vos plantes seront prêtes à être récoltées. Faites-cela par un clic gauche avec n'importe quel outil (attention à la pelle avec laquelle on fait facilement des trous involontaires dans une parcelle bien entretenue !). Vous pourrez utiliser votre récolte de plusieurs façons et la cuire pour créer différentes recettes (doughnuts, tartes, soupe…). Mais pensez toujours à ne pas tout manger et à garder de quoi semer à nouveau. Quand vous récoltez du cactus ou du papyrus, ne récoltez pas la base : la plante repoussera vite à sa hauteur maximale.
+
+**Le coton ne se mange pas, mais il est très utile, car il sert à fabriquer des sacs qui vous permettront de transporter sur vous jusqu'à 160 objets supplémentaires. Fabriquer quatre grands sacs devrait être l'un de vos premiers objectifs. L'autre avantage des sacs est que vous ne perdez pas les objets qu'ils contiennent lorsque vous mourrez : n'attendez donc pas pour y ranger vos trésors les plus précieux !**
+
+Voici un tableau qui récapitule la façon de cultiver différentes plantes :
+
+| Plante                | Semence       | Support                  | Usage           |
+|-----------------------|---------------|--------------------------|-----------------|
+| Blé (wheat)           | Wheat seed    | Terre humide             | Nourriture      |
+| Cacao                 | Cocoa         | Tronc de Jungle tree     | Nourriture      |
+| Cactus                | Cactus        | Sable                    | Briques, armure |
+| Café (Coffee)         | Coffe bean    | Terre humide             | Nourriture      |
+| Carrot                | Carrot        | Terre humide             | Nourriture      |
+| Citrouille (pumpkin)  | Pumpkin slice | Terre humide             | Nourriture      |
+| Coton (cotton)        | Cotton seed   | Terre humide             | Sacs, laine     |
+| Framboise (Raspberry) | Raspberry     | Terre humide             | Nourriture      |
+| Haricot (bean)        | Bean          | Terre humide + Bean Pole | Nourriture      |
+| Maïs (corn)           | Corn          | Terre humide             | Nourriture      |
+| Myrtille (blueberry)  | Blueberry     | Terre humide             | Nourriture      |
+| Papyrus               | Papyrus       | Terre non labourée       | Papier, livres  |
+| Patate (potatoe)      | Potatoe       | Terre humide             | Nourriture      |
+| Raisin (grape)        | Grape         | Terre humide + Trellis   | Nourriture      |
+| Rhubarbe              | Rhubarb       | Terre humide             | Nourriture      |
+| Tomate (tomato)       | Tomato        | Terre humide             | Nourriture      |
 
 ![sep](images/sep.png "sep")
+
+
+
+<!-- ******************* -->
+
+## Premiers pas au pied du mur
+
+![sep](images/sep.png "sep")
+
+
+
+
+<!-- ******************* -->
 
 ## Premiers pas à la mine
 
@@ -204,7 +272,7 @@ Ces commandes permettent d'échanger des information avec le serveur :
 * **/me "votre_message"** : sert à afficher un message qui décrit vote humeur ou votre activité du moment. Exemple /me Je mine !
 * **/invite_player "pseudo_du_joueur"** : invite un joueur à se téléporter sur vous : pour teleporter toto, tapez */invite_player toto*. Il ne reste plus à toto qu'à accepter l'invitation à l'aide de la commande */to_player* (cette commande téléporte un joueur à la dernière personne qui l'a invité.
 * **/bb "code_de_la_langue"** : cette commande vous permet de traduire vos messages vers une autre langue. Pour trasuire un message en anglais, par exemple, faites */bb EN Salut Toto !*. Dans le chat, Toto pourra lire "Hello Toto !". Pour connaître la liste des langues disponible, tapez */bbcodes*.
-* **/bblang "code_de_la_langue"** : cette fois il s'agit de traduire les message des autres joueurs. Si par exemple Toto vous répond "I need help", tapez */bblang FR* puis */babel toto* : la traduction du dernier message de Toto, apparaîtra ("J'ai besoin d'aide."). Il n'est pas nécessaire de taper à chaque fois la commande */bblang* : elle définit une fois pour toutes votre préférence en matière de langue (mais cette préférence est éffacée en cas de redémarrage du serveur).
+* **/bblangs "code_de_la_langue"** : cette fois il s'agit de traduire les message des autres joueurs. Si par exemple Toto vous répond "I need help", tapez */bblang FR* puis */babel toto* : la traduction du dernier message de Toto, apparaîtra ("J'ai besoin d'aide."). Il n'est pas nécessaire de taper à chaque fois la commande */bblangs* : elle définit une fois pour toutes votre préférence en matière de langue (mais cette préférence est éffacée en cas de redémarrage du serveur).
 
 ### Les tournois ###
 Le mod PVPplus permet de faire des tournois PVP, c'est-à-dire des combats entre joueurs. Il s'utilise uniquement avec des commandes.Voici les principales :

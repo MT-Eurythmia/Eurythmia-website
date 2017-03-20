@@ -38,9 +38,9 @@ title: Lexique
 
 *Blueberry* : myrtilles.
 
-*Boîte à chaussure* : Nom donner par Le_Docteur, désignant une maison carré pas très belle.
+*Boîte à chaussure* : nom donné par Le_Docteur, désigne une maison carré pas très belle sans fenêtres et avec un toit plat.
 
-*Bones* : os
+*Bones* : os ; fresh bones : restes d'un joueur mort récemment où il peut retrouver son matériel ; old bones : restes d'un joueur tué il y a plus longtemp où tout le monde peut récupérer le matériel.
 
 *Book* : livre.
 
@@ -70,9 +70,9 @@ title: Lexique
 
 *Chestplate* : plastron (la partie de l'armure qui protège le torse).
 
-*Clay* : argile
+*Clay* : argile.
 
-*Clippers* : cisailles. Pour tondre les mouton.
+*Clippers* : cisailles. Pour tondre les moutons.
 
 *Coal* : charbon.
 
@@ -90,7 +90,7 @@ title: Lexique
 
 *Déco* : déconnecter. "Il faut que je déco : il est tard".
 
-*Dirt* : terre.
+*Dirt* : terre ; wet dirt : tere humide, pour les plantations.
 
 *Door* : porte.
 
@@ -100,7 +100,7 @@ title: Lexique
 
 ## F
 
-*farm* : ferme
+*farm* : ferme.
 
 *Fence* : barrière, clôture.
 
@@ -112,7 +112,7 @@ title: Lexique
 
 ## G
 
-*GG* : good game, bien joué (message de félicitation pour un joueur).
+*GG* : Good Game, bien joué (message de félicitation pour un joueur).
 
 *Glass* : verre.
 
@@ -136,7 +136,7 @@ title: Lexique
 
 *Home* : maison, foyer ; l'endroit où vous vous reposez en sortant de la mine.
 
-*Hot* : chaud, hot coffe : café chaud.
+*Hot* : chaud ; hot coffee : café chaud.
 
 ## I
 
@@ -172,11 +172,11 @@ title: Lexique
 
 *Mailbox* : boîte aux lettres
 
-*Mese* : le mese est un minerai magique qui n'existe pas dans la réalité. Il est utile pour faire des "mese systems" qui son des sortes de circuits électriques.
+*Mese* : le mese est un minerai magique qui n'existe pas dans la réalité. Il est utile pour faire des "mese systems" qui sont des sortes de circuits électriques.
 
-*Mob* : de l'anglais "foule" ; désigne tous les monstres, animaus et personnages non joueurs qui peupelnt le serveur.
+*Mob* : de l'anglais "foule" ; désigne tous les monstres, animaux et personnages non joueurs qui peuplent le serveur.
 
-*Mod* : un "mod" est un greffon, une extension du jeu Minetest qui peremt d'ajouter de nouvelles fonctions à un serveur : des teleporteurs avec Travelnet, de nouveaux arbres avec More Trees, et même des routes et des autos !
+*Mod* : un "mod" est un greffon, une extension du jeu Minetest qui permet d'ajouter de nouvelles fonctions à un serveur : des teleporteurs avec Travelnet, de nouveaux arbres avec More Trees, et même des routes et des autos !
 
 *Modo* : abbréviation de "modérateur". Sur un serveur, les modérateurs sont des arbitres. Ils font respecter les règles et calment les conflits entre les joueurs, pour que tout le monde puisse s'amuser tranquilement.
 
@@ -190,7 +190,7 @@ title: Lexique
 
 *NP* : no problem ; pas de problème.
 
-*NPC* : Non Player Character (personnage non joueur). Les NPC sont des mobs humain qui sont contrôlés par le serveur.
+*NPC* : Non Player Character (personnage non joueur). Les NPC sont des mobs humains qui sont contrôlés par le serveur.
 
 ## O
 
@@ -218,7 +218,7 @@ title: Lexique
 
 *Raspberry* : framboises.
 
-*Re !* : salut utiisé par un joueur qui vient de se reconnecter ; "Je re dans une minute.".
+*Re !* : salut utilisé par un joueur qui vient de se reconnecter ; "Je re dans une minute.".
 
 *Reco* : se reconnecter. "Je vais à la boulangerie, je reco après."
 
