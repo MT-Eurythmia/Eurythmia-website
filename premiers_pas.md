@@ -231,21 +231,80 @@ Voici un tableau qui récapitule la façon de cultiver différentes plantes :
 
 ![travaux](images/travaux.png "travaux")
 
+### Où trouver l'inspiration
+
+Maintenant que vous avez résolu le problème de la nourriture, vous allez pouvoir commencer à construire votre première maison. Elle vous servira à ranger vos trésors (dans des coffres *verrouillés*), à réparer vos outils et à préparer votre nourriture. Elle donnera aussi une idée de ce que vous savez faire et donnera envie à d'autres joueurs de vous inviter sur leurs projets.
+
+Il vaut mieux avoir une idée de ce qu'on veux faire, même très vague, avant de commencer à construire. Pour vous inspirer, promenez-vous sur le serveur et regardez comment sont faites les maisons des autres joueurs : il y a plein de bonnes idées à piquer. Vous pouvez aussi faire une recherche d'images sur un moteur de recherche ou rechercher des vidéos consacrées à Minetest (ou à Minecraft). La réalité peut aussi vous inspirer : regardez autour de vous quand vous ètes en voiture ! Cherchez des photos de monuments existant "IRL"…
+
+Vous pouvez faire le choix d'une construction réaliste, mais aussi partir d'une idée totalement fantaisite, comme un chateau de princesse en laine rose, un vaisseau spatial plein de lumières clignotantes, un sous marin jaune, une maison d'un mètre carré… : se poser des défis entre joueurs peut donner de bonnes idées. Parfois on trouve des usages inattendus pour de vieux objets qui traînent et dont on cherche juste à débarrasser son inventaire (on peut faire un frigo avec deux étagères vides et une porte en verre…).
+
+Une maison peut être carrée, rectangulaire ou biscornue. Vous pouvez créer plusieurs sous-sols, des étages, des cours intérieures… La seul limite est votre imagination.
+
+Mais pour un premier essai, il est préférble de s'en tenir à une bonne vieille cabane, en bois ou en pierre.
+
 ### Les outils
+
+**La pelle** : c'est l'outil que vous choisirez pour retirer la couche de terre à l'endroit où vous voulez construire votre maison. C'est l'outil le plus rapide pour ce travail. Vous remplacerez cette couche de terre par le plancher du bâtiment. La pelle est également très efficace pour le gravier.
+
+**La pioche** : la pioche peut vous être utile, si vous souhaitez construire votre maison sur des fondations profondes qui pourront vous servir de cave. Cette cave pourra vous servir à ranger tout ce qui n'est pas très beau à voir, ou ce que vous voulez cacher un peu, comme les coffres verrouillés, les fourneaux, les établis… La pioche est l'outil le plus efficace pour creuser la pierre.
+
+**La hache** : c'est l'outil qu'il vous faut pour abattre les arbres et construire en bois. Si vous devez détruire des blocs de bois posés par erreur, la hache fonctionne très bien, et en cas de fausse manœuvre, elle n'attaque pas la pierre alentour. Certains objets, comme les *Wooden Frames* ne peuvent être retirés qu'avec une hache.
+
+**Le fourneau** (*Furnace*) : il vous sert à transformer des matériaux en les faisant "cuire". Il transforme la *Cobble* en pierre et surtout le sable en blocs de verre avec lesquels vous pourrez fabriquer des vitres. Vous pouvez entretenir le feu avec du charbon, de l'herbe, des feuilles ou du bois (Vous pouvez même y brûler des vieux morceaux d'escaliers).
+
+**L'établi** (*Worbench*) : le premier usage de l'établi est [la réparation de vos outils](faq_minetest.html/#comment-réparer-les-outils-). Mais il sert aussi à découper des blocs en morceaux plus petits : il permet de faire des escaliers et des planchettes fines et d'obtenir un résultat moins grossier qu'en se contentant d'utiliser des blocs entiers (une toiture fabriquée avec des marches d'escaliers aura ainsi une pente beaucoup plus régulière). Vous pouvez découper le bois, la pierre, le verre et les métaux, malheureusement pas la laine.
+
+**Le tournevis** (*Screwdriver*) : un petit outil très facile à crafter mais qui rend de grands services. Quand on pose un bloc, il s'oriente automatiquement d'une certaine façon selon l'endroit où l'on se trouve par rapport à l'endroit où l'on pose (c'est une question d'angle et ce n'est pas si simple à maîtriser). Si cette orientation ne vous convient pas, prenez le tournevis en main et cliquez avec sur le bloc pour le faire tourner. Le clic gauche et le clic droit n'ont pas les mêmes effets, et il faut un peu de temps (et d'énervement) pour s'habituer au fonctionnement du tournevis (en réalité, on s'habitue surtout à être énervé…).
 
 ### Les matériaux
 
-### Quelques techniques
+**Le bois** : c'est le matériaux le plus accessible pour le débutant, et réunir assez de planches pour construire une petite maison est assez rapide. Il existe cinq sortes de bois sur le serveur Mynetest : le pommier, le pin, le tremble (*Aspen Tree*), l'accacia et le bois exotiques. Il sont tous de couleur différentes, ce qui permet de rendre les façades moins monotone. L'accacia est un bois rouge qui donne un très bon résultat pour les toitures.
 
-### Où trouver l'inspiration
+Le bois peut être utilisé sous forme de planches pour les murs et les cloisons, mais on peut aussi conserver des troncs bruts pour réaliser des charpentes et des éléments de structure (des piliers). Il peut servir pour des portes intérieurs, des escaliers, des fenêtres, des clôtures et toutes sortes de meubles qui permettront de décorer votre intérieur.
+
+**La pierre** : pour obtenir de la pierre, il faut miner, ce qui la rend un peu plus difficile à se procurer que le bois. Mais le serveur Mynetest est un peu plus facile que les autres, car on peu pratiquement crafter tous les types de pierre à partir de la *Cobble* que l'on obtient en quantité en minant de la pierre ordinaire. On peut aussi partir de *Desert Cobble* que l'on obtient en minant de la *Desert Stone* : cette deuxième "famille" de pierres a une couleur rouge très sympa.
+
+Toujours à partir de la *Cobble* on pourra obtenir du sable qui permettra de faire des vitres, mais aussi de la *Sandstone*, une troisième "famille" de pierres jaune clair qui est très bien pour faire des intérieurs lumineux. Le gravier (*Gravel*) est assez joli pour réaliser des allées de jardin, et il permet un très bon vieillissement du vin quand on en recouvre le sol d'une cave. Il fait un bruit très rigolo quand on marche dessus.
+
+**Les métaux** :si vous êtes riche, rien ne vous empêche de construire entièrement votre château en or et en mithril, mais les métaux s'utilisent assez peu dans une maisons ordinaire, et au début vous en aurez bien trop besoin pour d'autres usages plus importants. L'utilité principale des lingots de fer est de crafter des portes en fer (*Iron Door*) que vous seul pouvez ouvrir. **De manière générale vos portes donnant sur l'extérieur devraient toujours être en fer.**
+
+**Autres matériaux** : beaucoup d'autres objets peuvent servir à la constructin de votre maison. L'obsidienne permet de créer des vitres très transparentes, on peut utiliser du mese pour installer l'électricité, construire une cloison avec des morceaux de cactus, faire une haie avec des feuilles d'arbres, mettre des pots de fleurs un peu partout… Encore une fois : promenez-vous et piquez les idées des autres. Ils ne se fâcheront pas, au contraire : cela flattera leur ego ;-)
+
+### Quelques astuces techniques
+
+**Commencez par la cave** :
+
+**L'éclairage "ordinaire"** :
+
+**L'éclairage par Mesecon** :
+
+**Construire en hauteur** (les échafaudages) :
+
+**Encastrer les fourneaux** :
+
+**Construire en rond** :
 
 ### Dix erreurs à ne pas commettre
 
 <!-- TODO : des suggestions d'erreurs ? -->
 
+1. **Construire trop petit** :
+
+2. **Utiliser un seul matériau** :
+
+3. **Construire un toit plat** :
+
+4. **Construire sur un terrain trop petit** :
+
+5. **Ne pas faire évoluer** :
+
+6. **Construire trop grand** :
+
 ### Un "Build" pas à pas
 
 ![sep](images/sep.png "sep")
+
 
 
 <!-- ******************* -->
