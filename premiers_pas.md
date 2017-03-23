@@ -229,9 +229,23 @@ Voici un tableau qui récapitule la façon de cultiver différentes plantes :
 
 ## Premiers pas au pied du mur
 
+![travaux](images/travaux.png "travaux")
+
+### Les outils
+
+### Les matériaux
+
+### Quelques techniques
+
+### Où trouver l'inspiration
+
+### Dix erreurs à ne pas commettre
+
+<!-- TODO : des suggestions d'erreurs ? -->
+
+### Un "Build" pas à pas
+
 ![sep](images/sep.png "sep")
-
-
 
 
 <!-- ******************* -->
