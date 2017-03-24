@@ -267,23 +267,27 @@ Le bois peut être utilisé sous forme de planches pour les murs et les cloisons
 
 Toujours à partir de la *Cobble* on pourra obtenir du sable qui permettra de faire des vitres, mais aussi de la *Sandstone*, une troisième "famille" de pierres jaune clair qui est très bien pour faire des intérieurs lumineux. Le gravier (*Gravel*) est assez joli pour réaliser des allées de jardin, et il permet un très bon vieillissement du vin quand on en recouvre le sol d'une cave. Il fait un bruit très rigolo quand on marche dessus.
 
-**Les métaux** :si vous êtes riche, rien ne vous empêche de construire entièrement votre château en or et en mithril, mais les métaux s'utilisent assez peu dans une maisons ordinaire, et au début vous en aurez bien trop besoin pour d'autres usages plus importants. L'utilité principale des lingots de fer est de crafter des portes en fer (*Iron Door*) que vous seul pouvez ouvrir. **De manière générale vos portes donnant sur l'extérieur devraient toujours être en fer.**
+**Les métaux** :si vous êtes riche, rien ne vous empêche de construire entièrement votre château en or et en mithril, mais les métaux s'utilisent assez peu dans une maisons ordinaire, et au début vous en aurez bien trop besoin pour d'autres usages plus importants. L'utilité principale des lingots de fer est de crafter des portes en fer (*Iron Door*) que vous seul pouvez ouvrir. **De manière générale vos portes donnant sur l'extérieur devraient toujours être en fer : pensez aux voleurs !**
 
-**Autres matériaux** : beaucoup d'autres objets peuvent servir à la constructin de votre maison. L'obsidienne permet de créer des vitres très transparentes, on peut utiliser du mese pour installer l'électricité, construire une cloison avec des morceaux de cactus, faire une haie avec des feuilles d'arbres, mettre des pots de fleurs un peu partout… Encore une fois : promenez-vous et piquez les idées des autres. Ils ne se fâcheront pas, au contraire : cela flattera leur ego ;-)
+**Autres matériaux** : beaucoup d'autres objets peuvent servir à la constructin de votre maison. L'obsidienne permet de créer des vitres très transparentes, on peut utiliser du mese pour installer l'électricité, construire une cloison avec des morceaux de cactus, faire une haie avec des feuilles d'arbres, mettre des pots de fleurs un peu partout… N'hésitez pas à détourner certains objets :les blocs de laine au sol font une belle moquette, et on peut faire un canapé confortable à l'aide de cinq ou six coussins. Encore une fois : promenez-vous et piquez les idées des autres. Ils ne se fâcheront pas, au contraire : cela flattera leur ego ;-)
 
 ### Quelques astuces techniques
 
-**Commencez par la cave** :
+**Commencez par la cave** : un peu comme pour une vraie maison, c'est une bonne idée de commencer par la cave et les fondations. Dans cette cave vous pourrez placer tout ce qui vous sera utile pour le reste de la construction, notamment un fourneau et un *wokbench* dont vous aurez régulièrement besoin. Votre inventaire n'est pas très grand : gardez sur vous uniquement ce qui peut être utile pour l'étape de la construction en cours (la pierre pour les murs, le bois pour la toiture…). Stockez le reste à la cave dans des coffres *verrouillés*.
 
-**L'éclairage "ordinaire"** :
+**Encastrer les fourneaux** : n'hésitez pas à crafter plusieurs fourneaux, car vous gagnerez du temps en faisant chauffer plusieurs éléments à la fois. Pour qu'ils prennent moins de place, vous pouvez les encastrer dans le mur de vitre cave. Ce sera plus esthétique et plus réaliste. Vous pouvez laisser le combustible dans vos fourneaux : si on vous le vole, il ne sera pas trop difficile d'en trouver d'autre.
 
-**L'éclairage par Mesecon** :
+**Construisez de bas en haut** : construisez votre maison dans un ordre logique : la cave, puis la structure (les angles et les arrêtes), la charpente et la toiture. Finissez par les huisseries (portes et fenêtres) et finalement faites-vous plaisir avec la décoration intérieur. En faisant ainsi votre maison aura une allure réaliste et vous saurez toujours où vous en êtes et ce que vous devez faire pour la suite.
 
-**Construire en hauteur** (les échafaudages) :
+**Construire en hauteur** (les échafaudages) : construire de bas en haut vous permettra aussi de monter sur le sommet des murs à mesure qu'ils s'élèvent et de cosntruire en hauteur. Mais cette technique rencontre une limite quand il faut construire en surplomb, comme le débord d'un toit ou les [mâchicoulis d'un château](https://fr.wikipedia.org/wiki/Mâchicoulis "Mâchicoulis"). Là encore restez réaliste et construisez un échafaudage autour de votre chantier, avec des blocs faciles à retirer par la suite (du verre ou de la terre). Vous y accéderez avec des échelles, faciles à fabriquer à partir de bois. Ne soyez pas trop pressés d'enlever vos échafaudages : ce serait embêtant de devoir les refaire juste pour une "bricole oubliée".
 
-**Encastrer les fourneaux** :
+**Construire en hauteur** (bis) : les joueurs débutant insistent souvent lourdement auprès des modérateurs pour obtenir le privilège "fly", mais on peut parfaitement construire tout un château sans lui. Il existe une astuce pour prendre rapidement de la hauteur : prenez des blocs d'un matériau quelconque, regardez vos pieds (vers le bas), sautez, et *pendant que vous êtes en l'air* posez un bloc à l'endroit où vous allez retomber : vous voilà un cran plus haut ! Au début, il faut un peu de temps pour trouver la bon rythme, mais quand on a l'habitude, il est possible de répéter rapidement la manipulation et d'obtenir un genre d'ascenseur express : sauter, poser, sauter, poser… Mais gare à la chutte ! Pour redescendre progressivement, il faut détruire un par un les blocs sous vos pieds, en essayant de ne pas vous mettre un coup de pioche sur les orteils :-)
 
-**Construire en rond** :
+**L'éclairage "ordinaire"** : la façon la plus simple d'éclairer une maison est de placer des torches par-ci par-là le long des murs. Vous pouvez aussi détourner des clôtures (*Fence*) pour créer un genre de lustre au plafond. Le torches sont faciles à transformer en bougies, ou en lanternes. Pour ces dernières il vous faudra des pépites de fer (*Iron Lump*) pensez donc à ne pas toutes les transformer en lingots dès votre retour de la mine (cette transformation est irréversible). Vous pouvez obtenir une maison plus lumineuse, le jour, en prévoyant de grandes fenêtres et, le reste du temps, en utilisant surtout des matériaux clairs pour les murs et les planchers : *Aspen Tree Plank* et *Sandstone Brick* sont idéals pour cela.
+
+**L'éclairage par Mesecon** : un système Mesecon permet de créer toutes sortes d'éclairages, colorés, clignotants, avec un interrupteur… et même un éclairage solaire qui s'allume automatiquement à la tombée de la nuit. Il faudrait plusieurs pages de tutoriels pour expliquer tout ça. Quand on débute, ce qu'il faut garder en tête c'est que toutes ces lampes sont alimentées en énergie par un genre de circuit électrique composé de *Mesecon* (des sortes de fils électriques). Pour que le résultat soit esthétique, il faudra cacher ce circuit, comme dans la réalité, derrière une double cloison ou un faux plafond. Si vous prévoyez d'installer plus tard un système Mesecon, pensez donc à créer cet habillage dès la conception de vos pièces, car si vous le faites après coup, vous risquez de beaucoup réduire votre espace vital, avec des cloisons qui feront trois blocs d'épaisseur.
+
+**Construire en rond** : construire en rond est plutôt à déconseiller aux débutants, car c'est assez difficile (surtout pour de petits cercles). Rappelez-vous qu'à une certaine époque les châteaux avaient tous des tours carrées plus faciles à construire (c'est l'invention de l'artillerie qui a déclenché l'apparition des tours rondes : les boulets "glissaient" plus facilement sur leur surface galbée et faisaient donc moins de dégâts). Si vous tenez absolument à construire des tours rondes, vous trouverez facilement des "patrons" en faisant une recherche sur internet. [Celui-ci](http://www.wtcraft.com/plans-de-cercles-1108.html "Cercles") par exemple… Si vous travaillez sur un projet public, vous pouvez aussi demander l'aide d'un modo : il dispose d'outils qui lui permettront de vous faire ça en deux coups de cuiller à pot !
 
 ### Dix erreurs à ne pas commettre
 
@@ -295,11 +299,13 @@ Toujours à partir de la *Cobble* on pourra obtenir du sable qui permettra de fa
 
 3. **Construire un toit plat** :
 
+4. **Construire un toit sans débord** :
+
 4. **Construire sur un terrain trop petit** :
 
 5. **Ne pas faire évoluer** :
 
-6. **Construire trop grand** :
+
 
 ### Un "Build" pas à pas
 
