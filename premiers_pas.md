@@ -221,6 +221,8 @@ Voici un tableau qui récapitule la façon de cultiver différentes plantes :
 | Rhubarbe              | Rhubarb       | Terre humide             | Nourriture      |
 | Tomate (tomato)       | Tomato        | Terre humide             | Nourriture      |
 
+Matthieu8fr nous offre un [résumé en images](images/champ.jpg "Irrigation") de sa technique d'irrigation.
+
 ![sep](images/sep.png "sep")
 
 
@@ -239,9 +241,14 @@ Il vaut mieux avoir une idée de ce qu'on veux faire, même très vague, avant d
 
 Vous pouvez faire le choix d'une construction réaliste, mais aussi partir d'une idée totalement fantaisite, comme un chateau de princesse en laine rose, un vaisseau spatial plein de lumières clignotantes, un sous marin jaune, une maison d'un mètre carré… : se poser des défis entre joueurs peut donner de bonnes idées. Parfois on trouve des usages inattendus pour de vieux objets qui traînent et dont on cherche juste à débarrasser son inventaire (on peut faire un frigo avec deux étagères vides et une porte en verre…).
 
+
+Voici un build de Matthieu qui s'est inspiré du château de Nouvion-en-Thiérache :
+
+![chateau_nouvion](images/chateau_nouvion.jpg "chateau_nouvion")
+
 Une maison peut être carrée, rectangulaire ou biscornue. Vous pouvez créer plusieurs sous-sols, des étages, des cours intérieures… La seul limite est votre imagination.
 
-Mais pour un premier essai, il est préférble de s'en tenir à une bonne vieille cabane, en bois ou en pierre.
+Mais pour un premier essai, il est préférable de s'en tenir à une bonne vieille cabane, en bois ou en pierre.
 
 ### Les outils
 
