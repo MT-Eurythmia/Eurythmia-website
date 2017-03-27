@@ -11,7 +11,7 @@ title: Premiers pas
 * [Premiers pas à la ferme](#premiers-pas-à-la-ferme)
 * [Premiers pas au pied du mur](#premiers-pas-au-pied-du-mur)
 * [Premiers pas à la mine](#premier-pas-à-la-mine)
-* [Premiers pas avec les commandes](#premiers-pas-avec-les commandes)
+* [Premiers pas avec les commandes](#premiers-pas-avec-les-commandes)
 
 ## Prenez les commandes
 
