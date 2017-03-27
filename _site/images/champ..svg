@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="champ..svg">
+   sodipodi:docname="champ..svg"
+   inkscape:export-filename="/home/sam/Bureau/Clients/Upsilon/minetest_faq/images/champ.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25605746"
-     inkscape:cx="492.65391"
-     inkscape:cy="2638.1836"
+     inkscape:zoom="1.0242298"
+     inkscape:cx="540.58237"
+     inkscape:cy="363.37029"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3748,11 +3751,11 @@ IaXD8Ul6P2RhomyS/PQBzfsD8TxWkY4oEoAs9z+P7z7Ikv8HfD39qiUodqYAAAAASUVORK5CYII=
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.42795181px;font-family:'Ikarius ADF Std';-inkscape-font-specification:'Ikarius ADF Std'"
              y="317.98129"
              x="-68.690376"
-             height="189.90868"
-             width="817.21338"
+             height="208.40305"
+             width="813.94965"
              id="rect4276" /></flowRegion><flowPara
            id="flowPara4282"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.42795181px;font-family:'Ikarius ADF Std';-inkscape-font-specification:'Ikarius ADF Std';text-align:center;text-anchor:middle">Votre premier champ peut être simplement situé au bord d'un plan d'eau. Il vous donnera rapidement une petite récolte. Pour créer une exploitation pls grande, il vous faudra d'abord créer une source d'eau infinie :</flowPara></flowRoot>    </g>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.42795181px;font-family:'Ikarius ADF Std';-inkscape-font-specification:'Ikarius ADF Std';text-align:center;text-anchor:middle;word-spacing:-3.44307901px;letter-spacing:-0.14485446px">Votre premier champ peut être simplement situé au bord d'un plan d'eau. Il vous donnera rapidement une petite récolte. Pour créer une exploitation plus grande, il vous faudra d'abord apprendre à créer une source d'eau infinie :</flowPara></flowRoot>    </g>
     <g
        id="g4650"
        transform="translate(0,52.260214)">
@@ -8032,7 +8035,7 @@ gTka0nxZXgAAAABJRU5ErkJggg==
              x="-68.690376"
              y="317.98129" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.42795181px;font-family:'Ikarius ADF Std';-inkscape-font-specification:'Ikarius ADF Std';text-align:center;text-anchor:middle"
-           id="flowPara4443">1 : creusez une tranchée de trois blocs de longs</flowPara></flowRoot>    </g>
+           id="flowPara4443">1 : creusez une tranchée de trois blocs de long.</flowPara></flowRoot>    </g>
     <g
        id="g4657"
        transform="translate(0,44.424766)">
