@@ -312,6 +312,54 @@ Toujours à partir de la *Cobble* on pourra obtenir du sable qui permettra de fa
 
 ### Un "Build" pas à pas
 
+Pour conclure ce chapitre, voyons en détails la construction de ce qui pourrait être votre première maison. Une simple cabane de bûcheron, en bois, qui vous permettra de débuter tranquilement, mais aussi d'acquérir quelques "trucs" de pro. Voici à quoi ressemblera le résultat final :
+
+![pap_002](images/pap_002.png "pap_002")
+
+![pap_005](images/pap_005.png "pap_005")
+
+![pap_010](images/pap_010.png "pap_010")
+
+![pap_012](images/pap_012.png "pap_012")
+
+![pap_015](images/pap_015.png "pap_015")
+
+![pap_020](images/pap_020.png "pap_020")
+
+![pap_025](images/pap_025.png "pap_025")
+
+![pap_030](images/pap_030.png "pap_030")
+
+La prochaine étape sera la pose des vitres. Voici [comment on les fabrique](images/vitres.jpg "Comment fabriquer les vitres").
+
+![pap_035](images/pap_035.png "pap_035")
+
+![pap_037](images/pap_037.png "pap_037")
+
+![pap_038](images/pap_038.png "pap_038")
+
+![pap_040](images/pap_040.png "pap_040")
+
+![pap_042](images/pap_042.png "pap_042")
+
+![pap_045](images/pap_045.png "pap_045")
+
+![pap_050](images/pap_050.png "pap_050")
+
+![pap_055](images/pap_055.png "pap_055")
+
+![pap_060](images/pap_060.png "pap_060")
+
+![pap_061](images/pap_061.png "pap_061")
+
+![pap_065](images/pap_065.png "pap_065")
+
+![pap_070](images/pap_070.png "pap_070")
+
+![pap_075](images/pap_075.png "pap_075")
+
+![pap_080](images/pap_080.png "pap_080")
+
 ![sep](images/sep.png "sep")
 
 
