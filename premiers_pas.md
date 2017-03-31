@@ -292,6 +292,8 @@ Toujours à partir de la *Cobble* on pourra obtenir du sable qui permettra de fa
 
 **Construire en rond** : construire en rond est plutôt à déconseiller aux débutants, car c'est assez difficile (surtout pour de petits cercles). Rappelez-vous qu'à une certaine époque les châteaux avaient tous des tours carrées plus faciles à construire (c'est l'invention de l'artillerie qui a déclenché l'apparition des tours rondes : les boulets "glissaient" plus facilement sur leur surface galbée et faisaient donc moins de dégâts). Si vous tenez absolument à construire des tours rondes, vous trouverez facilement des "patrons" en faisant une recherche sur internet. [Celui-ci](http://www.wtcraft.com/plans-de-cercles-1108.html "Cercles") par exemple… Si vous travaillez sur un projet public, vous pouvez aussi demander l'aide d'un modo : il dispose d'outils qui lui permettront de vous faire ça en deux coups de cuiller à pot !
 
+**Placez des repères** : si vous avec prévu une très grande construction il vaut mieux placer d'abord des jalons pour bien visualiser sa aille et ses limites. Les torches sont très utiles pour ça, car elles sont bien visibles la nuit. Si vous construisez un bâtiments symétrique, marquez bien l'axe central en utilisant, provisoirement, un autre matériau. Le centre d'un cercle doit toujours être repéré ! Attendez bien d'avoir entièrement terminé votre chantier pour enlever les repères : sans eux, il peut être très difficile de retrouver un pont précis !
+
 ### Dix erreurs à ne pas commettre
 
 <!-- TODO : des suggestions d'erreurs ? -->
@@ -312,17 +314,25 @@ Toujours à partir de la *Cobble* on pourra obtenir du sable qui permettra de fa
 
 ### Un "Build" pas à pas
 
-Pour conclure ce chapitre, voyons en détails la construction de ce qui pourrait être votre première maison. Une simple cabane de bûcheron, en bois, qui vous permettra de débuter tranquilement, mais aussi d'acquérir quelques "trucs" de pro. Voici à quoi ressemblera le résultat final :
+Pour conclure ce chapitre, syuvont Matthieu dans la la construction de ce qui pourrait être votre première maison. Une simple cabane de bûcheron, en bois, qui vous permettra de débuter tranquilement, mais aussi d'acquérir quelques "trucs" de pro. Voici à quoi ressemblera le résultat final :
 
 ![pap_002](images/pap_002.png "pap_002")
 
+Voici une presqu'île qui devrait faire un bon site : il y a de l'eau et des arbres poussent à proximité.
+
 ![pap_005](images/pap_005.png "pap_005")
 
+Plaçons donc deux *Markers* pour protéger notre area (plus d'explications dans la [FAQ](faq_minetest.html/#comment-protéger-ses-créations-) :
+
 ![pap_010](images/pap_010.png "pap_010")
+
+On dépose deux coffres *verrouillés* qui nous permettront de stocker nos matériaux et nos outils, puis on commence à aplanir le terrain avec la pelle.
 
 ![pap_012](images/pap_012.png "pap_012")
 
 ![pap_015](images/pap_015.png "pap_015")
+
+Sur ce terrain plat, on élève les piliers d'angles avec des troncs bruts, puis les murs avec des planches, en prévoyant la place des fenêtres. Ici on a utilisé un seul type de bois, mais les troncs bruts nous permettent d'avoir deux couleurs, ce qui rendra la construction plus jolie.
 
 ![pap_020](images/pap_020.png "pap_020")
 
@@ -330,33 +340,55 @@ Pour conclure ce chapitre, voyons en détails la construction de ce qui pourrait
 
 ![pap_030](images/pap_030.png "pap_030")
 
-La prochaine étape sera la pose des vitres. Voici [comment on les fabrique](images/vitres.jpg "Comment fabriquer les vitres").
+La prochaine étape sera la pose des vitres. Voici [comment on les fabrique](images/vitres.jpg "Comment fabriquer les vitres"). Ensuite on peut construire le plafond du rez-de-chaussé qui sera aussi le plancher du grenier (étonnant non ?).
 
 ![pap_035](images/pap_035.png "pap_035")
 
+Nous remarquons que la pièce fait trois blocs de haut: c'est le minimum pour que les fenêtres n'aient pas l'air d'être posées par terre. C'est un peu moins grave si elles touchent le plafond. Remarquez les blocs de *Dirt* sur lesquels on peut monter pour travailler en hauteur.
+
 ![pap_037](images/pap_037.png "pap_037")
+
+On peut ensuite commencer à bâtir les pignons. On pourra y poser la toiture et s'en servir pour grimper plus haut :
 
 ![pap_038](images/pap_038.png "pap_038")
 
+Remarquez que la toiture est plus large que le toit, comme dans la réalité. C'est ce qui empêche l'eau de pluie de ruisseler le long des murs.
+
 ![pap_040](images/pap_040.png "pap_040")
+
+Ici encore, des blocs de terre peuvent nous servir d'échafaudage :
 
 ![pap_042](images/pap_042.png "pap_042")
 
 ![pap_045](images/pap_045.png "pap_045")
 
+Les dalles plates qui terminent le toit sont des *Wood Slabs*, on peut les crafter à partir de simple planches ou à l'aide du *Workbench* :
+
 ![pap_050](images/pap_050.png "pap_050")
 
 ![pap_055](images/pap_055.png "pap_055")
 
+Sur l'image de la maison complète (tout en haut) vous verrez que la toiture forme une sorte de troisième pignon au-dessus de la porte d'entrée. Pour faire la jonction avec le reste de la toiture il faudra à nouveau utiliser le *Workbench* pour fabriquer une pièce un peu spéciale : *Outer Stair*.
+
 ![pap_060](images/pap_060.png "pap_060")
+
+Un petit coup de tournevis suffira à la placer dans le bon sens. La pîèce a été découpée dans du bois d'accacia, ce qui ajoute un peu de variété.
 
 ![pap_061](images/pap_061.png "pap_061")
 
+Voici l'escalier qui mène à l'étage… :
+
 ![pap_065](images/pap_065.png "pap_065")
+
+… et celui de la cave. Les escaliers ne butent pas contre les murs, ils font un angle pour qu'on puisse les emprunter facilement.
 
 ![pap_070](images/pap_070.png "pap_070")
 
+Et voici une vue d'ensemble de votre premier domaine. Remarquez comment la simple bordure en accacia lui donne tout de suite un petit air "classieux" !
+
 ![pap_075](images/pap_075.png "pap_075")
+
+Tiens ? Mais quel est donc cet escalier qui s'enfonce sous notre cave ? C'est celui de votre mine bien sûr ! Continnuez votre lecture pour en apprendre plus sur la plus noble activité du joueur de Minetest : faire des trous !
 
 ![pap_080](images/pap_080.png "pap_080")
 
