@@ -439,9 +439,9 @@ Ces commandes permettent d'échanger des information avec le serveur :
 ### Les tournois ###
 Le mod PVPplus permet de faire des tournois PVP, c'est-à-dire des combats entre joueurs. Il s'utilise uniquement avec des commandes.Voici les principales :
 
-* **/tournament** : lance un tournois simple.
-* **/tournament teleport** : lance un tournois. Les joueurs qui s'engagent seront automatiquement téléportés à votre position.
-* **/tournament teleport "nombre_de_secondes"** : la,ce un tournois en retardant son début du nombre de secondes indiqué (par defaut c'est 60 secondes).
+* **/tournament** : lance un tournois simple, par defaut tout les joueurs qui s'engagent seront téléportés automatiquement à votre position.
+* **/tournament noteleport** : lance un tournois sans téléportés les joueurs.
+* **/tournament "nombre_de_secondes"** : lance un tournois en retardant son début du nombre de secondes indiqué (par defaut c'est 60 secondes).
 * **/engage** : rejoindre un tournois
 * **/leave_tournament** : quitter un tournois.
 
