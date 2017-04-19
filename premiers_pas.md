@@ -441,8 +441,11 @@ Le mod PVPplus permet de faire des tournois PVP, c'est-à-dire des combats entre
 
 * **/tournament** : lance un tournois simple, par defaut tout les joueurs qui s'engagent seront téléportés automatiquement à votre position.
 * **/tournament noteleport** : lance un tournois sans téléportés les joueurs.
-* **/tournament "nombre_de_secondes"** : lance un tournois en retardant son début du nombre de secondes indiqué (par defaut c'est 60 secondes).
-* **/engage** : rejoindre un tournois
+* **/tournament start_delay=40** : lance un tournois en retardant son début du nombre de secondes indiqué, ici 40 sec (par defaut c'est 60 secondes).
+* **/tournament broadcast** lance un tournois don les message seront visible par tout les joueurs conecter et pas seulement les joueurs engager, comme c'est le cas par defaut(necessite le privs tournament_mod).
+* noter que ces option peuvent ce cumuler, exemple:
+* **/tournament noteleport start_delay=120** :lance un tournois qui débutera 120 seconde apres l'envoie de la commande et qui ne teleportera pas les joueurs.
+* **/engage** : rejoindre un tournois.
 * **/leave_tournament** : quitter un tournois.
 
 ![sep](images/sep.png "sep")
