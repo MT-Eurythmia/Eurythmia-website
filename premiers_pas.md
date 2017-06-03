@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Premiers pas
+tab: Doc
 ---
 
 # Premiers pas sur le serveur Mynetest
@@ -406,7 +407,7 @@ Tiens ? Mais quel est donc cet escalier qui s'enfonce sous notre cave ? C'est ce
 
 ## Premiers pas avec les commandes
 
-Vous retrouverez dans cette section la plupart des actions decrites plus haut. Mais avec les *commandes* vous aller gagner du temps ! Une commande est un message adressé au serveur. Il se tape dans le chat et commence toujours pas le caractère */* (pour montrer que c'est un message "spécial"). 
+Vous retrouverez dans cette section la plupart des actions decrites plus haut. Mais avec les *commandes* vous aller gagner du temps ! Une commande est un message adressé au serveur. Il se tape dans le chat et commence toujours pas le caractère */* (pour montrer que c'est un message "spécial").
 
 Le première avantagfe des commandes est la rapidité : il est, par exemple plus rapide de taper */sethome* que de parcourir plusieurs menus pour mémoriser votre "home". L'autre avantage est qu'elle sont universelle : elles fonctionne quel que soit le [client](#client--serveur--on-nest-pas-au-bistrot-) que vous utilisez.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Les FAQ de Mynetest
+tab: Doc
 ---
 
 # Les FAQ de Mynetest

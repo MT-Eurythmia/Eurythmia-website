@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lexique
+tab: Doc
 ---
 
 # Lexique des mots anglais
