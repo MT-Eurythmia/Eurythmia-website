@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_fr
 title: Premiers pas
 tab: Doc
 ---
