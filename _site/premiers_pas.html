@@ -1,47 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Premiers pas</title>
-		<link rel="stylesheet" href="style.css" />
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="/media/favicon.ico">
+		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/assets/css/style.css" rel="stylesheet">
+		<title>Premiers pas - Eurythmia</title>
 	</head>
-	<body>
-		<header>
-			<img src="images/minetest.png" alt="minetest_logo" id="image_left" />
-			<img src="images/minetest.png" alt="minetest_logo" id="image_right" />
-			<div>
-				<h1><span style="color: #f6ff00">E</span><span style="color: #00ff24">u</span><span style="color: #00fff0">r</span><span style="color: #ff0000">Y</span><span style="color: #00c91c">t<span style="color: #ff6600">h</span><span style="color: #a44d00">m</span><span style="color: #a400a2">i</span><span style="color: #ff51c8">a</span></h1>
-				<p>Survive, create and have fun in a not too hard gameplay !</p>
-			</div>
-			<nav>
-				<ul>
-					<li ><a href="/">Home</a></li>
-					<li><a href="http://map.langg.net/">Real-time map</a></li>
-					<li><a href="hos/">Hall Of Shame</a></li>
-					<li><a href="https://forum.minetest.net/viewtopic.php?f=20&t=14326">Forum topic</a></li>
-					<li ><a href="screenshots.html">Screenshots</a></li>
-					<li id="active" class="dropdown">
-						<a href="docupmentation.html" ><div class="dropbtn">Doc</div></a>
-						<div class="dropdown-content">
-							<a href="premiers_pas.html">Premiers pas</a>
-							<a href="lexique.html">Lexique</a>
-							<a href="faq_minetest.html">FAQ</a>
-						</div>
-					</li>
-					<li  class="dropdown">
-						<div class="dropbtn">Others</div>
-						<div class="dropdown-content">
-							<a href="http://mynetest.langg.net/mods.html">List of mods</a>
-							<a href="https://github.com/mynetest/mynetest-server">GitHub</a>
-						</div>
-					</li>
-				</ul>
-			</nav>
-			<a href="https://github.com/Mynetest/mynetest_faq"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
-		</header>
 
-		<h1 id="premiers-pas-sur-le-serveur-mynetest">Premiers pas sur le serveur Mynetest</h1>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="container-fluid">
+                        	<div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Eurythmia</a>
+                        	</div>
+                        	<div id="navbar" class="collapse navbar-collapse">
+                                        <ul class="nav navbar-nav">
+                                                <li ><a href="/">Home</a></li>
+                        	                <li ><a href="/screenshots.html">Screenshots</a></li>
+						<li><a href="http://map.langg.net">Real-time map</a></li>
+                                                <li><a href="https://forum.minetest.net/viewtopic.php?f=20&t=14326">Forum topic</a></li>
+						<li><a href="https://github.com/MT-Eurythmia/Eurythmia-server">GitHub</a></li>
+						<li><a href="/irc.html">IRC (Online Chat)</a></li>
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentation<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="/premiers_pas.html">Premiers pas</a></li>
+								<li><a href="/lexique.html">Lexique</a></li>
+								<li><a href="/faq_minetest.html">FAQ</a></li>
+							</ul>
+						</li>
+                                        </ul>
+                        	</div>
+                        </div>
+                </nav>
+
+                <div class="container-fluid">
+
+
+
+	<div class="jumbotron reduced">
+		<div class="center">
+			<h1>Premiers pas</h1>
+		</div>
+	</div>
+
+
+<div class="content">
+	<h1 id="premiers-pas-sur-le-serveur-mynetest">Premiers pas sur le serveur Mynetest</h1>
 
 <ul>
   <li><a href="#prenez-les-commandes">Prenez les commandes</a></li>
@@ -61,21 +74,21 @@
 
 <p>Le client Minetest disponible sur les dépôts Linux est configuré pour un clavier anglais (QWERTY) et donc difficile à utiliser sur un clavier français (AZERTY). Heureusement, on peut changer le rôle des touches : à partir du menu d’accueil, cliquez sur l’onglet <em>Settings</em>, puis sur le bouton <em>Change Keys</em>. Voici un exemple de configuration qui marche bien sur un clavier français :</p>
 
-<p><img src="images/change_keys.png" alt="change_keys" title="change_keys" /></p>
+<p><img src="media/change_keys.png" alt="change_keys" title="change_keys" /></p>
 
 <p><strong>Accéder à ce menu est aussi un bon moyen d’apprendre à utiliser les touches sans lire le manuel ;-)</strong></p>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <h2 id="les-mystères-de-linventaire">Les mystères de l’inventaire</h2>
 
 <p>En appuyant sur la touche I, vous ouvrez la fenêtre la plus importante du jeu : l’inventaire. Pour sortir de l’inventaire, vous pouvez appuyer une deuxième fois sur I, ou sur la touche Escape. Regardons-là donc de plus près :</p>
 
-<p><img src="images/inventaire_numeros.png" alt="Icônes inventaire" title="Icônes inventaire" /></p>
+<p><img src="media/inventaire_numeros.png" alt="Icônes inventaire" title="Icônes inventaire" /></p>
 
 <h3 id="1-lécran-de-craft">1/ L’écran de craft</h3>
 
-<p><img src="images/inventaire_01.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_01.png" alt="inventaire" title="inventaire" /></p>
 
 <p>Il s’agit de votre inventaire lui même et de l’écran de craft. Les neuf cases du haut servent à fabriquer des objets en y faisant glisser des ingrédients selon une disposition bien précise.</p>
 
@@ -85,7 +98,7 @@
 
 <h3 id="2-le-crafting-guide">2/ Le “Crafting Guide”</h3>
 
-<p><img src="images/inventaire_02.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_02.png" alt="inventaire" title="inventaire" /></p>
 
 <p>Dans Mynetest, on peut fabriquer beaucoup d’objets, et il n’est pas possible de se rappeler toutes les recettes. Cette fenêtre est là pour vous aider. Dans la partie de droite, vous voyez tous les objets craftables du jeu. Il y en a plusieurs pages que vous pouvez faire défiler avec les touches 14, celles qui ressemblent aux boutons d’un lecteur DVD.</p>
 
@@ -95,7 +108,7 @@
 
 <h3 id="3-home-pit-spawn">3/ Home, Pit, Spawn</h3>
 
-<p><img src="images/inventaire_03.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_03.png" alt="inventaire" title="inventaire" /></p>
 
 <p>Quand vous aurez trouvé le petit coin de nature idéal pour construire votre maison, c’est sur l’icône 3 qu’il faudra cliquer. En utilisant le bouton <em>Set Home</em> de la fenêtre qui s’ouvre vous mémoriserez l’endroit comme votre maison et vous pourrez y retourner facilement en cliquant sur <em>To Home</em>.</p>
 
@@ -119,9 +132,9 @@
 
 <h3 id="7-sacs">7/ Sacs</h3>
 
-<p><img src="images/inventaire_05a.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_05a.png" alt="inventaire" title="inventaire" /></p>
 
-<p><img src="images/inventaire_05b.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_05b.png" alt="inventaire" title="inventaire" /></p>
 
 <p>En plus de votre inventaire, vous pouvez porter jusqu’à quatre sacs. Les sacs sont très utiles, car les grands peuvent contenir jusqu’à quarante objets et vous ne perdez pas leur contenu quand vous mourrez. Prenez donc l’habitude d’y placer régulièrement vos trouvailles les plus précieuses.</p>
 
@@ -139,7 +152,7 @@
 
 <h3 id="10-skin">10/ Skin</h3>
 
-<p><img src="images/inventaire_06.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_06.png" alt="inventaire" title="inventaire" /></p>
 
 <p>Cliquez ici pour choisir une nouvelle apparence à votre personnage. C’est un réglage purement esthétique qui ne change rien au jeu.</p>
 
@@ -149,13 +162,13 @@
 
 <h3 id="12-armure">12/ Armure</h3>
 
-<p><img src="images/inventaire_07.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_07.png" alt="inventaire" title="inventaire" /></p>
 
 <p>Les cases du bas représentent votre inventaire et les cases du haut l’armure que vous portez. Faires glisser les objets des unes vers les autres pour vous équiper ou vous déséquiper.</p>
 
 <h3 id="13-character-creator">13/ Character Creator</h3>
 
-<p><img src="images/inventaire_08.png" alt="inventaire" title="inventaire" /></p>
+<p><img src="media/inventaire_08.png" alt="inventaire" title="inventaire" /></p>
 
 <p>Ici vous pourrez personnaliser votre personnage en le rendant plus grand, moins gros, en changeant la couleur de ses yeux… Appuyez d’abord deux fois sur la touche F7 pour vous voir “de l’extérieur”.</p>
 
@@ -163,7 +176,7 @@
 
 <p>Nous l’avons déjà vu : ce groupe de boutons permet de naviguer dans la liste des objets craftables.</p>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <!-- ******************* -->
 
@@ -177,7 +190,7 @@
 
 <p><strong>Pour quitter le spawn et accéder au monde du jeu, il faut taper dans le chat un code de trois chiffres et une lettre MAJUSCULE. Ce code est affiché sur un des panneaux qui rappellent les règles du serveur (au bout du couloir en verre).</strong></p>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <!-- ******************* -->
 
@@ -195,7 +208,7 @@
 
 <p><strong>Si vous avez perdu tout votre équipement, rappelez-vous qu’on peut abattre les arbres à la main. À partir du bois, vous pourrez refabriquer tous les outils dont vous avez besoin, mais aussi une épée et une armure. Bien sûr, tout cela ne sera as très efficace, mais vous aurez ainsi une chance de pouvoir prendre un nouveau départ.</strong></p>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <!-- ******************* -->
 
@@ -211,17 +224,17 @@
 
 <p>Pour labourer un sol, vous devez utiliser une houe (<em>Hoe</em>) qui se craft comme ceci :</p>
 
-<p><img src="images/hoe.png" alt="Hoe" title="hoe" /></p>
+<p><img src="media/hoe.png" alt="Hoe" title="hoe" /></p>
 
 <p>Pour que la terre labourée devienne humide, il faut que le bloc de terre soit situé à trois case au maximum d’un bloc d’eau. Pour ça, vous pouvez creuser des canaux d’irrigation et les remplir d’eau, ou créer votre champ par-dessus une étendue d’eau en construisant une sorte de plateforme en terre. Pour transporter de l’eau, il va vous falloir un ou plusieurs seaux :</p>
 
-<p><img src="images/bucket.png" alt="bucket" title="bucket" /></p>
+<p><img src="media/bucket.png" alt="bucket" title="bucket" /></p>
 
 <p>Ensuite, il faut semer : prenez vos graines en main et faites un clic droit. Les haricots (<em>Beans</em>) et le raisin (<em>Grape</em>) sont un peu particuliers, car ils ont besoin d’un support pour pousser. Respectivement des <em>Bean Poles</em> et des <em>Trellis</em> :</p>
 
-<p><img src="images/bean_pole.png" alt="bean_pole" title="bean_pole" /></p>
+<p><img src="media/bean_pole.png" alt="bean_pole" title="bean_pole" /></p>
 
-<p><img src="images/trellis.png" alt="trellis" title="trellis" /></p>
+<p><img src="media/trellis.png" alt="trellis" title="trellis" /></p>
 
 <p>“Semez” d’abord le support, puis semez votre plante sur le support. Le cacao utilise un support spécial : le tronc d’un <em>Jungle Tree</em>.</p>
 
@@ -342,15 +355,15 @@
   </tbody>
 </table>
 
-<p>Matthieu8fr nous offre un <a href="images/champ.jpg" title="Irrigation">résumé en images</a> de sa technique d’irrigation.</p>
+<p>Matthieu8fr nous offre un <a href="media/champ.jpg" title="Irrigation">résumé en images</a> de sa technique d’irrigation.</p>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <!-- ******************* -->
 
 <h2 id="premiers-pas-au-pied-du-mur">Premiers pas au pied du mur</h2>
 
-<p><img src="images/travaux.png" alt="travaux" title="travaux" /></p>
+<p><img src="media/travaux.png" alt="travaux" title="travaux" /></p>
 
 <h3 id="où-trouver-linspiration">Où trouver l’inspiration</h3>
 
@@ -362,7 +375,7 @@
 
 <p>Voici un build de Matthieu qui s’est inspiré du château de Nouvion-en-Thiérache :</p>
 
-<p><img src="images/chateau_nouvion.jpg" alt="chateau_nouvion" title="chateau_nouvion" /></p>
+<p><img src="media/chateau_nouvion.jpg" alt="chateau_nouvion" title="chateau_nouvion" /></p>
 
 <p>Une maison peut être carrée, rectangulaire ou biscornue. Vous pouvez créer plusieurs sous-sols, des étages, des cours intérieures… La seul limite est votre imagination.</p>
 
@@ -445,91 +458,91 @@
 
 <p>Pour conclure ce chapitre, syuvont Matthieu dans la la construction de ce qui pourrait être votre première maison. Une simple cabane de bûcheron, en bois, qui vous permettra de débuter tranquilement, mais aussi d’acquérir quelques “trucs” de pro. Voici à quoi ressemblera le résultat final :</p>
 
-<p><img src="images/pap_002.png" alt="pap_002" title="pap_002" /></p>
+<p><img src="media/pap_002.png" alt="pap_002" title="pap_002" /></p>
 
 <p>Voici une presqu’île qui devrait faire un bon site : il y a de l’eau et des arbres poussent à proximité.</p>
 
-<p><img src="images/pap_005.png" alt="pap_005" title="pap_005" /></p>
+<p><img src="media/pap_005.png" alt="pap_005" title="pap_005" /></p>
 
 <p>Plaçons donc deux <em>Markers</em> pour protéger notre area (plus d’explications dans la <a href="faq_minetest.html/#comment-protéger-ses-créations-">FAQ</a> :</p>
 
-<p><img src="images/pap_010.png" alt="pap_010" title="pap_010" /></p>
+<p><img src="media/pap_010.png" alt="pap_010" title="pap_010" /></p>
 
 <p>On dépose deux coffres <em>verrouillés</em> qui nous permettront de stocker nos matériaux et nos outils, puis on commence à aplanir le terrain avec la pelle.</p>
 
-<p><img src="images/pap_012.png" alt="pap_012" title="pap_012" /></p>
+<p><img src="media/pap_012.png" alt="pap_012" title="pap_012" /></p>
 
-<p><img src="images/pap_015.png" alt="pap_015" title="pap_015" /></p>
+<p><img src="media/pap_015.png" alt="pap_015" title="pap_015" /></p>
 
 <p>Sur ce terrain plat, on élève les piliers d’angles avec des troncs bruts, puis les murs avec des planches, en prévoyant la place des fenêtres. Ici on a utilisé un seul type de bois, mais les troncs bruts nous permettent d’avoir deux couleurs, ce qui rendra la construction plus jolie.</p>
 
-<p><img src="images/pap_020.png" alt="pap_020" title="pap_020" /></p>
+<p><img src="media/pap_020.png" alt="pap_020" title="pap_020" /></p>
 
-<p><img src="images/pap_025.png" alt="pap_025" title="pap_025" /></p>
+<p><img src="media/pap_025.png" alt="pap_025" title="pap_025" /></p>
 
-<p><img src="images/pap_030.png" alt="pap_030" title="pap_030" /></p>
+<p><img src="media/pap_030.png" alt="pap_030" title="pap_030" /></p>
 
-<p>La prochaine étape sera la pose des vitres. Voici <a href="images/vitres.jpg" title="Comment fabriquer les vitres">comment on les fabrique</a>. Ensuite on peut construire le plafond du rez-de-chaussé qui sera aussi le plancher du grenier (étonnant non ?).</p>
+<p>La prochaine étape sera la pose des vitres. Voici <a href="media/vitres.jpg" title="Comment fabriquer les vitres">comment on les fabrique</a>. Ensuite on peut construire le plafond du rez-de-chaussé qui sera aussi le plancher du grenier (étonnant non ?).</p>
 
-<p><img src="images/pap_035.png" alt="pap_035" title="pap_035" /></p>
+<p><img src="media/pap_035.png" alt="pap_035" title="pap_035" /></p>
 
 <p>Nous remarquons que la pièce fait trois blocs de haut: c’est le minimum pour que les fenêtres n’aient pas l’air d’être posées par terre. C’est un peu moins grave si elles touchent le plafond. Remarquez les blocs de <em>Dirt</em> sur lesquels on peut monter pour travailler en hauteur.</p>
 
-<p><img src="images/pap_037.png" alt="pap_037" title="pap_037" /></p>
+<p><img src="media/pap_037.png" alt="pap_037" title="pap_037" /></p>
 
 <p>On peut ensuite commencer à bâtir les pignons. On pourra y poser la toiture et s’en servir pour grimper plus haut :</p>
 
-<p><img src="images/pap_038.png" alt="pap_038" title="pap_038" /></p>
+<p><img src="media/pap_038.png" alt="pap_038" title="pap_038" /></p>
 
 <p>Remarquez que la toiture est plus large que le toit, comme dans la réalité. C’est ce qui empêche l’eau de pluie de ruisseler le long des murs.</p>
 
-<p><img src="images/pap_040.png" alt="pap_040" title="pap_040" /></p>
+<p><img src="media/pap_040.png" alt="pap_040" title="pap_040" /></p>
 
 <p>Ici encore, des blocs de terre peuvent nous servir d’échafaudage :</p>
 
-<p><img src="images/pap_042.png" alt="pap_042" title="pap_042" /></p>
+<p><img src="media/pap_042.png" alt="pap_042" title="pap_042" /></p>
 
-<p><img src="images/pap_045.png" alt="pap_045" title="pap_045" /></p>
+<p><img src="media/pap_045.png" alt="pap_045" title="pap_045" /></p>
 
 <p>Les dalles plates qui terminent le toit sont des <em>Wood Slabs</em>, on peut les crafter à partir de simple planches ou à l’aide du <em>Workbench</em> :</p>
 
-<p><img src="images/pap_050.png" alt="pap_050" title="pap_050" /></p>
+<p><img src="media/pap_050.png" alt="pap_050" title="pap_050" /></p>
 
-<p><img src="images/pap_055.png" alt="pap_055" title="pap_055" /></p>
+<p><img src="media/pap_055.png" alt="pap_055" title="pap_055" /></p>
 
 <p>Sur l’image de la maison complète (tout en haut) vous verrez que la toiture forme une sorte de troisième pignon au-dessus de la porte d’entrée. Pour faire la jonction avec le reste de la toiture il faudra à nouveau utiliser le <em>Workbench</em> pour fabriquer une pièce un peu spéciale : <em>Outer Stair</em>.</p>
 
-<p><img src="images/pap_060.png" alt="pap_060" title="pap_060" /></p>
+<p><img src="media/pap_060.png" alt="pap_060" title="pap_060" /></p>
 
 <p>Un petit coup de tournevis suffira à la placer dans le bon sens. La pîèce a été découpée dans du bois d’accacia, ce qui ajoute un peu de variété.</p>
 
-<p><img src="images/pap_061.png" alt="pap_061" title="pap_061" /></p>
+<p><img src="media/pap_061.png" alt="pap_061" title="pap_061" /></p>
 
 <p>Voici l’escalier qui mène à l’étage… :</p>
 
-<p><img src="images/pap_065.png" alt="pap_065" title="pap_065" /></p>
+<p><img src="media/pap_065.png" alt="pap_065" title="pap_065" /></p>
 
 <p>… et celui de la cave. Les escaliers ne butent pas contre les murs, ils font un angle pour qu’on puisse les emprunter facilement.</p>
 
-<p><img src="images/pap_070.png" alt="pap_070" title="pap_070" /></p>
+<p><img src="media/pap_070.png" alt="pap_070" title="pap_070" /></p>
 
 <p>Et voici une vue d’ensemble de votre premier domaine. Remarquez comment la simple bordure en accacia lui donne tout de suite un petit air “classieux” !</p>
 
-<p><img src="images/pap_075.png" alt="pap_075" title="pap_075" /></p>
+<p><img src="media/pap_075.png" alt="pap_075" title="pap_075" /></p>
 
 <p>Tiens ? Mais quel est donc cet escalier qui s’enfonce sous notre cave ? C’est celui de votre mine bien sûr ! Continnuez votre lecture pour en apprendre plus sur la plus noble activité du joueur de Minetest : faire des trous !</p>
 
-<p><img src="images/pap_080.png" alt="pap_080" title="pap_080" /></p>
+<p><img src="media/pap_080.png" alt="pap_080" title="pap_080" /></p>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <!-- ******************* -->
 
 <h2 id="premiers-pas-à-la-mine">Premiers pas à la mine</h2>
 
-<p><img src="images/travaux.png" alt="travaux" title="travaux" /></p>
+<p><img src="media/travaux.png" alt="travaux" title="travaux" /></p>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <h2 id="premiers-pas-avec-les-commandes">Premiers pas avec les commandes</h2>
 
@@ -580,12 +593,25 @@
   <li><strong>/leave_tournament</strong> : quitter un tournois.</li>
 </ul>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
+</div>
+
+		</div>
 
 		<footer>
-			<hr />
-			<p>Written by the Eurythmia community</p>
-		</footer>
+			<p>
+				©  2017 The Eurythmia Team<br />
+				Site content under CC BY-SA 3.0 Unported.<br />
+				This site is inspired from the <a href="http://minetest.net">Minetest officiel website</a>.
+			</p>
+			<p>
+				<a href="https://github.com/MT-Eurythmia/eurythmia-website">Website developed at GitHub.</a>
+			</p>
+		</fotter>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="assets/js/bootstrap.min.js"></script>
 	</body>
 </html>
+

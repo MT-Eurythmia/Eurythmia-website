@@ -1,51 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Les FAQ de Mynetest</title>
-		<link rel="stylesheet" href="style.css" />
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="/media/favicon.ico">
+		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/assets/css/style.css" rel="stylesheet">
+		<title>Les FAQ de Mynetest - Eurythmia</title>
 	</head>
-	<body>
-		<header>
-			<img src="images/minetest.png" alt="minetest_logo" id="image_left" />
-			<img src="images/minetest.png" alt="minetest_logo" id="image_right" />
-			<div>
-				<h1><span style="color: #f6ff00">E</span><span style="color: #00ff24">u</span><span style="color: #00fff0">r</span><span style="color: #ff0000">Y</span><span style="color: #00c91c">t<span style="color: #ff6600">h</span><span style="color: #a44d00">m</span><span style="color: #a400a2">i</span><span style="color: #ff51c8">a</span></h1>
-				<p>Survive, create and have fun in a not too hard gameplay !</p>
-			</div>
-			<nav>
-				<ul>
-					<li ><a href="/">Home</a></li>
-					<li><a href="http://map.langg.net/">Real-time map</a></li>
-					<li><a href="hos/">Hall Of Shame</a></li>
-					<li><a href="https://forum.minetest.net/viewtopic.php?f=20&t=14326">Forum topic</a></li>
-					<li ><a href="screenshots.html">Screenshots</a></li>
-					<li id="active" class="dropdown">
-						<a href="docupmentation.html" ><div class="dropbtn">Doc</div></a>
-						<div class="dropdown-content">
-							<a href="premiers_pas.html">Premiers pas</a>
-							<a href="lexique.html">Lexique</a>
-							<a href="faq_minetest.html">FAQ</a>
-						</div>
-					</li>
-					<li  class="dropdown">
-						<div class="dropbtn">Others</div>
-						<div class="dropdown-content">
-							<a href="http://mynetest.langg.net/mods.html">List of mods</a>
-							<a href="https://github.com/mynetest/mynetest-server">GitHub</a>
-						</div>
-					</li>
-				</ul>
-			</nav>
-			<a href="https://github.com/Mynetest/mynetest_faq"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
-		</header>
 
-		<h1 id="les-faq-de-mynetest">Les FAQ de Mynetest</h1>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="container-fluid">
+                        	<div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Eurythmia</a>
+                        	</div>
+                        	<div id="navbar" class="collapse navbar-collapse">
+                                        <ul class="nav navbar-nav">
+                                                <li ><a href="/">Home</a></li>
+                        	                <li ><a href="/screenshots.html">Screenshots</a></li>
+						<li><a href="http://map.langg.net">Real-time map</a></li>
+                                                <li><a href="https://forum.minetest.net/viewtopic.php?f=20&t=14326">Forum topic</a></li>
+						<li><a href="https://github.com/MT-Eurythmia/Eurythmia-server">GitHub</a></li>
+						<li><a href="/irc.html">IRC (Online Chat)</a></li>
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentation<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="/premiers_pas.html">Premiers pas</a></li>
+								<li><a href="/lexique.html">Lexique</a></li>
+								<li><a href="/faq_minetest.html">FAQ</a></li>
+							</ul>
+						</li>
+                                        </ul>
+                        	</div>
+                        </div>
+                </nav>
+
+                <div class="container-fluid">
+
+
+
+	<div class="jumbotron reduced">
+		<div class="center">
+			<h1>Les FAQ de Mynetest</h1>
+		</div>
+	</div>
+
+
+<div class="content">
+	<h1 id="les-faq-de-mynetest">Les FAQ de Mynetest</h1>
 
 <p>Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l’inventaire. Celui-ci s’ouvre, par défaut, avec la touche I. En voici une capture d’écran (les numéros sous les icônes serviront dans les explications).</p>
 
-<p><img src="images/inventaire_numeros.png" alt="Icônes inventaire" title="Icônes inventaire" /></p>
+<p><img src="media/inventaire_numeros.png" alt="Icônes inventaire" title="Icônes inventaire" /></p>
 
 <p>Plus d’explications sur ces icônes sur la page <a href="premiers_pas.html#les-mystères-de-linventaire" title="Premiers pas">premiers pas</a>.</p>
 
@@ -78,7 +91,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
   <li><a href="#comment-utiliser-le-travelnet-">Comment utiliser le Travelnet ?</a></li>
 </ul>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <ul>
   <li><a href="#jai-un-problème--à-qui-je-madresse-">J’ai un problème : à qui je m’adresse ?</a></li>
@@ -93,7 +106,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
   <li><a href="#client--serveur--on-nest-pas-au-bistrot-">Client ? Serveur ? On n’est pas au bistrot !</a></li>
 </ul>
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <h2 id="comment-parler-aux-autres-joueurs-">Comment parler aux autres joueurs ?</h2>
 
@@ -118,7 +131,7 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Vous avez la possibilité d’inviter un autre joueur à vous rejoindre en le téléportant vers vous. Pour cela, cliquez sur l’icône n°3 de l’inventaire : une nouvelle fenêtre s’ouvre.</p>
 
-<p><img src="images/tp_screen.png" alt="tp_screen" title="tp_screen" /></p>
+<p><img src="media/tp_screen.png" alt="tp_screen" title="tp_screen" /></p>
 
 <p>choisissez le nom du joueur dans le menu déroulant de la dernière ligne et cliquez sur <em>Send To</em> pour envoyer l’invitation. Si votre invité vient juste de se connecter, il n’apparaît peut-être pas dans la liste. Pour remettre cette liste à jour, cliquez sur <em>Refresh</em>.</p>
 
@@ -130,15 +143,15 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Pour créer une area, il faut commencer par crafter (fabriquer) des <em>Markers</em> :</p>
 
-<p><img src="images/markers.png" alt="Markers" title="markers" /></p>
+<p><img src="media/markers.png" alt="Markers" title="markers" /></p>
 
 <p>Ensuite, vous devez placer deux markers au extrémités d’une des diagonales de la zone à protéger (ne vous occupez pas de la hauteur) :</p>
 
-<p><img src="images/diagonale.png" alt="Diagonale" title="Diagonale" /></p>
+<p><img src="media/diagonale.png" alt="Diagonale" title="Diagonale" /></p>
 
 <p>Faites un clic droit sur un des deux markers, dans la dernière ligne donnez un nom à votre area et validez en cliquant sur <em>Protect area</em>. Et voilà ! Votre area est créée. Si vous vous baladez dedans, vous verrez son nom et son ID (son numéro) s’afficher en bas à gauche de votre écran. Vous pouvez récupérer vos markers pour les utiliser plus tard.</p>
 
-<p><img src="images/menu_markers.png" alt="menu_markers" title="menu_markers" /></p>
+<p><img src="media/menu_markers.png" alt="menu_markers" title="menu_markers" /></p>
 
 <p><strong>Si vous obtenez un message d’erreur qui vous dit que l’area ne peux pas être créée, c’est sans doute qu’elle est trop grande, ou qu’elle chevauche une area d’un autre joueur. Dans ce cas, rapprochez un peu vos deux markers pour réduire la surface de votre area et essayez à nouveau. N’hésitez pas à poser la question à un modérateur en ligne en lui indiquant le message d’erreur, il saura certainement vous indiquer ce que vous avez mal fait.</strong></p>
 
@@ -146,11 +159,11 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Il faut commencer par crafter unn <em>Boundary Marker</em> :</p>
 
-<p><img src="images/boundary.png" alt="Boundary marker" title="Boundary marker" /></p>
+<p><img src="media/boundary.png" alt="Boundary marker" title="Boundary marker" /></p>
 
 <p>Placez le n’importe où <em>à l’intérieur de votre area</em> et faites un clic droit dessus. Cliquez su le bouton <em>Add</em>, et entrez le nom du joueur dans la petite fenêtre qui s’ouvre ; validez. L’autre joueur peut maintenant agir dans l’area exactement de la même manière que vous (vous pouvez également partager une partie seulement de votre area en créant une nouvelle area à l’intérieur de la première et en ajoutant le joueur a cette deuxième area).</p>
 
-<p><img src="images/menu_boundary.png" alt="menu_boundary" title="menu_boundary" /></p>
+<p><img src="media/menu_boundary.png" alt="menu_boundary" title="menu_boundary" /></p>
 
 <p><strong>Si votre area est importante, ajoutez-y seulement des personnes de confiance, autrement c’est une source de chamailleires. Vous pouvez “tester” un joueur en travaillant avec lui sur une area moins “sensible”.</strong></p>
 
@@ -158,9 +171,9 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Pour pêcher, il vous faudra deux choses : une canne à pêche (<em>Fishing Pole</em>) et des appâts :</p>
 
-<p><img src="images/fishing_pole.png" alt="Canne à pêche" title="Canne à pêche" /></p>
+<p><img src="media/fishing_pole.png" alt="Canne à pêche" title="Canne à pêche" /></p>
 
-<p><img src="images/bait_corn.png" alt="Appâts" title="Appâts" /></p>
+<p><img src="media/bait_corn.png" alt="Appâts" title="Appâts" /></p>
 
 <p>Comme appâts, vous pourrez aussi utiliser les vers de terre que vous trouverez en labourant vos champs.</p>
 
@@ -168,7 +181,7 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Pour que la pêche fonctionne, il faut placer les appâts juste à droite de la canne à pêche dans la première ligne de votre inventaire :</p>
 
-<p><img src="images/peche.png" alt="Pêche" title="Pêche" /></p>
+<p><img src="media/peche.png" alt="Pêche" title="Pêche" /></p>
 
 <p>Prenez la canne à pêche en main comme n’importe quel autre outil et faites un clic gauche pour lancer votre ligne. Vous pouvez lancer une deuxième ligne en faisant un autre clic gauche.</p>
 
@@ -184,9 +197,9 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Pour les gros animaux, il va vous falloir un outil, le <em>Net</em> ou le <em>Magic Lasso</em> que vous utiliserez aussi avec un clic droit :</p>
 
-<p><img src="images/magic_lasso.png" alt="Lasso" title="Lasso" /></p>
+<p><img src="media/magic_lasso.png" alt="Lasso" title="Lasso" /></p>
 
-<p><img src="images/net.png" alt="net" title="net" /></p>
+<p><img src="media/net.png" alt="net" title="net" /></p>
 
 <p>La différence entre le <em>Net</em> et le <em>Magic Lasso</em> est importante: le <em>Magic Lasso</em> coûte plus cher, mais la probabilité que l’animal s’en échappe est bien moindre !</p>
 
@@ -282,13 +295,13 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Ensuite, vous aurez besoin d’une rune de protection :</p>
 
-<p><img src="images/mp_rune.png" alt="mp_rune" title="mp_rune" /></p>
+<p><img src="media/mp_rune.png" alt="mp_rune" title="mp_rune" /></p>
 
 <p>Prenez-là en main, et faites un clic droit sur l’animal que vous voulez protéger. La rune disparaît de votre inventaire et un message vous indique que l’opération a réussi : l’animal est protégé <em>tant qu’il reste sur votre area</em> ; s’il en sort, les autres joueurs (ou les autres mob) peuvent le tuer.</p>
 
 <p>Vous pouvez aussi donner un nom à vos animaux à l’aide d’un <em>nametag</em> :</p>
 
-<p><img src="images/nametag.png" alt="nametag" title="nametag" /></p>
+<p><img src="media/nametag.png" alt="nametag" title="nametag" /></p>
 
 <p>Prenez-le en main et faite un clic droit sur l’animal. Dans la petite fenêtre qui s’ouvre tapez le nom qui s’affichera au-dessus de lui par la suite. Si l’animal est en bonne santé, le nom sera écrit en vert. Dans le cas contraire il sera en orange ou en rouge. Vous pouvez régénérer les points de vie d’un animal en lui donnant sa nourriture favorite.</p>
 
@@ -298,13 +311,13 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Pour cela il va vous falloir un établi (<em>Workbench</em>) et un marteau (<em>Hammer</em>) :</p>
 
-<p><img src="images/workbench.png" alt="workbench" title="workbench" /></p>
+<p><img src="media/workbench.png" alt="workbench" title="workbench" /></p>
 
-<p><img src="images/hammer.png" alt="hammer" title="hammmer" /></p>
+<p><img src="media/hammer.png" alt="hammer" title="hammmer" /></p>
 
 <p>Placez l’établi comme un bloc normal, faites un clic droit et placer l’outil et le marteau comme sur cette image :</p>
 
-<p><img src="images/repair.png" alt="repair" title="repair" /></p>
+<p><img src="media/repair.png" alt="repair" title="repair" /></p>
 
 <p>Une barre d’usure va apparaître sous le marteau et diminuer progressivement pendant que celle de l’outil se rallonge. C’est un peu long, mais vous aurez bientôt un outil tout neuf. <em>Note</em> : cela ne marche que si vous restez à proximité de l’établi, mais vous pouvez fermer la fenêtre et faire autre chose en attendant.</p>
 
@@ -316,7 +329,7 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Une astuce consiste à créer une étendue d’eau et à installer votre champ dessus, comme un couvercle. Vous pourrez obtenir des étendues illimitées de terre humide.</p>
 
-<p><img src="images/hoe.png" alt="hoe" title="hoe" /></p>
+<p><img src="media/hoe.png" alt="hoe" title="hoe" /></p>
 
 <h2 id="comment-enchanter-un-objet-">Comment enchanter un objet ?</h2>
 
@@ -324,11 +337,11 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Pour enchanter un objet, il vous faudra des cristaux de mese et une table d’enchantement :</p>
 
-<p><img src="images/enchantment_table.png" alt="enchantment_table" title="enchantment_table" /></p>
+<p><img src="media/enchantment_table.png" alt="enchantment_table" title="enchantment_table" /></p>
 
 <p>Faites un clic droit sur votre table d’enchantement, placez le mese et l’objet à enchanter comme sur la capture, et choisissez à droite l’enchantement que vous voulez appliquer.</p>
 
-<p><img src="images/enchantment.png" alt="enchantment" title="enchantment" /></p>
+<p><img src="media/enchantment.png" alt="enchantment" title="enchantment" /></p>
 
 <p><em>Vous ne pouvez pas enchanter certains objets, notamment ceux en nyan et en mithril.</em></p>
 
@@ -336,17 +349,17 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Depuis peu, le serveur intégre un mod qui permet de créer une sorte de distributeur automatique à l’aide des <em>Vending Machines</em>. Pour commencer, il vous faudra un coffre verrouillé (<em>Locked_Chest</em>) et une machine (<em>Vending Machine</em>) :</p>
 
-<p><img src="images/locked_chest.png" alt="locked_chest" title="locked_chest" /></p>
+<p><img src="media/locked_chest.png" alt="locked_chest" title="locked_chest" /></p>
 
-<p><img src="images/vending_machine.png" alt="vending_machine" title="vending_machine" /></p>
+<p><img src="media/vending_machine.png" alt="vending_machine" title="vending_machine" /></p>
 
 <p>Posez le coffre au sol et posez la machine par-dessus (pour poser un objet sur un coffre, sans ouvrir le coffre, maintenez la touche Maj et faites un clic droit) :</p>
 
-<p><img src="images/vending.png" alt="vending" title="vending" /></p>
+<p><img src="media/vending.png" alt="vending" title="vending" /></p>
 
 <p>En faisant un clic droit sur la machine, vous accédez à sa fenêtre de configuration :</p>
 
-<p><img src="images/menu_vending.png" alt="menu_vending" title="menu_vending" /></p>
+<p><img src="media/menu_vending.png" alt="menu_vending" title="menu_vending" /></p>
 
 <p>Dans la case <em>Offered Item</em>, faites glisser l’objet que vous voules vendre. Vous pouvez vendre par lot en modifiant le chiffre dans la case d’à côté. Le prix est toujours payé en lingots d’or ; la case permet d’entrer le nombre de lingots que coûtera un lot d’objets (dans notre exemple, un “lot” d’un cristal de mese coûte un lingot d’or).</p>
 
@@ -360,11 +373,11 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Vous pouvez poser des cabines <em>Travelnet</em> où vous le souhaitez pour avoir ensuite la possibilité de vous téléporter de l’une à l’autre. Pour commencer, fabriquez un petit réseau de test avec deux cabines :</p>
 
-<p><img src="images/travelnet.png" alt="travelnet" title="travelnet" /></p>
+<p><img src="media/travelnet.png" alt="travelnet" title="travelnet" /></p>
 
 <p>Une fois vos cabines en place, il faudra les configurer toutes les deux (clic droit) :</p>
 
-<p><img src="images/menu_travelnet.png" alt="menu_travelnet" title="menu_travelnet" /></p>
+<p><img src="media/menu_travelnet.png" alt="menu_travelnet" title="menu_travelnet" /></p>
 
 <p>Dans la première ligne, tapez le nom de la cabine (un nom qui rappelle l’endroit ou elle se trouve : “Maison”, “Mine”, “Magasin”…).</p>
 
@@ -382,7 +395,7 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <!--- ************************************* -->
 
-<p><img src="images/sep.png" alt="sep" title="sep" /></p>
+<p><img src="media/sep.png" alt="sep" title="sep" /></p>
 
 <h2 id="jai-un-problème--à-qui-je-madresse-">J’ai un problème : à qui je m’adresse ?</h2>
 
@@ -430,7 +443,7 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p><strong>Si vous n’avez pas le privilège <em>fly</em> vous pouvez tout de même voler grâce au <em>Broomstick</em> : tapez K pour l’activer, puis utiliser Espace pour monter et Maj pour descendre. Attention : l’effet ne dure que trente secondes ! Si vous montez trop haut, plus dure sera la chute !</strong></p>
 
-<p><img src="images/broomstick.png" alt="broomstick" title="broomstick" /></p>
+<p><img src="media/broomstick.png" alt="broomstick" title="broomstick" /></p>
 
 <h2 id="je-peux-être-modo-">Je peux être modo ?</h2>
 
@@ -450,10 +463,23 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 <p>Pour jouer à Minetest sur votre ordinateur, ou sur votre téléphone, vous faites fonctionner un programme <em>client</em> qui va échanger des informations avec le programme <em>serveur</em>. Les deux programmes envoient et reçoivent des informations, alors pourquoi “client” et pourquoi “serveur” ? Parce-que pour un seul serveur, il y a beaucoup de clients. Un peu comme dans un bar, en fait !</p>
 
+</div>
+
+		</div>
 
 		<footer>
-			<hr />
-			<p>Written by the Eurythmia community</p>
-		</footer>
+			<p>
+				©  2017 The Eurythmia Team<br />
+				Site content under CC BY-SA 3.0 Unported.<br />
+				This site is inspired from the <a href="http://minetest.net">Minetest officiel website</a>.
+			</p>
+			<p>
+				<a href="https://github.com/MT-Eurythmia/eurythmia-website">Website developed at GitHub.</a>
+			</p>
+		</fotter>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="assets/js/bootstrap.min.js"></script>
 	</body>
 </html>
+

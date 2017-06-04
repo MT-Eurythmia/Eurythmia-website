@@ -22,21 +22,21 @@ Le serveur Mynetest est accessible depuis plusieurs plateformes (PC, téléphone
 
 Le client Minetest disponible sur les dépôts Linux est configuré pour un clavier anglais (QWERTY) et donc difficile à utiliser sur un clavier français (AZERTY). Heureusement, on peut changer le rôle des touches : à partir du menu d'accueil, cliquez sur l'onglet *Settings*, puis sur le bouton *Change Keys*. Voici un exemple de configuration qui marche bien sur un clavier français :
 
-![change_keys](images/change_keys.png "change_keys")
+![change_keys](media/change_keys.png "change_keys")
 
 **Accéder à ce menu est aussi un bon moyen d'apprendre à utiliser les touches sans lire le manuel ;-)**
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 ## Les mystères de l'inventaire
 
 En appuyant sur la touche I, vous ouvrez la fenêtre la plus importante du jeu : l'inventaire. Pour sortir de l'inventaire, vous pouvez appuyer une deuxième fois sur I, ou sur la touche Escape. Regardons-là donc de plus près :
 
-![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
+![Icônes inventaire](media/inventaire_numeros.png "Icônes inventaire")
 
 ### 1/ L'écran de craft
 
-![inventaire](images/inventaire_01.png "inventaire")
+![inventaire](media/inventaire_01.png "inventaire")
 
 Il s'agit de votre inventaire lui même et de l'écran de craft. Les neuf cases du haut servent à fabriquer des objets en y faisant glisser des ingrédients selon une disposition bien précise.
 
@@ -46,7 +46,7 @@ La case *Trash* représente la poubelle : faires-y glisser les objets dont vous 
 
 ### 2/ Le "Crafting Guide"
 
-![inventaire](images/inventaire_02.png "inventaire")
+![inventaire](media/inventaire_02.png "inventaire")
 
 Dans Mynetest, on peut fabriquer beaucoup d'objets, et il n'est pas possible de se rappeler toutes les recettes. Cette fenêtre est là pour vous aider. Dans la partie de droite, vous voyez tous les objets craftables du jeu. Il y en a plusieurs pages que vous pouvez faire défiler avec les touches 14, celles qui ressemblent aux boutons d'un lecteur DVD.
 
@@ -56,7 +56,7 @@ Choisissez ensuite le nombre d'objets que vous voulez fabriquer en cliquant sur 
 
 ### 3/ Home, Pit, Spawn
 
-![inventaire](images/inventaire_03.png "inventaire")
+![inventaire](media/inventaire_03.png "inventaire")
 
 Quand vous aurez trouvé le petit coin de nature idéal pour construire votre maison, c'est sur l'icône 3 qu'il faudra cliquer. En utilisant le bouton *Set Home* de la fenêtre qui s'ouvre vous mémoriserez l'endroit comme votre maison et vous pourrez y retourner facilement en cliquant sur *To Home*.
 
@@ -80,9 +80,9 @@ Ces icônes permettent de faire lever et coucher le soleil à volonté. Chez la 
 
 ### 7/ Sacs
 
-![inventaire](images/inventaire_05a.png "inventaire")
+![inventaire](media/inventaire_05a.png "inventaire")
 
-![inventaire](images/inventaire_05b.png "inventaire")
+![inventaire](media/inventaire_05b.png "inventaire")
 
 En plus de votre inventaire, vous pouvez porter jusqu'à quatre sacs. Les sacs sont très utiles, car les grands peuvent contenir jusqu'à quarante objets et vous ne perdez pas leur contenu quand vous mourrez. Prenez donc l'habitude d'y placer régulièrement vos trouvailles les plus précieuses.
 
@@ -100,7 +100,7 @@ Cliquez sur cette icône en forme de poisson pour voir vos performances lors du 
 
 ### 10/ Skin
 
-![inventaire](images/inventaire_06.png "inventaire")
+![inventaire](media/inventaire_06.png "inventaire")
 
 Cliquez ici pour choisir une nouvelle apparence à votre personnage. C'est un réglage purement esthétique qui ne change rien au jeu.
 
@@ -110,13 +110,13 @@ Les modérateurs et les administrateurs disposent de puissant pouvoirs qui leur 
 
 ### 12/ Armure
 
-![inventaire](images/inventaire_07.png "inventaire")
+![inventaire](media/inventaire_07.png "inventaire")
 
 Les cases du bas représentent votre inventaire et les cases du haut l'armure que vous portez. Faires glisser les objets des unes vers les autres pour vous équiper ou vous déséquiper.
 
 ### 13/ Character Creator
 
-![inventaire](images/inventaire_08.png "inventaire")
+![inventaire](media/inventaire_08.png "inventaire")
 
 Ici vous pourrez personnaliser votre personnage en le rendant plus grand, moins gros, en changeant la couleur de ses yeux… Appuyez d'abord deux fois sur la touche F7 pour vous voir "de l'extérieur".
 
@@ -124,7 +124,7 @@ Ici vous pourrez personnaliser votre personnage en le rendant plus grand, moins 
 
 Nous l'avons déjà vu : ce groupe de boutons permet de naviguer dans la liste des objets craftables.
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 
 
@@ -140,7 +140,7 @@ Quand vous demandez de l'aide, faites un effort pour être précis : des message
 
 **Pour quitter le spawn et accéder au monde du jeu, il faut taper dans le chat un code de trois chiffres et une lettre MAJUSCULE. Ce code est affiché sur un des panneaux qui rappellent les règles du serveur (au bout du couloir en verre).**
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 
 
@@ -160,7 +160,7 @@ Petit à petit, votre barre de "satiation" va diminuer : vous commencez à avoir
 
 **Si vous avez perdu tout votre équipement, rappelez-vous qu'on peut abattre les arbres à la main. À partir du bois, vous pourrez refabriquer tous les outils dont vous avez besoin, mais aussi une épée et une armure. Bien sûr, tout cela ne sera as très efficace, mais vous aurez ainsi une chance de pouvoir prendre un nouveau départ.**
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 
 
@@ -178,17 +178,17 @@ Ensuite il faudra préparer un terrain adéquat. La plupart des plantes poussent
 
 Pour labourer un sol, vous devez utiliser une houe (*Hoe*) qui se craft comme ceci :
 
-![Hoe](images/hoe.png "hoe")
+![Hoe](media/hoe.png "hoe")
 
 Pour que la terre labourée devienne humide, il faut que le bloc de terre soit situé à trois case au maximum d'un bloc d'eau. Pour ça, vous pouvez creuser des canaux d'irrigation et les remplir d'eau, ou créer votre champ par-dessus une étendue d'eau en construisant une sorte de plateforme en terre. Pour transporter de l'eau, il va vous falloir un ou plusieurs seaux :
 
-![bucket](images/bucket.png "bucket")
+![bucket](media/bucket.png "bucket")
 
 Ensuite, il faut semer : prenez vos graines en main et faites un clic droit. Les haricots (*Beans*) et le raisin (*Grape*) sont un peu particuliers, car ils ont besoin d'un support pour pousser. Respectivement des *Bean Poles* et des *Trellis* :
 
-![bean_pole](images/bean_pole.png "bean_pole")
+![bean_pole](media/bean_pole.png "bean_pole")
 
-![trellis](images/trellis.png "trellis")
+![trellis](media/trellis.png "trellis")
 
 "Semez" d'abord le support, puis semez votre plante sur le support. Le cacao utilise un support spécial : le tronc d'un *Jungle Tree*.
 
@@ -219,9 +219,9 @@ Voici un tableau qui récapitule la façon de cultiver différentes plantes :
 | Rhubarbe              | Rhubarb       | Terre humide             | Nourriture      |
 | Tomate (tomato)       | Tomato        | Terre humide             | Nourriture      |
 
-Matthieu8fr nous offre un [résumé en images](images/champ.jpg "Irrigation") de sa technique d'irrigation.
+Matthieu8fr nous offre un [résumé en images](media/champ.jpg "Irrigation") de sa technique d'irrigation.
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 
 
@@ -229,7 +229,7 @@ Matthieu8fr nous offre un [résumé en images](images/champ.jpg "Irrigation") de
 
 ## Premiers pas au pied du mur
 
-![travaux](images/travaux.png "travaux")
+![travaux](media/travaux.png "travaux")
 
 ### Où trouver l'inspiration
 
@@ -241,7 +241,7 @@ Vous pouvez faire le choix d'une construction réaliste, mais aussi partir d'une
 
 Voici un build de Matthieu qui s'est inspiré du château de Nouvion-en-Thiérache :
 
-![chateau_nouvion](images/chateau_nouvion.jpg "chateau_nouvion")
+![chateau_nouvion](media/chateau_nouvion.jpg "chateau_nouvion")
 
 Une maison peut être carrée, rectangulaire ou biscornue. Vous pouvez créer plusieurs sous-sols, des étages, des cours intérieures… La seul limite est votre imagination.
 
@@ -317,83 +317,83 @@ Toujours à partir de la *Cobble* on pourra obtenir du sable qui permettra de fa
 
 Pour conclure ce chapitre, syuvont Matthieu dans la la construction de ce qui pourrait être votre première maison. Une simple cabane de bûcheron, en bois, qui vous permettra de débuter tranquilement, mais aussi d'acquérir quelques "trucs" de pro. Voici à quoi ressemblera le résultat final :
 
-![pap_002](images/pap_002.png "pap_002")
+![pap_002](media/pap_002.png "pap_002")
 
 Voici une presqu'île qui devrait faire un bon site : il y a de l'eau et des arbres poussent à proximité.
 
-![pap_005](images/pap_005.png "pap_005")
+![pap_005](media/pap_005.png "pap_005")
 
 Plaçons donc deux *Markers* pour protéger notre area (plus d'explications dans la [FAQ](faq_minetest.html/#comment-protéger-ses-créations-) :
 
-![pap_010](images/pap_010.png "pap_010")
+![pap_010](media/pap_010.png "pap_010")
 
 On dépose deux coffres *verrouillés* qui nous permettront de stocker nos matériaux et nos outils, puis on commence à aplanir le terrain avec la pelle.
 
-![pap_012](images/pap_012.png "pap_012")
+![pap_012](media/pap_012.png "pap_012")
 
-![pap_015](images/pap_015.png "pap_015")
+![pap_015](media/pap_015.png "pap_015")
 
 Sur ce terrain plat, on élève les piliers d'angles avec des troncs bruts, puis les murs avec des planches, en prévoyant la place des fenêtres. Ici on a utilisé un seul type de bois, mais les troncs bruts nous permettent d'avoir deux couleurs, ce qui rendra la construction plus jolie.
 
-![pap_020](images/pap_020.png "pap_020")
+![pap_020](media/pap_020.png "pap_020")
 
-![pap_025](images/pap_025.png "pap_025")
+![pap_025](media/pap_025.png "pap_025")
 
-![pap_030](images/pap_030.png "pap_030")
+![pap_030](media/pap_030.png "pap_030")
 
-La prochaine étape sera la pose des vitres. Voici [comment on les fabrique](images/vitres.jpg "Comment fabriquer les vitres"). Ensuite on peut construire le plafond du rez-de-chaussé qui sera aussi le plancher du grenier (étonnant non ?).
+La prochaine étape sera la pose des vitres. Voici [comment on les fabrique](media/vitres.jpg "Comment fabriquer les vitres"). Ensuite on peut construire le plafond du rez-de-chaussé qui sera aussi le plancher du grenier (étonnant non ?).
 
-![pap_035](images/pap_035.png "pap_035")
+![pap_035](media/pap_035.png "pap_035")
 
 Nous remarquons que la pièce fait trois blocs de haut: c'est le minimum pour que les fenêtres n'aient pas l'air d'être posées par terre. C'est un peu moins grave si elles touchent le plafond. Remarquez les blocs de *Dirt* sur lesquels on peut monter pour travailler en hauteur.
 
-![pap_037](images/pap_037.png "pap_037")
+![pap_037](media/pap_037.png "pap_037")
 
 On peut ensuite commencer à bâtir les pignons. On pourra y poser la toiture et s'en servir pour grimper plus haut :
 
-![pap_038](images/pap_038.png "pap_038")
+![pap_038](media/pap_038.png "pap_038")
 
 Remarquez que la toiture est plus large que le toit, comme dans la réalité. C'est ce qui empêche l'eau de pluie de ruisseler le long des murs.
 
-![pap_040](images/pap_040.png "pap_040")
+![pap_040](media/pap_040.png "pap_040")
 
 Ici encore, des blocs de terre peuvent nous servir d'échafaudage :
 
-![pap_042](images/pap_042.png "pap_042")
+![pap_042](media/pap_042.png "pap_042")
 
-![pap_045](images/pap_045.png "pap_045")
+![pap_045](media/pap_045.png "pap_045")
 
 Les dalles plates qui terminent le toit sont des *Wood Slabs*, on peut les crafter à partir de simple planches ou à l'aide du *Workbench* :
 
-![pap_050](images/pap_050.png "pap_050")
+![pap_050](media/pap_050.png "pap_050")
 
-![pap_055](images/pap_055.png "pap_055")
+![pap_055](media/pap_055.png "pap_055")
 
 Sur l'image de la maison complète (tout en haut) vous verrez que la toiture forme une sorte de troisième pignon au-dessus de la porte d'entrée. Pour faire la jonction avec le reste de la toiture il faudra à nouveau utiliser le *Workbench* pour fabriquer une pièce un peu spéciale : *Outer Stair*.
 
-![pap_060](images/pap_060.png "pap_060")
+![pap_060](media/pap_060.png "pap_060")
 
 Un petit coup de tournevis suffira à la placer dans le bon sens. La pîèce a été découpée dans du bois d'accacia, ce qui ajoute un peu de variété.
 
-![pap_061](images/pap_061.png "pap_061")
+![pap_061](media/pap_061.png "pap_061")
 
 Voici l'escalier qui mène à l'étage… :
 
-![pap_065](images/pap_065.png "pap_065")
+![pap_065](media/pap_065.png "pap_065")
 
 … et celui de la cave. Les escaliers ne butent pas contre les murs, ils font un angle pour qu'on puisse les emprunter facilement.
 
-![pap_070](images/pap_070.png "pap_070")
+![pap_070](media/pap_070.png "pap_070")
 
 Et voici une vue d'ensemble de votre premier domaine. Remarquez comment la simple bordure en accacia lui donne tout de suite un petit air "classieux" !
 
-![pap_075](images/pap_075.png "pap_075")
+![pap_075](media/pap_075.png "pap_075")
 
 Tiens ? Mais quel est donc cet escalier qui s'enfonce sous notre cave ? C'est celui de votre mine bien sûr ! Continnuez votre lecture pour en apprendre plus sur la plus noble activité du joueur de Minetest : faire des trous !
 
-![pap_080](images/pap_080.png "pap_080")
+![pap_080](media/pap_080.png "pap_080")
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 
 
@@ -401,9 +401,9 @@ Tiens ? Mais quel est donc cet escalier qui s'enfonce sous notre cave ? C'est ce
 
 ## Premiers pas à la mine
 
-![travaux](images/travaux.png "travaux")
+![travaux](media/travaux.png "travaux")
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 ## Premiers pas avec les commandes
 
@@ -449,4 +449,4 @@ Le mod PVPplus permet de faire des tournois PVP, c'est-à-dire des combats entre
 * **/engage** : rejoindre un tournois.
 * **/leave_tournament** : quitter un tournois.
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")

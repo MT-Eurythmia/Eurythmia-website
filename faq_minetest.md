@@ -8,7 +8,7 @@ tab: Doc
 
 Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre, par défaut, avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications).
 
-![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
+![Icônes inventaire](media/inventaire_numeros.png "Icônes inventaire")
 
 Plus d'explications sur ces icônes sur la page [premiers pas](premiers_pas.html#les-mystères-de-linventaire "Premiers pas").
 
@@ -39,7 +39,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 * [Comment vendre des objets ?](#comment-vendre-des-objets-)
 * [Comment utiliser le Travelnet ?](#comment-utiliser-le-travelnet-)
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 * [J'ai un problème : à qui je m'adresse ?](#jai-un-problème--à-qui-je-madresse-)
 * [À quelle profondeur trouve-t-on du mithril ?](#à-quelle-profondeur-trouve-t-on-du-mithril-)
@@ -52,7 +52,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 * [C'est quoi une commande ?](#cest-quoi-une-commande-)
 * [Client ? Serveur ? On n'est pas au bistrot !](#client--serveur--on-nest-pas-au-bistrot-)
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 ## Comment parler aux autres joueurs ?
 
@@ -75,7 +75,7 @@ Possiblilité d'une présentation particulière pour les info Multicraft ?
 
 Vous avez la possibilité d'inviter un autre joueur à vous rejoindre en le téléportant vers vous. Pour cela, cliquez sur l'icône n°3 de l'inventaire : une nouvelle fenêtre s'ouvre.
 
-![tp_screen](images/tp_screen.png "tp_screen")
+![tp_screen](media/tp_screen.png "tp_screen")
 
 choisissez le nom du joueur dans le menu déroulant de la dernière ligne et cliquez sur *Send To* pour envoyer l'invitation. Si votre invité vient juste de se connecter, il n'apparaît peut-être pas dans la liste. Pour remettre cette liste à jour, cliquez sur *Refresh*.
 
@@ -87,15 +87,15 @@ Pour protéger votre maison ou une autre construction, il vous faut créer une *
 
 Pour créer une area, il faut commencer par crafter (fabriquer) des *Markers* :
 
-![Markers](images/markers.png "markers")
+![Markers](media/markers.png "markers")
 
 Ensuite, vous devez placer deux markers au extrémités d'une des diagonales de la zone à protéger (ne vous occupez pas de la hauteur) :
 
-![Diagonale](images/diagonale.png "Diagonale")
+![Diagonale](media/diagonale.png "Diagonale")
 
 Faites un clic droit sur un des deux markers, dans la dernière ligne donnez un nom à votre area et validez en cliquant sur *Protect area*. Et voilà ! Votre area est créée. Si vous vous baladez dedans, vous verrez son nom et son ID (son numéro) s'afficher en bas à gauche de votre écran. Vous pouvez récupérer vos markers pour les utiliser plus tard.
 
-![menu_markers](images/menu_markers.png "menu_markers")
+![menu_markers](media/menu_markers.png "menu_markers")
 
 **Si vous obtenez un message d'erreur qui vous dit que l'area ne peux pas être créée, c'est sans doute qu'elle est trop grande, ou qu'elle chevauche une area d'un autre joueur. Dans ce cas, rapprochez un peu vos deux markers pour réduire la surface de votre area et essayez à nouveau. N'hésitez pas à poser la question à un modérateur en ligne en lui indiquant le message d'erreur, il saura certainement vous indiquer ce que vous avez mal fait.**
 
@@ -103,11 +103,11 @@ Faites un clic droit sur un des deux markers, dans la dernière ligne donnez un 
 
 Il faut commencer par crafter unn *Boundary Marker* :
 
-![Boundary marker](images/boundary.png "Boundary marker")
+![Boundary marker](media/boundary.png "Boundary marker")
 
 Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit dessus. Cliquez su le bouton *Add*, et entrez le nom du joueur dans la petite fenêtre qui s'ouvre ; validez. L'autre joueur peut maintenant agir dans l'area exactement de la même manière que vous (vous pouvez également partager une partie seulement de votre area en créant une nouvelle area à l'intérieur de la première et en ajoutant le joueur a cette deuxième area).
 
-![menu_boundary](images/menu_boundary.png "menu_boundary")
+![menu_boundary](media/menu_boundary.png "menu_boundary")
 
 **Si votre area est importante, ajoutez-y seulement des personnes de confiance, autrement c'est une source de chamailleires. Vous pouvez "tester" un joueur en travaillant avec lui sur une area moins "sensible".**
 
@@ -115,9 +115,9 @@ Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit 
 
 Pour pêcher, il vous faudra deux choses : une canne à pêche (*Fishing Pole*) et des appâts :
 
-![Canne à pêche](images/fishing_pole.png "Canne à pêche")
+![Canne à pêche](media/fishing_pole.png "Canne à pêche")
 
-![Appâts](images/bait_corn.png "Appâts")
+![Appâts](media/bait_corn.png "Appâts")
 
 Comme appâts, vous pourrez aussi utiliser les vers de terre que vous trouverez en labourant vos champs.
 
@@ -125,7 +125,7 @@ Quand vous serez équipé, trouvez un point d'eau suffisamment profond (au moins
 
 Pour que la pêche fonctionne, il faut placer les appâts juste à droite de la canne à pêche dans la première ligne de votre inventaire :
 
-![Pêche](images/peche.png "Pêche")
+![Pêche](media/peche.png "Pêche")
 
 Prenez la canne à pêche en main comme n'importe quel autre outil et faites un clic gauche pour lancer votre ligne. Vous pouvez lancer une deuxième ligne en faisant un autre clic gauche.
 
@@ -141,9 +141,9 @@ Ensuite il faut attraper l'animal : pour les plus petits (lapins, poules…) il 
 
 Pour les gros animaux, il va vous falloir un outil, le *Net* ou le *Magic Lasso* que vous utiliserez aussi avec un clic droit :
 
-![Lasso](images/magic_lasso.png "Lasso")
+![Lasso](media/magic_lasso.png "Lasso")
 
-![net](images/net.png "net")
+![net](media/net.png "net")
 
 La différence entre le *Net* et le *Magic Lasso* est importante: le *Magic Lasso* coûte plus cher, mais la probabilité que l'animal s'en échappe est bien moindre !
 
@@ -168,13 +168,13 @@ Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d'abord
 
 Ensuite, vous aurez besoin d'une rune de protection :
 
-![mp_rune](images/mp_rune.png "mp_rune")
+![mp_rune](media/mp_rune.png "mp_rune")
 
 Prenez-là en main, et faites un clic droit sur l'animal que vous voulez protéger. La rune disparaît de votre inventaire et un message vous indique que l'opération a réussi : l'animal est protégé *tant qu'il reste sur votre area* ; s'il en sort, les autres joueurs (ou les autres mob) peuvent le tuer.
 
 Vous pouvez aussi donner un nom à vos animaux à l'aide d'un *nametag* :
 
-![nametag](images/nametag.png "nametag")
+![nametag](media/nametag.png "nametag")
 
 Prenez-le en main et faite un clic droit sur l'animal. Dans la petite fenêtre qui s'ouvre tapez le nom qui s'affichera au-dessus de lui par la suite. Si l'animal est en bonne santé, le nom sera écrit en vert. Dans le cas contraire il sera en orange ou en rouge. Vous pouvez régénérer les points de vie d'un animal en lui donnant sa nourriture favorite.
 
@@ -184,13 +184,13 @@ Quand vous utilisez un outil, il s'use petit à petit. Sous son icône, une barr
 
 Pour cela il va vous falloir un établi (*Workbench*) et un marteau (*Hammer*) :
 
-![workbench](images/workbench.png "workbench")
+![workbench](media/workbench.png "workbench")
 
-![hammer](images/hammer.png "hammmer")
+![hammer](media/hammer.png "hammmer")
 
 Placez l'établi comme un bloc normal, faites un clic droit et placer l'outil et le marteau comme sur cette image :
 
-![repair](images/repair.png "repair")
+![repair](media/repair.png "repair")
 
 Une barre d'usure va apparaître sous le marteau et diminuer progressivement pendant que celle de l'outil se rallonge. C'est un peu long, mais vous aurez bientôt un outil tout neuf. *Note* : cela ne marche que si vous restez à proximité de l'établi, mais vous pouvez fermer la fenêtre et faire autre chose en attendant.
 
@@ -202,7 +202,7 @@ C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agricultu
 
 Une astuce consiste à créer une étendue d'eau et à installer votre champ dessus, comme un couvercle. Vous pourrez obtenir des étendues illimitées de terre humide.
 
-![hoe](images/hoe.png "hoe")
+![hoe](media/hoe.png "hoe")
 
 ## Comment enchanter un objet ?
 
@@ -210,11 +210,11 @@ Vous pouvez enchanter certains objets pour les rendre plus efficaces. Les armes 
 
 Pour enchanter un objet, il vous faudra des cristaux de mese et une table d'enchantement :
 
-![enchantment_table](images/enchantment_table.png "enchantment_table")
+![enchantment_table](media/enchantment_table.png "enchantment_table")
 
 Faites un clic droit sur votre table d'enchantement, placez le mese et l'objet à enchanter comme sur la capture, et choisissez à droite l'enchantement que vous voulez appliquer.
 
-![enchantment](images/enchantment.png "enchantment")
+![enchantment](media/enchantment.png "enchantment")
 
 *Vous ne pouvez pas enchanter certains objets, notamment ceux en nyan et en mithril.*
 
@@ -222,17 +222,17 @@ Faites un clic droit sur votre table d'enchantement, placez le mese et l'objet �
 
 Depuis peu, le serveur intégre un mod qui permet de créer une sorte de distributeur automatique à l'aide des *Vending Machines*. Pour commencer, il vous faudra un coffre verrouillé (*Locked_Chest*) et une machine (*Vending Machine*) :
 
-![locked_chest](images/locked_chest.png "locked_chest")
+![locked_chest](media/locked_chest.png "locked_chest")
 
-![vending_machine](images/vending_machine.png "vending_machine")
+![vending_machine](media/vending_machine.png "vending_machine")
 
 Posez le coffre au sol et posez la machine par-dessus (pour poser un objet sur un coffre, sans ouvrir le coffre, maintenez la touche Maj et faites un clic droit) :
 
-![vending](images/vending.png "vending")
+![vending](media/vending.png "vending")
 
 En faisant un clic droit sur la machine, vous accédez à sa fenêtre de configuration :
 
-![menu_vending](images/menu_vending.png "menu_vending")
+![menu_vending](media/menu_vending.png "menu_vending")
 
 Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous pouvez vendre par lot en modifiant le chiffre dans la case d'à côté. Le prix est toujours payé en lingots d'or ; la case permet d'entrer le nombre de lingots que coûtera un lot d'objets (dans notre exemple, un "lot" d'un cristal de mese coûte un lingot d'or).
 
@@ -246,11 +246,11 @@ Pour acheter dans une machine qui appartient à quelqu'un d'autre, cliquez sur l
 
 Vous pouvez poser des cabines *Travelnet* où vous le souhaitez pour avoir ensuite la possibilité de vous téléporter de l'une à l'autre. Pour commencer, fabriquez un petit réseau de test avec deux cabines :
 
-![travelnet](images/travelnet.png "travelnet")
+![travelnet](media/travelnet.png "travelnet")
 
 Une fois vos cabines en place, il faudra les configurer toutes les deux (clic droit) :
 
-![menu_travelnet](images/menu_travelnet.png "menu_travelnet")
+![menu_travelnet](media/menu_travelnet.png "menu_travelnet")
 
 Dans la première ligne, tapez le nom de la cabine (un nom qui rappelle l'endroit ou elle se trouve : "Maison", "Mine", "Magasin"…).
 
@@ -269,7 +269,7 @@ Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en 
 
 <!--- ************************************* -->
 
-![sep](images/sep.png "sep")
+![sep](media/sep.png "sep")
 
 ## J'ai un problème : à qui je m'adresse ?
 
@@ -315,7 +315,7 @@ Les modérateurs donnent assez facilement ces privilèges aux joueurs qui animen
 
 **Si vous n'avez pas le privilège *fly* vous pouvez tout de même voler grâce au *Broomstick* : tapez K pour l'activer, puis utiliser Espace pour monter et Maj pour descendre. Attention : l'effet ne dure que trente secondes ! Si vous montez trop haut, plus dure sera la chute !**
 
-![broomstick](images/broomstick.png "broomstick")
+![broomstick](media/broomstick.png "broomstick")
 
 ## Je peux être modo ?
 

@@ -6,7 +6,7 @@
 		<link rel="icon" href="/media/favicon.ico">
 		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="/assets/css/style.css" rel="stylesheet">
-		<title>Home - Eurythmia</title>
+		<title>{{ page.title }} - Eurythmia</title>
 	</head>
 
 	<body>
@@ -23,13 +23,13 @@
                         	</div>
                         	<div id="navbar" class="collapse navbar-collapse">
                                         <ul class="nav navbar-nav">
-                                                <li ><a href="/">Home</a></li>
-                        	                <li ><a href="/screenshots.html">Screenshots</a></li>
+                                                <li {% if page.tab == "Home" %}class="active"{% endif %}><a href="/">Home</a></li>
+                        	                <li {% if page.tab == "Screenshots" %}class="active"{% endif %}><a href="/screenshots.html">Screenshots</a></li>
 						<li><a href="http://map.langg.net">Real-time map</a></li>
                                                 <li><a href="https://forum.minetest.net/viewtopic.php?f=20&t=14326">Forum topic</a></li>
 						<li><a href="https://github.com/MT-Eurythmia/Eurythmia-server">GitHub</a></li>
 						<li><a href="/irc.html">IRC (Online Chat)</a></li>
-						<li class="dropdown ">
+						<li class="dropdown {% if page.tab == "Doc" %}active{% endif %}">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentation<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="/premiers_pas.html">Premiers pas</a></li>
@@ -43,28 +43,3 @@
                 </nav>
 
                 <div class="container-fluid">
-
-
-<div class="jumbotron">
-        <h1>We are Eurythmia.</h1>
-        <p>We are a non-profit organization that aims to give you the best Minetest experience.</p>
-</div>
-
-		</div>
-
-		<footer>
-			<p>
-				©  2017 The Eurythmia Team<br />
-				Site content under CC BY-SA 3.0 Unported.<br />
-				This site is inspired from the <a href="http://minetest.net">Minetest officiel website</a>.
-			</p>
-			<p>
-				<a href="https://github.com/MT-Eurythmia/eurythmia-website">Website developed at GitHub.</a>
-			</p>
-		</fotter>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                <script src="assets/js/bootstrap.min.js"></script>
-	</body>
-</html>
-
