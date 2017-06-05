@@ -25,7 +25,8 @@ footer a:active {
 }
 
 .jumbotron {
-        background-image: url("/media/banner.png");
+        margin: auto;
+        background-image: url("/media/woodbury.png");
         background-size: cover;
 	border-radius: 0 !important;
 	color: #FFF300;
@@ -43,6 +44,13 @@ footer a:active {
         min-height: 30rem;
 }
 
+.jumbotron.no-background {
+        background-image: none;
+        background-color: unset;
+        position: absolute;
+        top: 0; left: 15%; bottom: 0; right: 15%;
+}
+
 .jumbotron h1, .jumbotron p {
         font-weight: bold;
 }
@@ -55,4 +63,19 @@ footer a:active {
 	display: block;
 	margin: auto;
 	max-width: 100%;
+}
+
+.carousel {
+        margin-left: -15px;
+        width: 100vw;
+}
+
+.carousel .item {
+        height: 100vh;
+        max-width: 100vw;
+        background-color: #777;
+        overflow: hidden;
+}
+.carousel .item > img {
+        max-width: initial;
 }
