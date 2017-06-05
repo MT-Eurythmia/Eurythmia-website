@@ -87,3 +87,25 @@ footer a:active {
         height: 100vh;
         padding-bottom: 50px;
 }
+
+.content h1 {
+        text-align: center;
+}
+
+.col-md-6 {
+        text-align: center;
+}
+
+.content > .row {
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+.join-logo {
+        margin-bottom: 10px;
+}
+
+.play {
+        text-align: center;
+        font-size: 1.5em;
+}
