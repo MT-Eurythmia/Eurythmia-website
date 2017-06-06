@@ -109,3 +109,7 @@ footer a:active {
         text-align: center;
         font-size: 1.5em;
 }
+
+.navbar-brand [alt="Eurythmia-logo"] {
+        display: inline-block;
+}
