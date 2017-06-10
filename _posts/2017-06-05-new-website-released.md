@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 tab: Blog
 title: New Website released!
+author: Upsilon
 ---
 
 # New Website released!
