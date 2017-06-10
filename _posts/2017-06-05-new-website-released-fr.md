@@ -1,6 +1,5 @@
 ---
 layout: post_fr
-tab: Blog
 title: Nouveau site Web !
 author: Upsilon
 ---
