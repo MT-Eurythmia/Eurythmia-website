@@ -3,11 +3,11 @@
 <div class="jumbotron reduced">
 	<div class="center">
 		<h1>{{ page.title }}</h1>
+		<p>Auteur : {{ page.author }}&emsp;Date : {{ page.date | date_to_string }}</p>
 	</div>
 </div>
 
 <div class="content">
-	<p>Auteur : {{ page.author }}<br />Date : {{ page.date | date_to_string }}</p>
 	{{ content }}
 </div>
 

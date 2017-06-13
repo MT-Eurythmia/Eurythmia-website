@@ -4,8 +4,6 @@ title: New Website released!
 author: Upsilon
 ---
 
-# New Website released!
-
 Our new website has been finished today. It features:
 * An elegant bootstrap interface,
 * Both french and english versions,

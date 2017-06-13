@@ -4,8 +4,6 @@ title: Nouveau site Web !
 author: Upsilon
 ---
 
-# Nouveau site Web!
-
 Notre nouveau site Web a été terminé aujourd'hui. Il possède maintenant:
 * Une élégante interface Bootstrap,
 * Des versions anglaises et françaises,
