@@ -4,8 +4,6 @@ title: Eurythmia screenshots
 tab: Screenshots
 ---
 
-# Screenshots
-
 ![Screenshot 1](media/screenshot_1.png)
 
 ![Screenshot 2](media/screenshot_2.png)

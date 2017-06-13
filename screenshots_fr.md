@@ -4,8 +4,6 @@ title: Captures d'écran
 tab: Screenshots
 ---
 
-# Captures d'écran
-
 ![Screenshot 1](media/screenshot_1.png)
 
 ![Screenshot 2](media/screenshot_2.png)

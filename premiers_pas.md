@@ -4,8 +4,6 @@ title: Premiers pas
 tab: Doc
 ---
 
-# Premiers pas sur le serveur Mynetest
-
 * [Prenez les commandes](#prenez-les-commandes)
 * ["Dis bonjour à la dame !"](#dis-bonjour-à-la-dame-)
 * [Premiers pas sur terre](#premiers-pas-sur-terre)
