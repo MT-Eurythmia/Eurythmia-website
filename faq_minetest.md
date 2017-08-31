@@ -1,6 +1,6 @@
 ---
 layout: default_fr
-title: Les FAQ de Mynetest
+title: Les FAQ d'Eurythmia
 tab: Doc
 ---
 
