@@ -20,6 +20,16 @@ tab: Screenshots
 
 ![Screenshot 8](media/screenshot_8.png)
 
-![Screenshot 9](media/xmas_screenshot_1.png)
+![Screenshot 9](media/screenshot_9.png)
 
-![Screenshot 10](media/xmas_screenshot_2.png)
+![Screenshot 10](media/screenshot_10.png)
+
+![Screenshot Xmas 1](media/xmas_screenshot_1.png)
+
+![Screenshot Xmas 2](media/xmas_screenshot_2.png)
+
+![Screenshot 11](media/screenshot_11.png)
+
+![Screenshot 12](media/screenshot_12.png)
+
+![Screenshot 13](media/screenshot_13.png)
