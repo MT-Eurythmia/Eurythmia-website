@@ -18,5 +18,6 @@ title: Support Us
 Funds raised will only be used for the Minetest server (we currently plan to buy 4GB of RAM as soon as we have raised 50€).
 
 ## Big Thanks, for their donations, to:
+* **Grossam**
 * **mega-giga**
 * **fwhcat**

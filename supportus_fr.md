@@ -18,5 +18,6 @@ title: Soutenez-nous
 L'argent récolté servira exclusivement au développement du serveur (actuellement, nous prévoyons d'acheter 4 GB de RAM dès que nous aurons atteint 50€ de dons).
 
 ## Un grand merci, pour leurs dons, à :
+* **Grossam**
 * **mega-giga**
 * **fwhcat**
